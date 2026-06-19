@@ -1,4 +1,4 @@
-[14:48:10] : [BFCompanion] [28472.235] === Companion initialized ===
+**[14:48:10] : [BFCompanion] [28472.235] === Companion initialized ===
 [14:48:10] : [BFCompanion] [28472.235] Viewport: 1920 x 1080
 [14:48:10] : [BFCompanion] [28472.235] Mouse variant: (undetected yet)
 [14:48:10] : [BFCompanion] [28472.235] Level: 0 | Route enemy: none | Island: none
@@ -2376,3 +2376,4 @@ $100 Money" visible=nil valid=false pos=(192,598) path=game.StarterGui.Main.Ques
 [14:48:26] : [BFCompanion] [28487.724] === TOTAL TEXT OBJECTS DUMPED: 2253 ===
 [14:48:26] : [BFCompanion] [28487.724] acceptQuestUi FAILED (fail count: 1/3)
 [14:48:26] : [BFCompanion] [28487.744] Already at giver (within 8 studs) â€” skipping tween, going straight to accept
+**
