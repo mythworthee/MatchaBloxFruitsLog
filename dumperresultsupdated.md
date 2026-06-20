@@ -1,1197 +1,2210 @@
-[18:25:47] : [BFCompanion] [41529.272] === Companion initialized ===
-[18:25:47] : [BFCompanion] [41529.272] Viewport: 1920 x 1080
-[18:25:47] : [BFCompanion] [41529.272] Mouse variant: (undetected yet)
-[18:25:47] : [BFCompanion] [41529.272] Level: 0 | Route enemy: none | Island: none
-[18:25:47] : [BFCompanion] [41529.273] Race: Human V2 (internal: Human)
-[18:25:57] : [BFCompanion] [41538.875] Island waypoint Vector3(-16500.0000, 80.0000, -172.0000) is 1224 studs from expected giver Vector3(-16539.0801, 55.6900, 1051.5699) â€” using giver position as waypoint
-[18:25:57] : [BFCompanion] [41538.876] Tweening to island waypoint: Tiki Outpost (effective target: Vector3(-16539.0801, 105.6900, 1051.5699))
-[18:25:59] : [BFCompanion] [41541.120] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:25:59] : [BFCompanion] [41541.371] Arrived at giver â€” clicking giver NPC
-[18:25:59] : [BFCompanion] [41541.371] safeMouseMoveAbs: using variant 'noextra' (mousemoveabs(x, y)) for (1003, 548)
-[18:26:00] : [BFCompanion] [41542.105] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:26:00] : [BFCompanion] [41542.106] Waiting for dialog to open: 0.06s
-[18:26:00] : [BFCompanion] [41542.108] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:26:00] : [BFCompanion] [41542.108] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:26:00] : [BFCompanion] [41542.109] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:26:00] : [BFCompanion] [41542.120] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:26:00] : [BFCompanion] [41542.324] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1485, 651) [spacing=64.0]
-[18:26:00] : [BFCompanion] [41542.324] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:26:00] : [BFCompanion] [41542.324] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:26:00] : [BFCompanion] [41542.324]   [1] name="Option1" text="Sun-kissed Warrior" pos=(1485,523) optIdx=1
-[18:26:00] : [BFCompanion] [41542.324]   [2] name="Option2" text="Isle Champion" pos=(1512,587) optIdx=2
-[18:26:00] : [BFCompanion] [41542.324]   [3] name="Option3" text="Option" pos=(1485,651) optIdx=3
-[18:26:00] : [BFCompanion] [41542.324] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1512, 587)
-[18:26:01] : [BFCompanion] [41542.936] clickOptionButtonByIndex: clicked (ok=true)
-[18:26:01] : [BFCompanion] [41542.936] Step A SUCCESS: option button clicked
-[18:26:01] : [BFCompanion] [41542.936] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:26:01] : [BFCompanion] [41543.438] Step D: scanning for Confirm button by text in dialog option buttons
-[18:26:01] : [BFCompanion] [41543.440] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:26:02] : [BFCompanion] [41544.347] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:26:02] : [BFCompanion] [41544.372] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:26:02] : [BFCompanion] [41544.372] Step D poll 1: found 3 option buttons in dialog
-[18:26:02] : [BFCompanion] [41544.372]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:26:02] : [BFCompanion] [41544.372]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:26:02] : [BFCompanion] [41544.372]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:26:02] : [BFCompanion] [41544.372] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:26:03] : [BFCompanion] [41544.992] Step D: clicked confirm via Return-state detection (ok=true)
-[18:26:03] : [BFCompanion] [41544.992] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:26:03] : [BFCompanion] [41545.033] Step E: trackerVisible=true trackerMatches=true
-[18:26:03] : [BFCompanion] [41545.033] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:26:03] : [BFCompanion] [41545.045] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:26:03] : [BFCompanion] [41545.061] Tweening to enemy spawn (30 studs above)
-[18:26:04] : [BFCompanion] [41545.800] Arrived above enemy spawn â€” scanning for mobs
-[18:26:08] : [BFCompanion] [41550.116] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:26:13] : [BFCompanion] [41555.177] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:26:18] : [BFCompanion] [41560.069] STUCK at 0/8 for 15s â€” re-approaching spawn area to find mobs
-[18:26:18] : [BFCompanion] [41560.085] Fresh scan: 5 NPCs in range (expanded to 2000 studs)
-[18:26:18] : [BFCompanion] [41560.150] Tweening to enemy spawn (30 studs above)
-[18:26:18] : [BFCompanion] [41560.234] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:26:18] : [BFCompanion] [41560.581] Arrived above enemy spawn â€” scanning for mobs
-[18:26:23] : [BFCompanion] [41565.292] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:26:24] : [BFCompanion] [41565.791] Light rescan: +1 kill(s) 0 -> 1, found 4 Isle Champion | scanned=6 mismatches=0 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=4
-[18:26:26] : [BFCompanion] [41568.524] Light rescan: +1 kill(s) 1 -> 2, found 3 Isle Champion | scanned=6 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=3
-[18:26:28] : [BFCompanion] [41570.294] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:26:33] : [BFCompanion] [41574.909] Light rescan: +1 kill(s) 2 -> 3, found 2 Isle Champion | scanned=4 mismatches=0 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=2
-[18:26:33] : [BFCompanion] [41575.357] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:26:38] : [BFCompanion] [41580.423] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:26:39] : [BFCompanion] [41581.179] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=4 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=1
-[18:26:43] : [BFCompanion] [41585.467] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:26:45] : [BFCompanion] [41587.263] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:26:45] : [BFCompanion] [41587.263] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:26:45] : [BFCompanion] [41587.273]   Full scan fallback: NearbyNPCs=0
-[18:26:48] : [BFCompanion] [41590.518] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:26:53] : [BFCompanion] [41595.551] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:26:58] : [BFCompanion] [41600.552] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:27:00] : [BFCompanion] [41602.284] STUCK at 5/8 for 15s â€” re-approaching spawn area to find mobs
-[18:27:00] : [BFCompanion] [41602.297] Fresh scan: 2 NPCs in range (expanded to 2000 studs)
-[18:27:00] : [BFCompanion] [41602.369] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:00] : [BFCompanion] [41602.370] Tweening to enemy spawn (30 studs above)
-[18:27:01] : [BFCompanion] [41602.752] Arrived above enemy spawn â€” scanning for mobs
-[18:27:03] : [BFCompanion] [41605.573] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:27:08] : [BFCompanion] [41610.123] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:08] : [BFCompanion] [41610.584] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:27:13] : [BFCompanion] [41615.638] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:27:19] : [BFCompanion] [41620.720] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:27:23] : [BFCompanion] [41625.148] QUEST COMPLETE (stuck at 7/8 for 15s) â€” tracker lagging, marking complete
-[18:27:23] : [BFCompanion] [41625.148] Re-reading level after quest complete: Lv 2699
-[18:27:23] : [BFCompanion] [41625.150] Next route: Isle Champion @ Tiki Outpost via Tiki Quest Giver 2
-[18:27:23] : [BFCompanion] [41625.229] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:27:23] : [BFCompanion] [41625.504] Arrived at giver â€” clicking giver NPC
-[18:27:24] : [BFCompanion] [41626.230] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:27:24] : [BFCompanion] [41626.230] Waiting for dialog to open: 0.06s
-[18:27:24] : [BFCompanion] [41626.233] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:27:24] : [BFCompanion] [41626.233] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:27:24] : [BFCompanion] [41626.235] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:27:24] : [BFCompanion] [41626.244] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:27:24] : [BFCompanion] [41626.441] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1503, 522) [spacing=65.0]
-[18:27:24] : [BFCompanion] [41626.441] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1503, 652) [spacing=65.0]
-[18:27:24] : [BFCompanion] [41626.441] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:27:24] : [BFCompanion] [41626.442] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:27:24] : [BFCompanion] [41626.442]   [1] name="Option1" text="°`\rnÏ" pos=(1503,522) optIdx=1
-[18:27:24] : [BFCompanion] [41626.442]   [2] name="Option2" text="Isle Champion" pos=(1503,587) optIdx=2
-[18:27:24] : [BFCompanion] [41626.442]   [3] name="Option3" text="Option" pos=(1503,652) optIdx=3
-[18:27:24] : [BFCompanion] [41626.442] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1503, 587)
-[18:27:25] : [BFCompanion] [41627.059] clickOptionButtonByIndex: clicked (ok=true)
-[18:27:25] : [BFCompanion] [41627.059] Step A SUCCESS: option button clicked
-[18:27:25] : [BFCompanion] [41627.059] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:27:25] : [BFCompanion] [41627.559] Step D: scanning for Confirm button by text in dialog option buttons
-[18:27:25] : [BFCompanion] [41627.560] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:27:26] : [BFCompanion] [41628.469] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:27:26] : [BFCompanion] [41628.493] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:27:26] : [BFCompanion] [41628.493] Step D poll 1: found 3 option buttons in dialog
-[18:27:26] : [BFCompanion] [41628.493]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:27:26] : [BFCompanion] [41628.493]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:27:26] : [BFCompanion] [41628.493]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:27:26] : [BFCompanion] [41628.493] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:27:27] : [BFCompanion] [41629.103] Step D: clicked confirm via Return-state detection (ok=true)
-[18:27:27] : [BFCompanion] [41629.103] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:27:27] : [BFCompanion] [41629.143] Step E: trackerVisible=true trackerMatches=true
-[18:27:27] : [BFCompanion] [41629.143] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:27:27] : [BFCompanion] [41629.155] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:27:27] : [BFCompanion] [41629.168] Tweening to enemy spawn (30 studs above)
-[18:27:28] : [BFCompanion] [41629.912] Arrived above enemy spawn â€” scanning for mobs
-[18:27:32] : [BFCompanion] [41634.165] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:27:32] : [BFCompanion] [41634.593] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:37] : [BFCompanion] [41639.235] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:27:40] : [BFCompanion] [41642.073] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:42] : [BFCompanion] [41644.272] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:27:45] : [BFCompanion] [41647.612] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:47] : [BFCompanion] [41649.303] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:27:51] : [BFCompanion] [41653.113] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:27:52] : [BFCompanion] [41654.357] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:27:57] : [BFCompanion] [41659.436] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:27:58] : [BFCompanion] [41660.281] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:27:58] : [BFCompanion] [41660.281] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:27:58] : [BFCompanion] [41660.296]   Full scan fallback: NearbyNPCs=0
-[18:28:02] : [BFCompanion] [41664.503] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:28:07] : [BFCompanion] [41669.559] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:28:08] : [BFCompanion] [41669.886] Light rescan: +1 kill(s) 5 -> 6, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:28:08] : [BFCompanion] [41669.886] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:28:08] : [BFCompanion] [41669.897]   Full scan fallback: NearbyNPCs=0
-[18:28:12] : [BFCompanion] [41674.563] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:28:16] : [BFCompanion] [41678.587] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:28:17] : [BFCompanion] [41679.598] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:28:22] : [BFCompanion] [41684.601] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:28:28] : [BFCompanion] [41689.658] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:28:28] : [BFCompanion] [41690.082] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:28:28] : [BFCompanion] [41690.095] Confirmed: no alive target mobs â€” quest is complete!
-[18:28:28] : [BFCompanion] [41690.096] Re-reading level: Lv 2700
-[18:28:28] : [BFCompanion] [41690.153] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:28:29] : [BFCompanion] [41690.809] Arrived at giver â€” clicking giver NPC
-[18:28:29] : [BFCompanion] [41691.531] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:28:29] : [BFCompanion] [41691.532] Waiting for dialog to open: 0.06s
-[18:28:29] : [BFCompanion] [41691.534] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:28:29] : [BFCompanion] [41691.534] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:28:29] : [BFCompanion] [41691.535] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:28:29] : [BFCompanion] [41691.545] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:28:30] : [BFCompanion] [41691.745] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1505, 522) [spacing=65.0]
-[18:28:30] : [BFCompanion] [41691.745] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1505, 652) [spacing=65.0]
-[18:28:30] : [BFCompanion] [41691.745] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:28:30] : [BFCompanion] [41691.745] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:28:30] : [BFCompanion] [41691.745]   [1] name="Option1" text="°`\rnÏ" pos=(1505,522) optIdx=1
-[18:28:30] : [BFCompanion] [41691.745]   [2] name="Option2" text="Isle Champion" pos=(1505,587) optIdx=2
-[18:28:30] : [BFCompanion] [41691.745]   [3] name="Option3" text="Option" pos=(1505,652) optIdx=3
-[18:28:30] : [BFCompanion] [41691.745] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1505, 587)
-[18:28:30] : [BFCompanion] [41692.360] clickOptionButtonByIndex: clicked (ok=true)
-[18:28:30] : [BFCompanion] [41692.361] Step A SUCCESS: option button clicked
-[18:28:30] : [BFCompanion] [41692.361] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:28:31] : [BFCompanion] [41692.861] Step D: scanning for Confirm button by text in dialog option buttons
-[18:28:31] : [BFCompanion] [41692.862] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:28:32] : [BFCompanion] [41693.769] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:28:32] : [BFCompanion] [41693.789] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:28:32] : [BFCompanion] [41693.790] Step D poll 1: found 3 option buttons in dialog
-[18:28:32] : [BFCompanion] [41693.790]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:28:32] : [BFCompanion] [41693.790]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:28:32] : [BFCompanion] [41693.790]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:28:32] : [BFCompanion] [41693.790] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:28:32] : [BFCompanion] [41694.400] Step D: clicked confirm via Return-state detection (ok=true)
-[18:28:32] : [BFCompanion] [41694.400] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:28:32] : [BFCompanion] [41694.442] Step E: trackerVisible=true trackerMatches=true
-[18:28:32] : [BFCompanion] [41694.442] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:28:32] : [BFCompanion] [41694.454] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:28:32] : [BFCompanion] [41694.467] Tweening to enemy spawn (30 studs above)
-[18:28:33] : [BFCompanion] [41695.172] Arrived above enemy spawn â€” scanning for mobs
-[18:28:37] : [BFCompanion] [41699.495] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:28:39] : [BFCompanion] [41701.625] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:28:42] : [BFCompanion] [41704.522] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:28:45] : [BFCompanion] [41707.169] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:28:45] : [BFCompanion] [41707.169] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:28:45] : [BFCompanion] [41707.179]   Full scan fallback: NearbyNPCs=0
-[18:28:47] : [BFCompanion] [41709.593] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:28:53] : [BFCompanion] [41714.673] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:28:53] : [BFCompanion] [41715.244] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:28:58] : [BFCompanion] [41719.736] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:29:00] : [BFCompanion] [41721.977] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:29:03] : [BFCompanion] [41724.825] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:29:06] : [BFCompanion] [41728.414] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:29:06] : [BFCompanion] [41728.414] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:29:06] : [BFCompanion] [41728.425]   Full scan fallback: NearbyNPCs=0
-[18:29:08] : [BFCompanion] [41729.894] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:29:13] : [BFCompanion] [41734.968] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:29:18] : [BFCompanion] [41739.989] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:29:19] : [BFCompanion] [41740.888] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:29:23] : [BFCompanion] [41745.016] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:29:24] : [BFCompanion] [41746.094] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:29:28] : [BFCompanion] [41750.078] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:29:33] : [BFCompanion] [41755.120] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:29:38] : [BFCompanion] [41760.172] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:29:39] : [BFCompanion] [41761.161] QUEST COMPLETE (stuck at 7/8 for 15s) â€” tracker lagging, marking complete
-[18:29:39] : [BFCompanion] [41761.161] Re-reading level after quest complete: Lv 2701
-[18:29:39] : [BFCompanion] [41761.163] Next route: Isle Champion @ Tiki Outpost via Tiki Quest Giver 2
-[18:29:39] : [BFCompanion] [41761.242] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:29:40] : [BFCompanion] [41762.068] Arrived at giver â€” clicking giver NPC
-[18:29:41] : [BFCompanion] [41762.796] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:29:41] : [BFCompanion] [41762.797] Waiting for dialog to open: 0.06s
-[18:29:41] : [BFCompanion] [41762.799] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:29:41] : [BFCompanion] [41762.799] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:29:41] : [BFCompanion] [41762.800] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:29:41] : [BFCompanion] [41762.808] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:29:41] : [BFCompanion] [41763.008] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1500, 522) [spacing=65.0]
-[18:29:41] : [BFCompanion] [41763.008] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1500, 652) [spacing=65.0]
-[18:29:41] : [BFCompanion] [41763.008] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:29:41] : [BFCompanion] [41763.008] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:29:41] : [BFCompanion] [41763.008]   [1] name="Option1" text="°`\rnÏ" pos=(1500,522) optIdx=1
-[18:29:41] : [BFCompanion] [41763.008]   [2] name="Option2" text="Isle Champion" pos=(1500,587) optIdx=2
-[18:29:41] : [BFCompanion] [41763.008]   [3] name="Option3" text="Option" pos=(1500,652) optIdx=3
-[18:29:41] : [BFCompanion] [41763.008] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1500, 587)
-[18:29:41] : [BFCompanion] [41763.625] clickOptionButtonByIndex: clicked (ok=true)
-[18:29:41] : [BFCompanion] [41763.625] Step A SUCCESS: option button clicked
-[18:29:41] : [BFCompanion] [41763.625] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:29:42] : [BFCompanion] [41764.126] Step D: scanning for Confirm button by text in dialog option buttons
-[18:29:42] : [BFCompanion] [41764.127] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:29:43] : [BFCompanion] [41765.037] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:29:43] : [BFCompanion] [41765.057] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:29:43] : [BFCompanion] [41765.057] Step D poll 1: found 3 option buttons in dialog
-[18:29:43] : [BFCompanion] [41765.057]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:29:43] : [BFCompanion] [41765.058]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:29:43] : [BFCompanion] [41765.058]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:29:43] : [BFCompanion] [41765.058] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:29:44] : [BFCompanion] [41765.670] Step D: clicked confirm via Return-state detection (ok=true)
-[18:29:44] : [BFCompanion] [41765.670] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:29:44] : [BFCompanion] [41765.721] Step E: trackerVisible=true trackerMatches=true
-[18:29:44] : [BFCompanion] [41765.721] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:29:44] : [BFCompanion] [41765.736] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:29:44] : [BFCompanion] [41765.751] Tweening to enemy spawn (30 studs above)
-[18:29:44] : [BFCompanion] [41766.506] Arrived above enemy spawn â€” scanning for mobs
-[18:29:48] : [BFCompanion] [41770.583] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:29:48] : [BFCompanion] [41770.584] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:29:48] : [BFCompanion] [41770.594]   Full scan fallback: NearbyNPCs=0
-[18:29:49] : [BFCompanion] [41770.754] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:29:54] : [BFCompanion] [41775.820] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:29:55] : [BFCompanion] [41777.147] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:29:59] : [BFCompanion] [41780.825] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:30:00] : [BFCompanion] [41782.384] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:30:04] : [BFCompanion] [41785.903] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:30:05] : [BFCompanion] [41787.266] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:30:05] : [BFCompanion] [41787.266] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:30:05] : [BFCompanion] [41787.279]   Full scan fallback: NearbyNPCs=0
-[18:30:09] : [BFCompanion] [41790.930] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:30:14] : [BFCompanion] [41795.959] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:30:19] : [BFCompanion] [41801.020] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:30:20] : [BFCompanion] [41802.337] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:30:20] : [BFCompanion] [41802.352] Fresh scan: 1 NPCs in range (expanded to 2000 studs)
-[18:30:20] : [BFCompanion] [41802.419] Tweening to enemy spawn (30 studs above)
-[18:30:21] : [BFCompanion] [41802.701] Arrived above enemy spawn â€” scanning for mobs
-[18:30:24] : [BFCompanion] [41806.085] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:30:25] : [BFCompanion] [41806.670] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:30:25] : [BFCompanion] [41806.670] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:30:25] : [BFCompanion] [41806.681]   Full scan fallback: NearbyNPCs=0
-[18:30:29] : [BFCompanion] [41811.162] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:30:31] : [BFCompanion] [41813.168] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:30:34] : [BFCompanion] [41816.225] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:30:38] : [BFCompanion] [41819.862] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:30:39] : [BFCompanion] [41821.284] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:30:43] : [BFCompanion] [41824.785] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:30:43] : [BFCompanion] [41824.801] Confirmed: no alive target mobs â€” quest is complete!
-[18:30:43] : [BFCompanion] [41824.802] Re-reading level: Lv 2701
-[18:30:43] : [BFCompanion] [41824.842] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:30:43] : [BFCompanion] [41825.280] Arrived at giver â€” clicking giver NPC
-[18:30:44] : [BFCompanion] [41826.005] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:30:44] : [BFCompanion] [41826.005] Waiting for dialog to open: 0.06s
-[18:30:44] : [BFCompanion] [41826.008] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:30:44] : [BFCompanion] [41826.008] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:30:44] : [BFCompanion] [41826.009] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:30:44] : [BFCompanion] [41826.018] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:30:44] : [BFCompanion] [41826.217] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1502, 522) [spacing=65.0]
-[18:30:44] : [BFCompanion] [41826.217] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1502, 652) [spacing=65.0]
-[18:30:44] : [BFCompanion] [41826.217] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:30:44] : [BFCompanion] [41826.217] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:30:44] : [BFCompanion] [41826.217]   [1] name="Option1" text="°`\rnÏ" pos=(1502,522) optIdx=1
-[18:30:44] : [BFCompanion] [41826.217]   [2] name="Option2" text="Isle Champion" pos=(1502,587) optIdx=2
-[18:30:44] : [BFCompanion] [41826.217]   [3] name="Option3" text="Option" pos=(1502,652) optIdx=3
-[18:30:44] : [BFCompanion] [41826.217] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1502, 587)
-[18:30:45] : [BFCompanion] [41826.837] clickOptionButtonByIndex: clicked (ok=true)
-[18:30:45] : [BFCompanion] [41826.837] Step A SUCCESS: option button clicked
-[18:30:45] : [BFCompanion] [41826.837] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:30:45] : [BFCompanion] [41827.338] Step D: scanning for Confirm button by text in dialog option buttons
-[18:30:45] : [BFCompanion] [41827.339] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:30:46] : [BFCompanion] [41828.246] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:30:46] : [BFCompanion] [41828.269] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:30:46] : [BFCompanion] [41828.269] Step D poll 1: found 3 option buttons in dialog
-[18:30:46] : [BFCompanion] [41828.269]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:30:46] : [BFCompanion] [41828.269]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:30:46] : [BFCompanion] [41828.269]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:30:46] : [BFCompanion] [41828.269] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:30:47] : [BFCompanion] [41828.881] Step D: clicked confirm via Return-state detection (ok=true)
-[18:30:47] : [BFCompanion] [41828.881] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:30:47] : [BFCompanion] [41828.922] Step E: trackerVisible=true trackerMatches=true
-[18:30:47] : [BFCompanion] [41828.922] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:30:47] : [BFCompanion] [41828.948] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:30:47] : [BFCompanion] [41828.964] Tweening to enemy spawn (30 studs above)
-[18:30:48] : [BFCompanion] [41829.728] Arrived above enemy spawn â€” scanning for mobs
-[18:30:52] : [BFCompanion] [41833.977] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:30:57] : [BFCompanion] [41838.989] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:31:01] : [BFCompanion] [41842.702] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:31:01] : [BFCompanion] [41842.703] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:31:01] : [BFCompanion] [41842.716]   Full scan fallback: NearbyNPCs=0
-[18:31:02] : [BFCompanion] [41844.011] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:31:07] : [BFCompanion] [41849.020] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:31:07] : [BFCompanion] [41849.021] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:31:07] : [BFCompanion] [41849.034]   Full scan fallback: NearbyNPCs=0
-[18:31:07] : [BFCompanion] [41849.034] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:31:12] : [BFCompanion] [41854.072] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:31:15] : [BFCompanion] [41856.737] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:31:17] : [BFCompanion] [41859.080] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:31:21] : [BFCompanion] [41862.701] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=3 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:31:21] : [BFCompanion] [41862.701] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:31:21] : [BFCompanion] [41862.715]   Full scan fallback: NearbyNPCs=0
-[18:31:22] : [BFCompanion] [41864.095] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:27] : [BFCompanion] [41869.158] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:32] : [BFCompanion] [41874.229] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:36] : [BFCompanion] [41877.751] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:31:36] : [BFCompanion] [41877.765] Fresh scan: 1 NPCs in range (expanded to 2000 studs)
-[18:31:36] : [BFCompanion] [41877.835] Tweening to enemy spawn (30 studs above)
-[18:31:36] : [BFCompanion] [41878.041] Tweening to enemy spawn (30 studs above)
-[18:31:36] : [BFCompanion] [41878.202] Tweening to enemy spawn (30 studs above)
-[18:31:36] : [BFCompanion] [41878.388] Tweening to enemy spawn (30 studs above)
-[18:31:36] : [BFCompanion] [41878.558] Arrived above enemy spawn â€” scanning for mobs
-[18:31:37] : [BFCompanion] [41879.237] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:42] : [BFCompanion] [41884.254] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:47] : [BFCompanion] [41889.259] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:51] : [BFCompanion] [41892.770] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:31:51] : [BFCompanion] [41892.793] Fresh scan: 4 NPCs in range (expanded to 2000 studs)
-[18:31:51] : [BFCompanion] [41892.833] Tweening to enemy spawn (30 studs above)
-[18:31:52] : [BFCompanion] [41894.337] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:31:54] : [BFCompanion] [41895.902] Arrived above enemy spawn â€” scanning for mobs
-[18:31:57] : [BFCompanion] [41899.350] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:32:02] : [BFCompanion] [41904.357] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:32:03] : [BFCompanion] [41905.100] Light rescan: +1 kill(s) 4 -> 5, found 2 Isle Champion | scanned=4 mismatches=0 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=2
-[18:32:07] : [BFCompanion] [41909.434] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:32:09] : [BFCompanion] [41911.350] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:32:12] : [BFCompanion] [41914.452] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:32:15] : [BFCompanion] [41917.022] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:32:17] : [BFCompanion] [41919.463] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:32:22] : [BFCompanion] [41924.503] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:32:27] : [BFCompanion] [41929.554] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:32:28] : [BFCompanion] [41930.319] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:32:28] : [BFCompanion] [41930.335] Confirmed: no alive target mobs â€” quest is complete!
-[18:32:28] : [BFCompanion] [41930.336] Re-reading level: Lv 2702
-[18:32:28] : [BFCompanion] [41930.390] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:32:29] : [BFCompanion] [41931.023] Arrived at giver â€” clicking giver NPC
-[18:32:30] : [BFCompanion] [41931.734] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:32:30] : [BFCompanion] [41931.734] Waiting for dialog to open: 0.06s
-[18:32:30] : [BFCompanion] [41931.736] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:32:30] : [BFCompanion] [41931.736] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:32:30] : [BFCompanion] [41931.737] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:32:30] : [BFCompanion] [41931.747] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:32:30] : [BFCompanion] [41931.947] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1491, 651) [spacing=64.0]
-[18:32:30] : [BFCompanion] [41931.947] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:32:30] : [BFCompanion] [41931.947] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:32:30] : [BFCompanion] [41931.947]   [1] name="Option1" text="Sun-kissed Warrior" pos=(1491,523) optIdx=1
-[18:32:30] : [BFCompanion] [41931.947]   [2] name="Option2" text="Isle Champion" pos=(1513,587) optIdx=2
-[18:32:30] : [BFCompanion] [41931.948]   [3] name="Option3" text="Option" pos=(1491,651) optIdx=3
-[18:32:30] : [BFCompanion] [41931.948] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1513, 587)
-[18:32:30] : [BFCompanion] [41932.562] clickOptionButtonByIndex: clicked (ok=true)
-[18:32:30] : [BFCompanion] [41932.562] Step A SUCCESS: option button clicked
-[18:32:30] : [BFCompanion] [41932.562] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:32:31] : [BFCompanion] [41933.062] Step D: scanning for Confirm button by text in dialog option buttons
-[18:32:31] : [BFCompanion] [41933.064] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:32:32] : [BFCompanion] [41933.968] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:32:32] : [BFCompanion] [41933.990] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:32:32] : [BFCompanion] [41933.990] Step D poll 1: found 3 option buttons in dialog
-[18:32:32] : [BFCompanion] [41933.990]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:32:32] : [BFCompanion] [41933.990]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:32:32] : [BFCompanion] [41933.990]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:32:32] : [BFCompanion] [41933.990] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:32:32] : [BFCompanion] [41934.606] Step D: clicked confirm via Return-state detection (ok=true)
-[18:32:32] : [BFCompanion] [41934.607] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:32:33] : [BFCompanion] [41934.647] Step E: trackerVisible=true trackerMatches=true
-[18:32:33] : [BFCompanion] [41934.647] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:32:33] : [BFCompanion] [41934.673] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:32:33] : [BFCompanion] [41934.686] Tweening to enemy spawn (30 studs above)
-[18:32:33] : [BFCompanion] [41935.488] Arrived above enemy spawn â€” scanning for mobs
-[18:32:38] : [BFCompanion] [41939.725] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:32:42] : [BFCompanion] [41944.441] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:32:43] : [BFCompanion] [41944.761] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:32:48] : [BFCompanion] [41949.838] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:32:48] : [BFCompanion] [41950.500] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:32:53] : [BFCompanion] [41954.868] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:32:55] : [BFCompanion] [41957.605] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:32:58] : [BFCompanion] [41959.931] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:33:03] : [BFCompanion] [41965.003] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:33:03] : [BFCompanion] [41965.615] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:33:08] : [BFCompanion] [41970.048] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:33:10] : [BFCompanion] [41972.011] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:33:10] : [BFCompanion] [41972.011] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:33:10] : [BFCompanion] [41972.024]   Full scan fallback: NearbyNPCs=0
-[18:33:13] : [BFCompanion] [41975.129] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:33:18] : [BFCompanion] [41980.156] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:33:20] : [BFCompanion] [41982.161] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:33:23] : [BFCompanion] [41985.162] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:33:26] : [BFCompanion] [41988.318] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:33:28] : [BFCompanion] [41990.173] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:33:33] : [BFCompanion] [41994.753] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:33:33] : [BFCompanion] [41994.766] Confirmed: no alive target mobs â€” quest is complete!
-[18:33:33] : [BFCompanion] [41994.766] Re-reading level: Lv 2703
-[18:33:33] : [BFCompanion] [41994.840] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:33:33] : [BFCompanion] [41995.084] Arrived at giver â€” clicking giver NPC
-[18:33:34] : [BFCompanion] [41995.814] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:33:34] : [BFCompanion] [41995.814] Waiting for dialog to open: 0.06s
-[18:33:34] : [BFCompanion] [41995.816] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:33:34] : [BFCompanion] [41995.816] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:33:34] : [BFCompanion] [41995.817] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:33:34] : [BFCompanion] [41995.827] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:33:34] : [BFCompanion] [41996.029] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1487, 651) [spacing=64.0]
-[18:33:34] : [BFCompanion] [41996.029] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:33:34] : [BFCompanion] [41996.029] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:33:34] : [BFCompanion] [41996.029]   [1] name="Option1" text="Sun-kissed Warrior" pos=(1487,523) optIdx=1
-[18:33:34] : [BFCompanion] [41996.029]   [2] name="Option2" text="Isle Champion" pos=(1514,587) optIdx=2
-[18:33:34] : [BFCompanion] [41996.029]   [3] name="Option3" text="Option" pos=(1487,651) optIdx=3
-[18:33:34] : [BFCompanion] [41996.029] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1514, 587)
-[18:33:35] : [BFCompanion] [41996.645] clickOptionButtonByIndex: clicked (ok=true)
-[18:33:35] : [BFCompanion] [41996.645] Step A SUCCESS: option button clicked
-[18:33:35] : [BFCompanion] [41996.645] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:33:35] : [BFCompanion] [41997.145] Step D: scanning for Confirm button by text in dialog option buttons
-[18:33:35] : [BFCompanion] [41997.147] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:33:36] : [BFCompanion] [41998.067] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:33:36] : [BFCompanion] [41998.088] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:33:36] : [BFCompanion] [41998.088] Step D poll 1: found 3 option buttons in dialog
-[18:33:36] : [BFCompanion] [41998.088]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:33:36] : [BFCompanion] [41998.088]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:33:36] : [BFCompanion] [41998.088]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:33:36] : [BFCompanion] [41998.088] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:33:37] : [BFCompanion] [41998.701] Step D: clicked confirm via Return-state detection (ok=true)
-[18:33:37] : [BFCompanion] [41998.701] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:33:37] : [BFCompanion] [41998.740] Step E: trackerVisible=true trackerMatches=true
-[18:33:37] : [BFCompanion] [41998.740] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:33:37] : [BFCompanion] [41998.752] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:33:37] : [BFCompanion] [41998.766] Tweening to enemy spawn (30 studs above)
-[18:33:37] : [BFCompanion] [41999.498] Arrived above enemy spawn â€” scanning for mobs
-[18:33:42] : [BFCompanion] [42003.819] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:33:44] : [BFCompanion] [42005.996] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:33:47] : [BFCompanion] [42008.881] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:33:50] : [BFCompanion] [42011.960] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:33:50] : [BFCompanion] [42011.960] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:33:50] : [BFCompanion] [42011.974]   Full scan fallback: NearbyNPCs=0
-[18:33:52] : [BFCompanion] [42013.960] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:33:55] : [BFCompanion] [42017.607] Light rescan: +1 kill(s) 2 -> 3, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:33:55] : [BFCompanion] [42017.608] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:33:55] : [BFCompanion] [42017.620]   Full scan fallback: NearbyNPCs=0
-[18:33:57] : [BFCompanion] [42019.028] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:34:02] : [BFCompanion] [42024.097] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:34:02] : [BFCompanion] [42024.525] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:34:02] : [BFCompanion] [42024.525] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:34:02] : [BFCompanion] [42024.540]   Full scan fallback: NearbyNPCs=0
-[18:34:07] : [BFCompanion] [42029.120] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:34:09] : [BFCompanion] [42031.295] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:34:09] : [BFCompanion] [42031.295] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:34:09] : [BFCompanion] [42031.310]   Full scan fallback: NearbyNPCs=0
-[18:34:12] : [BFCompanion] [42034.143] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:34:17] : [BFCompanion] [42039.178] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:34:21] : [BFCompanion] [42042.903] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:34:22] : [BFCompanion] [42044.202] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:34:27] : [BFCompanion] [42049.226] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:34:28] : [BFCompanion] [42050.416] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=0 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=1 | NearbyNPCs=1
-[18:34:32] : [BFCompanion] [42054.236] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:34:37] : [BFCompanion] [42059.237] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:34:42] : [BFCompanion] [42064.248] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:34:43] : [BFCompanion] [42065.393] QUEST COMPLETE (stuck at 7/8 for 15s) â€” tracker lagging, marking complete
-[18:34:43] : [BFCompanion] [42065.393] Re-reading level after quest complete: Lv 2704
-[18:34:43] : [BFCompanion] [42065.396] Next route: Isle Champion @ Tiki Outpost via Tiki Quest Giver 2
-[18:34:43] : [BFCompanion] [42065.474] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:34:44] : [BFCompanion] [42065.672] Arrived at giver â€” clicking giver NPC
-[18:34:44] : [BFCompanion] [42066.399] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:34:44] : [BFCompanion] [42066.399] Waiting for dialog to open: 0.06s
-[18:34:44] : [BFCompanion] [42066.400] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:34:44] : [BFCompanion] [42066.400] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:34:44] : [BFCompanion] [42066.401] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:34:44] : [BFCompanion] [42066.409] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:34:44] : [BFCompanion] [42066.604] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1489, 522) [spacing=65.0]
-[18:34:44] : [BFCompanion] [42066.604] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1489, 652) [spacing=65.0]
-[18:34:44] : [BFCompanion] [42066.604] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:34:44] : [BFCompanion] [42066.604] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:34:44] : [BFCompanion] [42066.604]   [1] name="Option1" text="°`\rnÏ" pos=(1489,522) optIdx=1
-[18:34:44] : [BFCompanion] [42066.604]   [2] name="Option2" text="Isle Champion" pos=(1489,587) optIdx=2
-[18:34:44] : [BFCompanion] [42066.604]   [3] name="Option3" text="Option" pos=(1489,652) optIdx=3
-[18:34:44] : [BFCompanion] [42066.604] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1489, 587)
-[18:34:45] : [BFCompanion] [42067.228] clickOptionButtonByIndex: clicked (ok=true)
-[18:34:45] : [BFCompanion] [42067.228] Step A SUCCESS: option button clicked
-[18:34:45] : [BFCompanion] [42067.228] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:34:46] : [BFCompanion] [42067.729] Step D: scanning for Confirm button by text in dialog option buttons
-[18:34:46] : [BFCompanion] [42067.730] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:34:46] : [BFCompanion] [42068.638] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:34:47] : [BFCompanion] [42068.659] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:34:47] : [BFCompanion] [42068.659] Step D poll 1: found 3 option buttons in dialog
-[18:34:47] : [BFCompanion] [42068.659]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:34:47] : [BFCompanion] [42068.659]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:34:47] : [BFCompanion] [42068.659]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:34:47] : [BFCompanion] [42068.659] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:34:47] : [BFCompanion] [42069.267] Step D: clicked confirm via Return-state detection (ok=true)
-[18:34:47] : [BFCompanion] [42069.267] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:34:47] : [BFCompanion] [42069.310] Step E: trackerVisible=true trackerMatches=true
-[18:34:47] : [BFCompanion] [42069.310] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:34:47] : [BFCompanion] [42069.324] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:34:47] : [BFCompanion] [42069.337] Tweening to enemy spawn (30 studs above)
-[18:34:48] : [BFCompanion] [42070.086] Arrived above enemy spawn â€” scanning for mobs
-[18:34:52] : [BFCompanion] [42073.702] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:34:52] : [BFCompanion] [42074.393] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:34:57] : [BFCompanion] [42079.453] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:34:59] : [BFCompanion] [42081.116] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:35:02] : [BFCompanion] [42084.529] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:35:04] : [BFCompanion] [42086.432] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:35:07] : [BFCompanion] [42089.558] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:35:11] : [BFCompanion] [42093.592] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:35:12] : [BFCompanion] [42094.574] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:35:17] : [BFCompanion] [42098.892] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:35:17] : [BFCompanion] [42098.893] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:35:17] : [BFCompanion] [42098.904]   Full scan fallback: NearbyNPCs=0
-[18:35:17] : [BFCompanion] [42099.629] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:35:23] : [BFCompanion] [42104.693] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:35:27] : [BFCompanion] [42109.386] Light rescan: +1 kill(s) 5 -> 6, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:35:27] : [BFCompanion] [42109.386] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:35:27] : [BFCompanion] [42109.400]   Full scan fallback: NearbyNPCs=0
-[18:35:28] : [BFCompanion] [42109.712] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:35:33] : [BFCompanion] [42114.793] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:35:36] : [BFCompanion] [42118.061] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:35:38] : [BFCompanion] [42119.852] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:35:43] : [BFCompanion] [42124.881] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:35:48] : [BFCompanion] [42129.919] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:35:51] : [BFCompanion] [42133.076] QUEST COMPLETE (stuck at 7/8 for 15s) â€” tracker lagging, marking complete
-[18:35:51] : [BFCompanion] [42133.076] Re-reading level after quest complete: Lv 2705
-[18:35:51] : [BFCompanion] [42133.080] Next route: Isle Champion @ Tiki Outpost via Tiki Quest Giver 2
-[18:35:51] : [BFCompanion] [42133.157] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:35:51] : [BFCompanion] [42133.510] Arrived at giver â€” clicking giver NPC
-[18:35:52] : [BFCompanion] [42134.231] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:35:52] : [BFCompanion] [42134.231] Waiting for dialog to open: 0.06s
-[18:35:52] : [BFCompanion] [42134.233] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:35:52] : [BFCompanion] [42134.233] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:35:52] : [BFCompanion] [42134.234] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:35:52] : [BFCompanion] [42134.243] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:35:52] : [BFCompanion] [42134.442] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1500, 522) [spacing=65.0]
-[18:35:52] : [BFCompanion] [42134.442] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1500, 652) [spacing=65.0]
-[18:35:52] : [BFCompanion] [42134.442] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:35:52] : [BFCompanion] [42134.442] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:35:52] : [BFCompanion] [42134.442]   [1] name="Option1" text="°`\rnÏ" pos=(1500,522) optIdx=1
-[18:35:52] : [BFCompanion] [42134.443]   [2] name="Option2" text="Isle Champion" pos=(1500,587) optIdx=2
-[18:35:52] : [BFCompanion] [42134.443]   [3] name="Option3" text="Option" pos=(1500,652) optIdx=3
-[18:35:52] : [BFCompanion] [42134.443] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1500, 587)
-[18:35:53] : [BFCompanion] [42135.073] clickOptionButtonByIndex: clicked (ok=true)
-[18:35:53] : [BFCompanion] [42135.073] Step A SUCCESS: option button clicked
-[18:35:53] : [BFCompanion] [42135.073] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:35:53] : [BFCompanion] [42135.573] Step D: scanning for Confirm button by text in dialog option buttons
-[18:35:53] : [BFCompanion] [42135.574] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:35:54] : [BFCompanion] [42136.484] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:35:54] : [BFCompanion] [42136.503] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:35:54] : [BFCompanion] [42136.503] Step D poll 1: found 3 option buttons in dialog
-[18:35:54] : [BFCompanion] [42136.503]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:35:54] : [BFCompanion] [42136.503]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:35:54] : [BFCompanion] [42136.503]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:35:54] : [BFCompanion] [42136.503] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:35:55] : [BFCompanion] [42137.113] Step D: clicked confirm via Return-state detection (ok=true)
-[18:35:55] : [BFCompanion] [42137.113] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:35:55] : [BFCompanion] [42137.154] Step E: trackerVisible=true trackerMatches=true
-[18:35:55] : [BFCompanion] [42137.154] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:35:55] : [BFCompanion] [42137.165] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:35:55] : [BFCompanion] [42137.174] Tweening to enemy spawn (30 studs above)
-[18:35:56] : [BFCompanion] [42137.965] Arrived above enemy spawn â€” scanning for mobs
-[18:35:58] : [BFCompanion] [42140.520] Light rescan: +1 kill(s) 0 -> 1, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:36:00] : [BFCompanion] [42142.184] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:36:04] : [BFCompanion] [42146.255] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=3 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:36:04] : [BFCompanion] [42146.255] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:36:04] : [BFCompanion] [42146.266]   Full scan fallback: NearbyNPCs=0
-[18:36:05] : [BFCompanion] [42147.235] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:36:10] : [BFCompanion] [42152.313] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:36:12] : [BFCompanion] [42154.204] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=3 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:36:15] : [BFCompanion] [42157.374] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:36:18] : [BFCompanion] [42159.765] Light rescan: +1 kill(s) 3 -> 4, found 1 Isle Champion | scanned=4 mismatches=0 dead=3 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:36:20] : [BFCompanion] [42162.408] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:36:24] : [BFCompanion] [42166.334] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:36:24] : [BFCompanion] [42166.334] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:36:24] : [BFCompanion] [42166.347]   Full scan fallback: NearbyNPCs=0
-[18:36:25] : [BFCompanion] [42167.479] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:36:30] : [BFCompanion] [42172.502] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:36:34] : [BFCompanion] [42176.306] Light rescan: +1 kill(s) 5 -> 6, found 0 Isle Champion | scanned=2 mismatches=0 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:36:34] : [BFCompanion] [42176.306] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:36:34] : [BFCompanion] [42176.318]   Full scan fallback: NearbyNPCs=0
-[18:36:35] : [BFCompanion] [42177.540] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:36:40] : [BFCompanion] [42182.618] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:36:46] : [BFCompanion] [42187.667] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:36:49] : [BFCompanion] [42191.306] STUCK at 6/8 for 15s â€” re-approaching spawn area to find mobs
-[18:36:49] : [BFCompanion] [42191.320] Fresh scan: 2 NPCs in range (expanded to 2000 studs)
-[18:36:49] : [BFCompanion] [42191.391] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:36:49] : [BFCompanion] [42191.392] Tweening to enemy spawn (30 studs above)
-[18:36:50] : [BFCompanion] [42191.734] Arrived above enemy spawn â€” scanning for mobs
-[18:36:51] : [BFCompanion] [42192.744] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:36:56] : [BFCompanion] [42197.749] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:37:01] : [BFCompanion] [42202.803] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:37:01] : [BFCompanion] [42203.304] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:37:01] : [BFCompanion] [42203.313] Confirmed: no alive target mobs â€” quest is complete!
-[18:37:01] : [BFCompanion] [42203.313] Re-reading level: Lv 2706
-[18:37:01] : [BFCompanion] [42203.376] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:37:02] : [BFCompanion] [42203.837] Arrived at giver â€” clicking giver NPC
-[18:37:02] : [BFCompanion] [42204.546] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:37:02] : [BFCompanion] [42204.546] Waiting for dialog to open: 0.06s
-[18:37:02] : [BFCompanion] [42204.548] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:37:02] : [BFCompanion] [42204.548] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:37:02] : [BFCompanion] [42204.549] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:37:02] : [BFCompanion] [42204.558] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:37:03] : [BFCompanion] [42204.757] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1500, 522) [spacing=65.0]
-[18:37:03] : [BFCompanion] [42204.757] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1500, 652) [spacing=65.0]
-[18:37:03] : [BFCompanion] [42204.757] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:37:03] : [BFCompanion] [42204.757] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:37:03] : [BFCompanion] [42204.757]   [1] name="Option1" text="°`\rnÏ" pos=(1500,522) optIdx=1
-[18:37:03] : [BFCompanion] [42204.757]   [2] name="Option2" text="Isle Champion" pos=(1500,587) optIdx=2
-[18:37:03] : [BFCompanion] [42204.757]   [3] name="Option3" text="Option" pos=(1500,652) optIdx=3
-[18:37:03] : [BFCompanion] [42204.757] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1500, 587)
-[18:37:03] : [BFCompanion] [42205.386] clickOptionButtonByIndex: clicked (ok=true)
-[18:37:03] : [BFCompanion] [42205.387] Step A SUCCESS: option button clicked
-[18:37:03] : [BFCompanion] [42205.387] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:37:04] : [BFCompanion] [42205.887] Step D: scanning for Confirm button by text in dialog option buttons
-[18:37:04] : [BFCompanion] [42205.888] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:37:05] : [BFCompanion] [42206.799] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:37:05] : [BFCompanion] [42206.819] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:37:05] : [BFCompanion] [42206.819] Step D poll 1: found 3 option buttons in dialog
-[18:37:05] : [BFCompanion] [42206.819]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:37:05] : [BFCompanion] [42206.819]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:37:05] : [BFCompanion] [42206.819]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:37:05] : [BFCompanion] [42206.819] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:37:05] : [BFCompanion] [42207.433] Step D: clicked confirm via Return-state detection (ok=true)
-[18:37:05] : [BFCompanion] [42207.433] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:37:05] : [BFCompanion] [42207.473] Step E: trackerVisible=true trackerMatches=true
-[18:37:05] : [BFCompanion] [42207.473] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:37:05] : [BFCompanion] [42207.486] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:37:05] : [BFCompanion] [42207.499] Tweening to enemy spawn (30 studs above)
-[18:37:06] : [BFCompanion] [42208.219] Arrived above enemy spawn â€” scanning for mobs
-[18:37:10] : [BFCompanion] [42212.554] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:37:14] : [BFCompanion] [42216.292] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:37:14] : [BFCompanion] [42216.292] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:37:14] : [BFCompanion] [42216.304]   Full scan fallback: NearbyNPCs=0
-[18:37:15] : [BFCompanion] [42217.619] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:37:21] : [BFCompanion] [42222.703] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:37:26] : [BFCompanion] [42227.764] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:37:26] : [BFCompanion] [42228.339] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:37:31] : [BFCompanion] [42232.772] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:37:33] : [BFCompanion] [42235.196] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:37:36] : [BFCompanion] [42237.826] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:37:39] : [BFCompanion] [42241.564] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=3 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:37:39] : [BFCompanion] [42241.564] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:37:39] : [BFCompanion] [42241.575]   Full scan fallback: NearbyNPCs=0
-[18:37:41] : [BFCompanion] [42242.881] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:37:46] : [BFCompanion] [42247.931] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:37:51] : [BFCompanion] [42252.965] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:37:54] : [BFCompanion] [42256.575] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:37:54] : [BFCompanion] [42256.586] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:37:55] : [BFCompanion] [42256.669] Tweening to enemy spawn (30 studs above)
-[18:37:55] : [BFCompanion] [42257.296] Arrived above enemy spawn â€” scanning for mobs
-[18:37:56] : [BFCompanion] [42258.019] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:38:01] : [BFCompanion] [42263.099] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:38:03] : [BFCompanion] [42265.028] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:38:03] : [BFCompanion] [42265.028] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:38:03] : [BFCompanion] [42265.041]   Full scan fallback: NearbyNPCs=0
-[18:38:06] : [BFCompanion] [42268.179] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:38:09] : [BFCompanion] [42271.514] Light rescan: +1 kill(s) 5 -> 6, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:38:09] : [BFCompanion] [42271.514] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:38:09] : [BFCompanion] [42271.527]   Full scan fallback: NearbyNPCs=0
-[18:38:11] : [BFCompanion] [42273.180] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:38:15] : [BFCompanion] [42277.118] Light rescan: +1 kill(s) 6 -> 7, found 0 Isle Champion | scanned=3 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:38:15] : [BFCompanion] [42277.118] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:38:15] : [BFCompanion] [42277.131]   Full scan fallback: NearbyNPCs=0
-[18:38:15] : [BFCompanion] [42277.145] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:38:15] : [BFCompanion] [42277.157] Confirmed: no alive target mobs â€” quest is complete!
-[18:38:15] : [BFCompanion] [42277.158] Re-reading level: Lv 2706
-[18:38:15] : [BFCompanion] [42277.185] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:38:16] : [BFCompanion] [42277.656] Arrived at giver â€” clicking giver NPC
-[18:38:16] : [BFCompanion] [42278.379] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:38:16] : [BFCompanion] [42278.379] Waiting for dialog to open: 0.06s
-[18:38:16] : [BFCompanion] [42278.381] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:38:16] : [BFCompanion] [42278.382] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:38:16] : [BFCompanion] [42278.382] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:38:16] : [BFCompanion] [42278.391] clickOptionButtonByIndex: attempt 1 â€” found 1 buttons but none match target (optIdx=2, enemy=Isle Champion), retrying
-[18:38:16] : [BFCompanion] [42278.591] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1500, 522) [spacing=65.0]
-[18:38:16] : [BFCompanion] [42278.591] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1500, 652) [spacing=65.0]
-[18:38:16] : [BFCompanion] [42278.591] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:38:16] : [BFCompanion] [42278.591] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:38:16] : [BFCompanion] [42278.591]   [1] name="Option1" text="°`\rnÏ" pos=(1500,522) optIdx=1
-[18:38:16] : [BFCompanion] [42278.591]   [2] name="Option2" text="Isle Champion" pos=(1500,587) optIdx=2
-[18:38:16] : [BFCompanion] [42278.591]   [3] name="Option3" text="Option" pos=(1500,652) optIdx=3
-[18:38:16] : [BFCompanion] [42278.591] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1500, 587)
-[18:38:17] : [BFCompanion] [42279.223] clickOptionButtonByIndex: clicked (ok=true)
-[18:38:17] : [BFCompanion] [42279.223] Step A SUCCESS: option button clicked
-[18:38:17] : [BFCompanion] [42279.223] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:38:18] : [BFCompanion] [42279.724] Step D: scanning for Confirm button by text in dialog option buttons
-[18:38:18] : [BFCompanion] [42279.725] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:38:18] : [BFCompanion] [42280.634] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:38:19] : [BFCompanion] [42280.656] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:38:19] : [BFCompanion] [42280.658] Step D poll 1: found 3 option buttons in dialog
-[18:38:19] : [BFCompanion] [42280.658]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:38:19] : [BFCompanion] [42280.658]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:38:19] : [BFCompanion] [42280.658]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:38:19] : [BFCompanion] [42280.658] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:38:19] : [BFCompanion] [42281.270] Step D: clicked confirm via Return-state detection (ok=true)
-[18:38:19] : [BFCompanion] [42281.270] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:38:19] : [BFCompanion] [42281.310] Step E: trackerVisible=true trackerMatches=true
-[18:38:19] : [BFCompanion] [42281.311] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:38:19] : [BFCompanion] [42281.338] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:38:19] : [BFCompanion] [42281.354] Tweening to enemy spawn (30 studs above)
-[18:38:20] : [BFCompanion] [42282.101] Arrived above enemy spawn â€” scanning for mobs
-[18:38:24] : [BFCompanion] [42286.378] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:38:28] : [BFCompanion] [42290.452] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:38:28] : [BFCompanion] [42290.452] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:38:28] : [BFCompanion] [42290.468]   Full scan fallback: NearbyNPCs=0
-[18:38:29] : [BFCompanion] [42291.446] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:38:34] : [BFCompanion] [42296.458] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:38:39] : [BFCompanion] [42301.508] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:38:41] : [BFCompanion] [42303.008] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:38:44] : [BFCompanion] [42306.575] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:38:46] : [BFCompanion] [42308.236] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:38:49] : [BFCompanion] [42311.579] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:38:53] : [BFCompanion] [42315.143] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:38:53] : [BFCompanion] [42315.143] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:38:53] : [BFCompanion] [42315.157]   Full scan fallback: NearbyNPCs=0
-[18:38:54] : [BFCompanion] [42316.631] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:38:59] : [BFCompanion] [42321.635] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:39:05] : [BFCompanion] [42326.660] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:39:05] : [BFCompanion] [42327.420] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:39:05] : [BFCompanion] [42327.420] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:39:05] : [BFCompanion] [42327.434]   Full scan fallback: NearbyNPCs=0
-[18:39:10] : [BFCompanion] [42331.672] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:39:15] : [BFCompanion] [42336.680] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:39:18] : [BFCompanion] [42340.633] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:39:20] : [BFCompanion] [42341.717] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:39:25] : [BFCompanion] [42346.777] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:39:25] : [BFCompanion] [42347.143] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:39:30] : [BFCompanion] [42351.779] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:39:30] : [BFCompanion] [42352.454] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:39:30] : [BFCompanion] [42352.468] Confirmed: no alive target mobs â€” quest is complete!
-[18:39:30] : [BFCompanion] [42352.468] Re-reading level: Lv 2707
-[18:39:30] : [BFCompanion] [42352.526] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:39:31] : [BFCompanion] [42353.061] Arrived at giver â€” clicking giver NPC
-[18:39:32] : [BFCompanion] [42353.788] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:39:32] : [BFCompanion] [42353.788] Waiting for dialog to open: 0.06s
-[18:39:32] : [BFCompanion] [42353.790] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:39:32] : [BFCompanion] [42353.790] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:39:32] : [BFCompanion] [42353.792] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:39:32] : [BFCompanion] [42353.800] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:39:32] : [BFCompanion] [42353.998] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1503, 522) [spacing=65.0]
-[18:39:32] : [BFCompanion] [42353.998] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1503, 652) [spacing=65.0]
-[18:39:32] : [BFCompanion] [42353.998] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:39:32] : [BFCompanion] [42353.998] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:39:32] : [BFCompanion] [42353.998]   [1] name="Option1" text="°`\rnÏ" pos=(1503,522) optIdx=1
-[18:39:32] : [BFCompanion] [42353.998]   [2] name="Option2" text="Isle Champion" pos=(1503,587) optIdx=2
-[18:39:32] : [BFCompanion] [42353.998]   [3] name="Option3" text="Option" pos=(1503,652) optIdx=3
-[18:39:32] : [BFCompanion] [42353.998] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1503, 587)
-[18:39:32] : [BFCompanion] [42354.619] clickOptionButtonByIndex: clicked (ok=true)
-[18:39:32] : [BFCompanion] [42354.619] Step A SUCCESS: option button clicked
-[18:39:32] : [BFCompanion] [42354.619] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:39:33] : [BFCompanion] [42355.120] Step D: scanning for Confirm button by text in dialog option buttons
-[18:39:33] : [BFCompanion] [42355.121] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:39:34] : [BFCompanion] [42356.029] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:39:34] : [BFCompanion] [42356.051] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:39:34] : [BFCompanion] [42356.051] Step D poll 1: found 3 option buttons in dialog
-[18:39:34] : [BFCompanion] [42356.051]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:39:34] : [BFCompanion] [42356.051]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:39:34] : [BFCompanion] [42356.051]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:39:34] : [BFCompanion] [42356.051] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:39:35] : [BFCompanion] [42356.660] Step D: clicked confirm via Return-state detection (ok=true)
-[18:39:35] : [BFCompanion] [42356.660] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:39:35] : [BFCompanion] [42356.701] Step E: trackerVisible=true trackerMatches=true
-[18:39:35] : [BFCompanion] [42356.701] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:39:35] : [BFCompanion] [42356.728] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:39:35] : [BFCompanion] [42356.742] Tweening to enemy spawn (30 studs above)
-[18:39:35] : [BFCompanion] [42357.453] Arrived above enemy spawn â€” scanning for mobs
-[18:39:40] : [BFCompanion] [42361.794] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:39:44] : [BFCompanion] [42366.256] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:39:44] : [BFCompanion] [42366.256] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:39:44] : [BFCompanion] [42366.268]   Full scan fallback: NearbyNPCs=0
-[18:39:45] : [BFCompanion] [42366.829] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:39:50] : [BFCompanion] [42371.894] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:39:55] : [BFCompanion] [42376.938] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:39:57] : [BFCompanion] [42378.986] Light rescan: +1 kill(s) 1 -> 2, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:40:00] : [BFCompanion] [42381.992] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:40:03] : [BFCompanion] [42384.923] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:40:05] : [BFCompanion] [42386.997] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:40:08] : [BFCompanion] [42389.834] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=3 mismatches=1 dead=2 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:40:08] : [BFCompanion] [42389.835] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:40:08] : [BFCompanion] [42389.847]   Full scan fallback: NearbyNPCs=0
-[18:40:10] : [BFCompanion] [42392.052] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:40:15] : [BFCompanion] [42397.075] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:40:20] : [BFCompanion] [42402.006] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:40:20] : [BFCompanion] [42402.006] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:40:20] : [BFCompanion] [42402.019]   Full scan fallback: NearbyNPCs=0
-[18:40:20] : [BFCompanion] [42402.098] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:40:25] : [BFCompanion] [42407.133] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:40:30] : [BFCompanion] [42412.188] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:40:33] : [BFCompanion] [42415.491] Light rescan: +1 kill(s) 5 -> 6, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:40:35] : [BFCompanion] [42417.267] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:40:40] : [BFCompanion] [42422.276] Light rescan: +1 kill(s) 6 -> 7, found 1 Isle Champion | scanned=3 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=1
-[18:40:40] : [BFCompanion] [42422.276] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:40:45] : [BFCompanion] [42427.291] Quest progress: 7/8 Isle Champion (Defeat 8 Isle Champions (7/8))
-[18:40:46] : [BFCompanion] [42427.976] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:40:46] : [BFCompanion] [42427.988] Confirmed: no alive target mobs â€” quest is complete!
-[18:40:46] : [BFCompanion] [42427.988] Re-reading level: Lv 2708
-[18:40:46] : [BFCompanion] [42428.047] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:40:46] : [BFCompanion] [42428.522] Arrived at giver â€” clicking giver NPC
-[18:40:47] : [BFCompanion] [42429.246] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:40:47] : [BFCompanion] [42429.247] Waiting for dialog to open: 0.06s
-[18:40:47] : [BFCompanion] [42429.249] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:40:47] : [BFCompanion] [42429.249] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:40:47] : [BFCompanion] [42429.250] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:40:47] : [BFCompanion] [42429.258] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:40:47] : [BFCompanion] [42429.460] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="°`\rnÏ") â†’ (1500, 522) [spacing=65.0]
-[18:40:47] : [BFCompanion] [42429.460] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1500, 652) [spacing=65.0]
-[18:40:47] : [BFCompanion] [42429.460] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:40:47] : [BFCompanion] [42429.460] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:40:47] : [BFCompanion] [42429.460]   [1] name="Option1" text="°`\rnÏ" pos=(1500,522) optIdx=1
-[18:40:47] : [BFCompanion] [42429.460]   [2] name="Option2" text="Isle Champion" pos=(1500,587) optIdx=2
-[18:40:47] : [BFCompanion] [42429.460]   [3] name="Option3" text="Option" pos=(1500,652) optIdx=3
-[18:40:47] : [BFCompanion] [42429.460] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1500, 587)
-[18:40:48] : [BFCompanion] [42430.077] clickOptionButtonByIndex: clicked (ok=true)
-[18:40:48] : [BFCompanion] [42430.077] Step A SUCCESS: option button clicked
-[18:40:48] : [BFCompanion] [42430.077] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:40:48] : [BFCompanion] [42430.577] Step D: scanning for Confirm button by text in dialog option buttons
-[18:40:48] : [BFCompanion] [42430.579] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:40:49] : [BFCompanion] [42431.488] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:40:49] : [BFCompanion] [42431.508] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:40:49] : [BFCompanion] [42431.508] Step D poll 1: found 3 option buttons in dialog
-[18:40:49] : [BFCompanion] [42431.508]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:40:49] : [BFCompanion] [42431.508]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:40:49] : [BFCompanion] [42431.508]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:40:49] : [BFCompanion] [42431.508] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:40:50] : [BFCompanion] [42432.119] Step D: clicked confirm via Return-state detection (ok=true)
-[18:40:50] : [BFCompanion] [42432.119] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:40:50] : [BFCompanion] [42432.160] Step E: trackerVisible=true trackerMatches=true
-[18:40:50] : [BFCompanion] [42432.160] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:40:50] : [BFCompanion] [42432.188] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:40:50] : [BFCompanion] [42432.202] Tweening to enemy spawn (30 studs above)
-[18:40:51] : [BFCompanion] [42432.940] Arrived above enemy spawn â€” scanning for mobs
-[18:40:55] : [BFCompanion] [42437.191] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:40:58] : [BFCompanion] [42439.901] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:40:58] : [BFCompanion] [42439.901] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:40:58] : [BFCompanion] [42439.914]   Full scan fallback: NearbyNPCs=0
-[18:41:00] : [BFCompanion] [42442.263] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:41:05] : [BFCompanion] [42447.323] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:41:09] : [BFCompanion] [42451.399] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:41:09] : [BFCompanion] [42451.399] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:41:09] : [BFCompanion] [42451.411]   Full scan fallback: NearbyNPCs=0
-[18:41:10] : [BFCompanion] [42452.396] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:41:15] : [BFCompanion] [42457.438] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:41:17] : [BFCompanion] [42459.302] Light rescan: +1 kill(s) 2 -> 3, found 1 Isle Champion | scanned=4 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=1 dups=0 | NearbyNPCs=1
-[18:41:20] : [BFCompanion] [42462.461] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:41:24] : [BFCompanion] [42465.969] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:41:24] : [BFCompanion] [42465.969] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:41:24] : [BFCompanion] [42465.982]   Full scan fallback: NearbyNPCs=0
-[18:41:25] : [BFCompanion] [42467.530] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:41:30] : [BFCompanion] [42472.574] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:41:35] : [BFCompanion] [42476.705] Light rescan: +1 kill(s) 4 -> 5, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:41:35] : [BFCompanion] [42476.705] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:41:35] : [BFCompanion] [42476.718]   Full scan fallback: NearbyNPCs=0
-[18:41:35] : [BFCompanion] [42477.620] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:41:41] : [BFCompanion] [42482.689] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:41:46] : [BFCompanion] [42487.692] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:41:50] : [BFCompanion] [42491.787] STUCK at 5/8 for 15s â€” re-approaching spawn area to find mobs
-[18:41:50] : [BFCompanion] [42491.800] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:41:50] : [BFCompanion] [42491.878] Tweening to enemy spawn (30 studs above)
-[18:41:50] : [BFCompanion] [42492.468] Arrived above enemy spawn â€” scanning for mobs
-[18:41:51] : [BFCompanion] [42492.699] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:41:56] : [BFCompanion] [42497.738] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:42:01] : [BFCompanion] [42502.791] Quest progress: 5/8 Isle Champion (Defeat 8 Isle Champions (5/8))
-[18:42:01] : [BFCompanion] [42503.394] Light rescan: +1 kill(s) 5 -> 6, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:42:01] : [BFCompanion] [42503.394] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:42:01] : [BFCompanion] [42503.407]   Full scan fallback: NearbyNPCs=0
-[18:42:06] : [BFCompanion] [42507.865] Quest progress: 6/8 Isle Champion (Defeat 8 Isle Champions (6/8))
-[18:42:11] : [BFCompanion] [42512.798] Light rescan: +1 kill(s) 6 -> 7, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:42:11] : [BFCompanion] [42512.798] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:42:11] : [BFCompanion] [42512.815]   Full scan fallback: NearbyNPCs=0
-[18:42:11] : [BFCompanion] [42512.829] QUEST LIKELY COMPLETE: at 7/8 with no alive Isle Champion in range â€” last mob killed
-[18:42:11] : [BFCompanion] [42512.844] Confirmed: no alive target mobs â€” quest is complete!
-[18:42:11] : [BFCompanion] [42512.844] Re-reading level: Lv 2708
-[18:42:11] : [BFCompanion] [42512.865] Found giver: Tiki Quest Giver 2 at Vector3(-16541.0215, 54.7710, 1051.4611)
-[18:42:11] : [BFCompanion] [42513.193] Arrived at giver â€” clicking giver NPC
-[18:42:12] : [BFCompanion] [42513.930] acceptQuestUi START | enemy=Isle Champion option=2 giver=Tiki Quest Giver 2
-[18:42:12] : [BFCompanion] [42513.930] Waiting for dialog to open: 0.06s
-[18:42:12] : [BFCompanion] [42513.932] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
-[18:42:12] : [BFCompanion] [42513.932] Step A: clicking option button by index=2 (enemy=Isle Champion)
-[18:42:12] : [BFCompanion] [42513.933] clickOptionButtonByIndex: dialog container = game.Players.imbig1233445.PlayerGui.Main.Dialogue
-[18:42:12] : [BFCompanion] [42513.939] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
-[18:42:12] : [BFCompanion] [42514.146] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1434, 651) [spacing=64.0]
-[18:42:12] : [BFCompanion] [42514.146] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
-[18:42:12] : [BFCompanion] [42514.146] clickOptionButtonByIndex: found 3 option buttons in dialog:
-[18:42:12] : [BFCompanion] [42514.146]   [1] name="Option1" text="Sun-kissed Warrior" pos=(1434,523) optIdx=1
-[18:42:12] : [BFCompanion] [42514.146]   [2] name="Option2" text="Isle Champion" pos=(1511,587) optIdx=2
-[18:42:12] : [BFCompanion] [42514.146]   [3] name="Option3" text="Option" pos=(1434,651) optIdx=3
-[18:42:12] : [BFCompanion] [42514.146] clickOptionButtonByIndex: PICKED name="Option2" text="Isle Champion" at (1511, 587)
-[18:42:13] : [BFCompanion] [42514.759] clickOptionButtonByIndex: clicked (ok=true)
-[18:42:13] : [BFCompanion] [42514.760] Step A SUCCESS: option button clicked
-[18:42:13] : [BFCompanion] [42514.760] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
-[18:42:13] : [BFCompanion] [42515.261] Step D: scanning for Confirm button by text in dialog option buttons
-[18:42:13] : [BFCompanion] [42515.262] Step D poll 1: dismissing item popup (content="Obtained <Cursed Scroll> x1!", btn="Close") at (959, 679)
-[18:42:14] : [BFCompanion] [42516.170] Step D: dismissed item popup (ok=true) â€” waiting for quest Confirm
-[18:42:14] : [BFCompanion] [42516.192] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
-[18:42:14] : [BFCompanion] [42516.192] Step D poll 1: found 3 option buttons in dialog
-[18:42:14] : [BFCompanion] [42516.192]   [1] name="Option1" text="°`\rnÏ" pos=(1483,523)
-[18:42:14] : [BFCompanion] [42516.192]   [2] name="Option2" text="Return" pos=(1483,587)
-[18:42:14] : [BFCompanion] [42516.192]   [3] name="Option3" text="Option" pos=(1483,651)
-[18:42:14] : [BFCompanion] [42516.192] Step D: Confirm state detected (Option2=Return) â€” clicking Option1 "°`\rnÏ" at (1483, 523) as confirm
-[18:42:15] : [BFCompanion] [42516.803] Step D: clicked confirm via Return-state detection (ok=true)
-[18:42:15] : [BFCompanion] [42516.804] Step E: waiting for quest tracker to show enemy=Isle Champion
-[18:42:15] : [BFCompanion] [42516.844] Step E: trackerVisible=true trackerMatches=true
-[18:42:15] : [BFCompanion] [42516.844] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
-[18:42:15] : [BFCompanion] [42516.877] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:42:15] : [BFCompanion] [42516.893] Tweening to enemy spawn (30 studs above)
-[18:42:16] : [BFCompanion] [42517.688] Arrived above enemy spawn â€” scanning for mobs
-[18:42:20] : [BFCompanion] [42521.881] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:42:25] : [BFCompanion] [42526.911] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:42:30] : [BFCompanion] [42531.937] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:42:30] : [BFCompanion] [42531.937] STUCK at 0/8 for 15s â€” re-approaching spawn area to find mobs
-[18:42:30] : [BFCompanion] [42531.950] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:42:30] : [BFCompanion] [42532.033] Tweening to enemy spawn (30 studs above)
-[18:42:30] : [BFCompanion] [42532.192] Arrived above enemy spawn â€” scanning for mobs
-[18:42:35] : [BFCompanion] [42536.948] Quest progress: 0/8 Isle Champion (Defeat 8 Isle Champions (0/8))
-[18:42:38] : [BFCompanion] [42540.457] Light rescan: +1 kill(s) 0 -> 1, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:42:38] : [BFCompanion] [42540.457] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:42:38] : [BFCompanion] [42540.471]   Full scan fallback: NearbyNPCs=0
-[18:42:40] : [BFCompanion] [42542.031] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:42:45] : [BFCompanion] [42547.111] Quest progress: 1/8 Isle Champion (Defeat 8 Isle Champions (1/8))
-[18:42:46] : [BFCompanion] [42548.581] Light rescan: +1 kill(s) 1 -> 2, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:42:46] : [BFCompanion] [42548.581] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:42:46] : [BFCompanion] [42548.594]   Full scan fallback: NearbyNPCs=0
-[18:42:50] : [BFCompanion] [42552.120] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:42:55] : [BFCompanion] [42557.132] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:43:00] : [BFCompanion] [42562.168] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:43:01] : [BFCompanion] [42563.579] STUCK at 2/8 for 15s â€” re-approaching spawn area to find mobs
-[18:43:01] : [BFCompanion] [42563.591] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:43:02] : [BFCompanion] [42563.672] Tweening to enemy spawn (30 studs above)
-[18:43:02] : [BFCompanion] [42564.223] Arrived above enemy spawn â€” scanning for mobs
-[18:43:05] : [BFCompanion] [42567.175] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:43:10] : [BFCompanion] [42572.223] Quest progress: 2/8 Isle Champion (Defeat 8 Isle Champions (2/8))
-[18:43:14] : [BFCompanion] [42576.591] Light rescan: +1 kill(s) 2 -> 3, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:43:14] : [BFCompanion] [42576.591] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:43:14] : [BFCompanion] [42576.604]   Full scan fallback: NearbyNPCs=0
-[18:43:15] : [BFCompanion] [42577.255] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:43:20] : [BFCompanion] [42582.304] Quest progress: 3/8 Isle Champion (Defeat 8 Isle Champions (3/8))
-[18:43:23] : [BFCompanion] [42584.650] Light rescan: +1 kill(s) 3 -> 4, found 0 Isle Champion | scanned=2 mismatches=1 dead=1 noHum=0 noHead=0 noPos=0 outOfRange=0 dups=0 | NearbyNPCs=0
-[18:43:23] : [BFCompanion] [42584.650] Light rescan found 0 â€” triggering full scanNPCs() fallback
-[18:43:23] : [BFCompanion] [42584.665]   Full scan fallback: NearbyNPCs=0
-[18:43:25] : [BFCompanion] [42587.349] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:30] : [BFCompanion] [42592.350] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:35] : [BFCompanion] [42597.356] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:38] : [BFCompanion] [42599.722] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:43:38] : [BFCompanion] [42599.737] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:43:38] : [BFCompanion] [42599.823] Tweening to enemy spawn (30 studs above)
-[18:43:38] : [BFCompanion] [42600.461] Arrived above enemy spawn â€” scanning for mobs
-[18:43:40] : [BFCompanion] [42602.418] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:45] : [BFCompanion] [42607.438] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:50] : [BFCompanion] [42612.443] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:43:53] : [BFCompanion] [42614.739] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:43:53] : [BFCompanion] [42614.752] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:43:53] : [BFCompanion] [42614.837] Tweening to enemy spawn (30 studs above)
-[18:43:53] : [BFCompanion] [42614.983] Arrived above enemy spawn â€” scanning for mobs
-[18:43:55] : [BFCompanion] [42617.518] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:00] : [BFCompanion] [42622.525] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:05] : [BFCompanion] [42627.605] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:08] : [BFCompanion] [42629.753] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:44:08] : [BFCompanion] [42629.769] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:44:08] : [BFCompanion] [42629.853] Tweening to enemy spawn (30 studs above)
-[18:44:08] : [BFCompanion] [42629.984] Arrived above enemy spawn â€” scanning for mobs
-[18:44:11] : [BFCompanion] [42632.652] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:16] : [BFCompanion] [42637.724] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:21] : [BFCompanion] [42642.734] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:23] : [BFCompanion] [42644.776] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:44:23] : [BFCompanion] [42644.792] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:44:23] : [BFCompanion] [42644.876] Tweening to enemy spawn (30 studs above)
-[18:44:23] : [BFCompanion] [42645.042] Arrived above enemy spawn â€” scanning for mobs
-[18:44:26] : [BFCompanion] [42647.772] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:31] : [BFCompanion] [42652.794] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:36] : [BFCompanion] [42657.824] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:38] : [BFCompanion] [42659.794] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:44:38] : [BFCompanion] [42659.809] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:44:38] : [BFCompanion] [42659.894] Tweening to enemy spawn (30 studs above)
-[18:44:38] : [BFCompanion] [42660.030] Arrived above enemy spawn â€” scanning for mobs
-[18:44:41] : [BFCompanion] [42662.892] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:46] : [BFCompanion] [42667.908] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:51] : [BFCompanion] [42672.939] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:44:53] : [BFCompanion] [42674.828] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:44:53] : [BFCompanion] [42674.844] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:44:53] : [BFCompanion] [42674.929] Tweening to enemy spawn (30 studs above)
-[18:44:53] : [BFCompanion] [42675.117] Arrived above enemy spawn â€” scanning for mobs
-[18:44:56] : [BFCompanion] [42677.991] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:01] : [BFCompanion] [42683.009] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:06] : [BFCompanion] [42688.035] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:08] : [BFCompanion] [42689.842] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:45:08] : [BFCompanion] [42689.858] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:45:08] : [BFCompanion] [42689.933] Tweening to enemy spawn (30 studs above)
-[18:45:08] : [BFCompanion] [42690.152] Arrived above enemy spawn â€” scanning for mobs
-[18:45:11] : [BFCompanion] [42693.100] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:16] : [BFCompanion] [42698.114] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:21] : [BFCompanion] [42703.116] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:23] : [BFCompanion] [42704.915] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:45:23] : [BFCompanion] [42704.927] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:45:23] : [BFCompanion] [42705.008] Tweening to enemy spawn (30 studs above)
-[18:45:23] : [BFCompanion] [42705.132] Arrived above enemy spawn â€” scanning for mobs
-[18:45:26] : [BFCompanion] [42708.194] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:31] : [BFCompanion] [42713.229] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:36] : [BFCompanion] [42718.243] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:38] : [BFCompanion] [42719.961] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:45:38] : [BFCompanion] [42719.977] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:45:38] : [BFCompanion] [42720.056] Tweening to enemy spawn (30 studs above)
-[18:45:38] : [BFCompanion] [42720.163] Arrived above enemy spawn â€” scanning for mobs
-[18:45:41] : [BFCompanion] [42723.284] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:46] : [BFCompanion] [42728.292] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:51] : [BFCompanion] [42733.308] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:45:53] : [BFCompanion] [42734.968] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:45:53] : [BFCompanion] [42734.984] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:45:53] : [BFCompanion] [42735.064] Tweening to enemy spawn (30 studs above)
-[18:45:53] : [BFCompanion] [42735.205] Arrived above enemy spawn â€” scanning for mobs
-[18:45:56] : [BFCompanion] [42738.349] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:01] : [BFCompanion] [42743.351] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:06] : [BFCompanion] [42748.427] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:08] : [BFCompanion] [42749.981] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:46:08] : [BFCompanion] [42749.995] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:46:08] : [BFCompanion] [42750.078] Tweening to enemy spawn (30 studs above)
-[18:46:08] : [BFCompanion] [42750.216] Arrived above enemy spawn â€” scanning for mobs
-[18:46:11] : [BFCompanion] [42753.464] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:16] : [BFCompanion] [42758.470] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:21] : [BFCompanion] [42763.473] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:23] : [BFCompanion] [42765.028] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:46:23] : [BFCompanion] [42765.043] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:46:23] : [BFCompanion] [42765.130] Tweening to enemy spawn (30 studs above)
-[18:46:23] : [BFCompanion] [42765.267] Arrived above enemy spawn â€” scanning for mobs
-[18:46:26] : [BFCompanion] [42768.512] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:31] : [BFCompanion] [42773.530] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:36] : [BFCompanion] [42778.565] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:38] : [BFCompanion] [42780.064] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:46:38] : [BFCompanion] [42780.078] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:46:38] : [BFCompanion] [42780.160] Tweening to enemy spawn (30 studs above)
-[18:46:38] : [BFCompanion] [42780.287] Arrived above enemy spawn â€” scanning for mobs
-[18:46:41] : [BFCompanion] [42783.645] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:47] : [BFCompanion] [42788.651] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:52] : [BFCompanion] [42793.683] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:46:53] : [BFCompanion] [42795.072] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:46:53] : [BFCompanion] [42795.086] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:46:53] : [BFCompanion] [42795.166] Tweening to enemy spawn (30 studs above)
-[18:46:53] : [BFCompanion] [42795.317] Arrived above enemy spawn â€” scanning for mobs
-[18:46:57] : [BFCompanion] [42798.703] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:02] : [BFCompanion] [42803.756] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:07] : [BFCompanion] [42808.760] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:08] : [BFCompanion] [42810.074] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:47:08] : [BFCompanion] [42810.088] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:47:08] : [BFCompanion] [42810.169] Tweening to enemy spawn (30 studs above)
-[18:47:08] : [BFCompanion] [42810.300] Arrived above enemy spawn â€” scanning for mobs
-[18:47:12] : [BFCompanion] [42813.820] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:17] : [BFCompanion] [42818.857] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:22] : [BFCompanion] [42823.876] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:23] : [BFCompanion] [42825.128] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:47:23] : [BFCompanion] [42825.144] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:47:23] : [BFCompanion] [42825.225] Tweening to enemy spawn (30 studs above)
-[18:47:23] : [BFCompanion] [42825.416] Arrived above enemy spawn â€” scanning for mobs
-[18:47:27] : [BFCompanion] [42828.877] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:32] : [BFCompanion] [42833.896] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:37] : [BFCompanion] [42838.953] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:38] : [BFCompanion] [42840.183] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:47:38] : [BFCompanion] [42840.198] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:47:38] : [BFCompanion] [42840.289] Tweening to enemy spawn (30 studs above)
-[18:47:38] : [BFCompanion] [42840.485] Arrived above enemy spawn â€” scanning for mobs
-[18:47:42] : [BFCompanion] [42843.991] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:47] : [BFCompanion] [42849.023] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:52] : [BFCompanion] [42854.071] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:47:53] : [BFCompanion] [42855.216] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:47:53] : [BFCompanion] [42855.235] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:47:53] : [BFCompanion] [42855.316] Tweening to enemy spawn (30 studs above)
-[18:47:53] : [BFCompanion] [42855.431] Arrived above enemy spawn â€” scanning for mobs
-[18:47:57] : [BFCompanion] [42859.089] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:02] : [BFCompanion] [42864.111] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:07] : [BFCompanion] [42869.117] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:08] : [BFCompanion] [42870.254] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:48:08] : [BFCompanion] [42870.269] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:48:08] : [BFCompanion] [42870.355] Tweening to enemy spawn (30 studs above)
-[18:48:08] : [BFCompanion] [42870.530] Arrived above enemy spawn â€” scanning for mobs
-[18:48:12] : [BFCompanion] [42874.120] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:17] : [BFCompanion] [42879.136] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:22] : [BFCompanion] [42884.191] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:23] : [BFCompanion] [42885.336] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:48:23] : [BFCompanion] [42885.352] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:48:23] : [BFCompanion] [42885.434] Tweening to enemy spawn (30 studs above)
-[18:48:23] : [BFCompanion] [42885.579] Arrived above enemy spawn â€” scanning for mobs
-[18:48:27] : [BFCompanion] [42889.268] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:32] : [BFCompanion] [42894.277] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:37] : [BFCompanion] [42899.306] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:38] : [BFCompanion] [42900.396] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:48:38] : [BFCompanion] [42900.411] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:48:38] : [BFCompanion] [42900.490] Tweening to enemy spawn (30 studs above)
-[18:48:38] : [BFCompanion] [42900.611] Arrived above enemy spawn â€” scanning for mobs
-[18:48:42] : [BFCompanion] [42904.316] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:47] : [BFCompanion] [42909.332] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:52] : [BFCompanion] [42914.375] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:48:53] : [BFCompanion] [42915.460] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:48:53] : [BFCompanion] [42915.474] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:48:53] : [BFCompanion] [42915.556] Tweening to enemy spawn (30 studs above)
-[18:48:54] : [BFCompanion] [42915.723] Arrived above enemy spawn â€” scanning for mobs
-[18:48:57] : [BFCompanion] [42919.405] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:02] : [BFCompanion] [42924.414] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:07] : [BFCompanion] [42929.473] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:08] : [BFCompanion] [42930.473] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:49:08] : [BFCompanion] [42930.489] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:49:08] : [BFCompanion] [42930.574] Tweening to enemy spawn (30 studs above)
-[18:49:09] : [BFCompanion] [42930.766] Arrived above enemy spawn â€” scanning for mobs
-[18:49:12] : [BFCompanion] [42934.530] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:17] : [BFCompanion] [42939.595] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:22] : [BFCompanion] [42944.631] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:23] : [BFCompanion] [42945.530] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:49:23] : [BFCompanion] [42945.545] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:49:23] : [BFCompanion] [42945.627] Tweening to enemy spawn (30 studs above)
-[18:49:24] : [BFCompanion] [42945.776] Arrived above enemy spawn â€” scanning for mobs
-[18:49:28] : [BFCompanion] [42949.690] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:33] : [BFCompanion] [42954.719] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:38] : [BFCompanion] [42959.736] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:38] : [BFCompanion] [42960.556] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:49:38] : [BFCompanion] [42960.571] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:49:39] : [BFCompanion] [42960.656] Tweening to enemy spawn (30 studs above)
-[18:49:39] : [BFCompanion] [42960.816] Arrived above enemy spawn â€” scanning for mobs
-[18:49:43] : [BFCompanion] [42964.774] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:48] : [BFCompanion] [42969.802] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:53] : [BFCompanion] [42974.826] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:49:53] : [BFCompanion] [42975.562] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:49:53] : [BFCompanion] [42975.577] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:49:54] : [BFCompanion] [42975.659] Tweening to enemy spawn (30 studs above)
-[18:49:54] : [BFCompanion] [42975.797] Arrived above enemy spawn â€” scanning for mobs
-[18:49:58] : [BFCompanion] [42979.843] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:03] : [BFCompanion] [42984.869] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:08] : [BFCompanion] [42989.885] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:08] : [BFCompanion] [42990.623] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:50:08] : [BFCompanion] [42990.635] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:50:09] : [BFCompanion] [42990.718] Tweening to enemy spawn (30 studs above)
-[18:50:09] : [BFCompanion] [42990.833] Arrived above enemy spawn â€” scanning for mobs
-[18:50:13] : [BFCompanion] [42994.916] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:18] : [BFCompanion] [42999.955] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:23] : [BFCompanion] [43004.977] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:23] : [BFCompanion] [43005.631] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:50:23] : [BFCompanion] [43005.643] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:50:24] : [BFCompanion] [43005.728] Tweening to enemy spawn (30 studs above)
-[18:50:24] : [BFCompanion] [43005.957] Arrived above enemy spawn â€” scanning for mobs
-[18:50:28] : [BFCompanion] [43009.997] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:33] : [BFCompanion] [43015.064] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:38] : [BFCompanion] [43020.075] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:39] : [BFCompanion] [43020.660] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:50:39] : [BFCompanion] [43020.676] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:50:39] : [BFCompanion] [43020.753] Tweening to enemy spawn (30 studs above)
-[18:50:39] : [BFCompanion] [43020.945] Arrived above enemy spawn â€” scanning for mobs
-[18:50:43] : [BFCompanion] [43025.098] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:48] : [BFCompanion] [43030.110] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:53] : [BFCompanion] [43035.122] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:50:54] : [BFCompanion] [43035.721] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:50:54] : [BFCompanion] [43035.737] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:50:54] : [BFCompanion] [43035.820] Tweening to enemy spawn (30 studs above)
-[18:50:54] : [BFCompanion] [43035.971] Arrived above enemy spawn â€” scanning for mobs
-[18:50:58] : [BFCompanion] [43040.172] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:03] : [BFCompanion] [43045.251] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:08] : [BFCompanion] [43050.257] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:09] : [BFCompanion] [43050.746] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:51:09] : [BFCompanion] [43050.759] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:51:09] : [BFCompanion] [43050.845] Tweening to enemy spawn (30 studs above)
-[18:51:09] : [BFCompanion] [43050.956] Arrived above enemy spawn â€” scanning for mobs
-[18:51:13] : [BFCompanion] [43055.262] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:18] : [BFCompanion] [43060.333] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:23] : [BFCompanion] [43065.347] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:24] : [BFCompanion] [43065.752] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:51:24] : [BFCompanion] [43065.768] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:51:24] : [BFCompanion] [43065.849] Tweening to enemy spawn (30 studs above)
-[18:51:24] : [BFCompanion] [43065.987] Arrived above enemy spawn â€” scanning for mobs
-[18:51:28] : [BFCompanion] [43070.416] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:33] : [BFCompanion] [43075.440] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:38] : [BFCompanion] [43080.511] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:39] : [BFCompanion] [43080.755] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:51:39] : [BFCompanion] [43080.771] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:51:39] : [BFCompanion] [43080.851] Tweening to enemy spawn (30 studs above)
-[18:51:39] : [BFCompanion] [43081.060] Arrived above enemy spawn â€” scanning for mobs
-[18:51:43] : [BFCompanion] [43085.560] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:48] : [BFCompanion] [43090.594] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:53] : [BFCompanion] [43095.616] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:51:54] : [BFCompanion] [43095.778] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:51:54] : [BFCompanion] [43095.793] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:51:54] : [BFCompanion] [43095.876] Tweening to enemy spawn (30 studs above)
-[18:51:54] : [BFCompanion] [43095.996] Arrived above enemy spawn â€” scanning for mobs
-[18:51:58] : [BFCompanion] [43100.637] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:04] : [BFCompanion] [43105.649] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:09] : [BFCompanion] [43110.696] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:09] : [BFCompanion] [43110.780] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:52:09] : [BFCompanion] [43110.795] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:52:09] : [BFCompanion] [43110.876] Tweening to enemy spawn (30 studs above)
-[18:52:09] : [BFCompanion] [43111.013] Arrived above enemy spawn â€” scanning for mobs
-[18:52:14] : [BFCompanion] [43115.730] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:19] : [BFCompanion] [43120.748] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:24] : [BFCompanion] [43125.753] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
-[18:52:24] : [BFCompanion] [43125.838] STUCK at 4/8 for 15s â€” re-approaching spawn area to find mobs
-[18:52:24] : [BFCompanion] [43125.854] Fresh scan: 0 NPCs in range (expanded to 2000 studs)
-[18:52:24] : [BFCompanion] [43125.930] Tweening to enemy spawn (30 studs above)
-[18:52:24] : [BFCompanion] [43126.069] Arrived above enemy spawn â€” scanning for mobs
-[18:52:29] : [BFCompanion] [43130.796] Quest progress: 4/8 Isle Champion (Defeat 8 Isle Champions (4/8))
+[16:14:09] : [BFCompanion] [120031.630] === Companion initialized ===
+[16:14:09] : [BFCompanion] [120031.630] Viewport: 1920 x 1080
+[16:14:09] : [BFCompanion] [120031.630] Mouse variant: (undetected yet)
+[16:14:09] : [BFCompanion] [120031.630] Level: 0 | Route enemy: none | Island: none
+[16:14:09] : [BFCompanion] [120031.630] Race: Human V1 (internal: Human)
+[16:14:11] : [BFCompanion] [120033.570] Found giver: Colosseum Quest Giver at Vector3(-1580.0470, 6.3500, -2986.4751)
+[16:14:12] : [BFCompanion] [120034.177] Arrived at giver â€” clicking giver NPC
+[16:14:12] : [BFCompanion] [120034.177] safeMouseMoveAbs: using variant 'noextra' (mousemoveabs(x, y)) for (910, 527)
+[16:14:13] : [BFCompanion] [120034.906] acceptQuestUi START | enemy=Gladiator option=2 giver=Colosseum Quest Giver
+[16:14:13] : [BFCompanion] [120034.906] Waiting for dialog to open: 0.06s
+[16:14:13] : [BFCompanion] [120034.907] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
+[16:14:13] : [BFCompanion] [120034.907] Step A: clicking option button by index=2 (enemy=Gladiator)
+[16:14:13] : [BFCompanion] [120034.908] clickOptionButtonByIndex: dialog container = game.Players.cc_yw.PlayerGui.Main.Dialogue
+[16:14:13] : [BFCompanion] [120034.915] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
+[16:14:13] : [BFCompanion] [120035.111] getOptionButtonsInDialog: estimating position for Option1 (optIdx=1, text="Confirm") â†’ (1504, 522) [spacing=65.0]
+[16:14:13] : [BFCompanion] [120035.112] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1504, 652) [spacing=65.0]
+[16:14:13] : [BFCompanion] [120035.112] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
+[16:14:13] : [BFCompanion] [120035.112] clickOptionButtonByIndex: found 3 option buttons in dialog:
+[16:14:13] : [BFCompanion] [120035.112]   [1] name="Option1" text="Confirm" pos=(1504,522) optIdx=1
+[16:14:13] : [BFCompanion] [120035.112]   [2] name="Option2" text="Gladiator" pos=(1504,587) optIdx=2
+[16:14:13] : [BFCompanion] [120035.112]   [3] name="Option3" text="Option" pos=(1504,652) optIdx=3
+[16:14:13] : [BFCompanion] [120035.112] clickOptionButtonByIndex: PICKED name="Option2" text="Gladiator" at (1504, 587)
+[16:14:14] : [BFCompanion] [120035.736] clickOptionButtonByIndex: clicked (ok=true)
+[16:14:14] : [BFCompanion] [120035.736] Step A SUCCESS: option button clicked
+[16:14:14] : [BFCompanion] [120035.736] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
+[16:14:14] : [BFCompanion] [120036.237] Step D: scanning for Confirm button by text in dialog option buttons
+[16:14:14] : [BFCompanion] [120036.237] Step D poll 1: Main.Confirm VISIBLE but Main.Dialogue still open (content="Obtained <Cursed Scroll> x1!") â€” waiting for Dialogue to close
+[16:14:14] : [BFCompanion] [120036.252] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
+[16:14:14] : [BFCompanion] [120036.252] Step D poll 1: found 3 option buttons in dialog
+[16:14:14] : [BFCompanion] [120036.252]   [1] name="Option1" text="Confirm" pos=(1483,523)
+[16:14:14] : [BFCompanion] [120036.252] Step D: FOUND Confirm button [1] "Confirm" at (1483, 523) â€” clicking
+[16:14:15] : [BFCompanion] [120036.867] Step D: clicked Confirm (ok=true)
+[16:14:15] : [BFCompanion] [120036.867] Step E: waiting for quest tracker to show enemy=Gladiator
+[16:14:15] : [BFCompanion] [120036.908] Step E: trackerVisible=true trackerMatches=true
+[16:14:15] : [BFCompanion] [120036.908] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
+[16:14:15] : [BFCompanion] [120036.916] Quest progress: 7/8 Gladiator (Defeat 8 Gladiators (7/8))
+[16:14:15] : [BFCompanion] [120036.919] Tweening to enemy spawn (30 studs above)
+[16:14:16] : [BFCompanion] [120037.747] Arrived above enemy spawn â€” scanning for mobs
+[16:14:17] : [BFCompanion] [120039.269] Quest tracker text does NOT match route enemy â€” re-accepting
+[16:14:17] : [BFCompanion] [120039.269]   Tracker text: Defeat 7 Toga Warriors (0/7)
+[16:14:17] : [BFCompanion] [120039.269]   Expected enemy: Gladiator
+[16:14:17] : [BFCompanion] [120039.350] Found giver: Colosseum Quest Giver at Vector3(-1580.0470, 6.3500, -2986.4751)
+[16:14:18] : [BFCompanion] [120039.770] Arrived at giver â€” clicking giver NPC
+[16:14:18] : [BFCompanion] [120040.496] acceptQuestUi START | enemy=Gladiator option=2 giver=Colosseum Quest Giver
+[16:14:18] : [BFCompanion] [120040.496] Waiting for dialog to open: 0.06s
+[16:14:18] : [BFCompanion] [120040.497] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
+[16:14:18] : [BFCompanion] [120040.498] Step A: clicking option button by index=2 (enemy=Gladiator)
+[16:14:18] : [BFCompanion] [120040.498] clickOptionButtonByIndex: dialog container = game.Players.cc_yw.PlayerGui.Main.Dialogue
+[16:14:18] : [BFCompanion] [120040.505] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
+[16:14:19] : [BFCompanion] [120040.701] clickOptionButtonByIndex: attempt 2 â€” found 0 buttons with positions, retrying
+[16:14:19] : [BFCompanion] [120040.902] clickOptionButtonByIndex: attempt 3 â€” found 0 buttons with positions, retrying
+[16:14:19] : [BFCompanion] [120041.103] clickOptionButtonByIndex: attempt 4 â€” found 0 buttons with positions, retrying
+[16:14:19] : [BFCompanion] [120041.303] clickOptionButtonByIndex: attempt 5 â€” found 0 buttons with positions, retrying
+[16:14:19] : [BFCompanion] [120041.504] clickOptionButtonByIndex: attempt 6 â€” found 0 buttons with positions, retrying
+[16:14:20] : [BFCompanion] [120041.705] clickOptionButtonByIndex: attempt 7 â€” found 0 buttons with positions, retrying
+[16:14:20] : [BFCompanion] [120041.904] clickOptionButtonByIndex: attempt 8 â€” found 0 buttons with positions, retrying
+[16:14:20] : [BFCompanion] [120042.105] clickOptionButtonByIndex: attempt 9 â€” found 0 buttons with positions, retrying
+[16:14:20] : [BFCompanion] [120042.306] clickOptionButtonByIndex: attempt 10 â€” found 0 buttons with positions, retrying
+[16:14:20] : [BFCompanion] [120042.503] clickOptionButtonByIndex: found 0 option buttons in dialog:
+[16:14:20] : [BFCompanion] [120042.503] clickOptionButtonByIndex: target button (optIdx=2, enemy=Gladiator) never rendered after 10 retries â€” aborting
+[16:14:20] : [BFCompanion] [120042.503] Step A FAILED: could not click option button by index
+[16:14:20] : [BFCompanion] [120042.503] Step A FAILED: dumping ALL visible GUI text for diagnosis:
+[16:14:20] : [BFCompanion] [120042.503] === DUMPING ALL GUI TEXT OBJECTS ===
+[16:14:20] : [BFCompanion] [120042.504] ROOT: PlayerGui (class=PlayerGui)
+[16:14:20] : [BFCompanion] [120042.560]   [TextLabel] name="Title" text="+" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.More.Title
+[16:14:20] : [BFCompanion] [120042.560]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.More.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.561]   [TextLabel] name="Number" text="`" visible=nil valid=false pos=(624,1024) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.More.Number
+[16:14:20] : [BFCompanion] [120042.561]   [TextLabel] name="TextLabel" text="`" visible=nil valid=false pos=(622,1022) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.More.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.562]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.562]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.562]   [TextLabel] name="Number" text="2" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.563]   [TextLabel] name="TextLabel" text="2" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.563]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.563]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.565]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.565]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.566]   [TextLabel] name="Number" text="3" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.567]   [TextLabel] name="TextLabel" text="3" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.567]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.567]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.570]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.570]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.571]   [TextLabel] name="Number" text="4" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.571]   [TextLabel] name="TextLabel" text="4" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.571]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.571]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.573]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.573]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.575]   [TextLabel] name="Number" text="5" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.575]   [TextLabel] name="TextLabel" text="5" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.575]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.575]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.577]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.577]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.578]   [TextLabel] name="Number" text="6" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.578]   [TextLabel] name="TextLabel" text="6" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.578]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.578]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.580]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.581]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.581]   [TextLabel] name="Number" text="7" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.581]   [TextLabel] name="TextLabel" text="7" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.583]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.584]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.585]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.585]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.586]   [TextLabel] name="Number" text="8" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.586]   [TextLabel] name="TextLabel" text="8" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.586]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.587]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.588]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(647,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.589]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(645,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.589]   [TextLabel] name="Number" text="9" visible=nil valid=false pos=(624,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.591]   [TextLabel] name="TextLabel" text="9" visible=nil valid=false pos=(622,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.591]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(657,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.592]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(655,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.593]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(962,1042) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title
+[16:14:20] : [BFCompanion] [120042.594]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(960,1040) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.594]   [TextLabel] name="Number" text="1" visible=nil valid=false pos=(939,1019) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number
+[16:14:20] : [BFCompanion] [120042.594]   [TextLabel] name="TextLabel" text="1" visible=nil valid=false pos=(937,1017) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.595]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(972,1064) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack
+[16:14:20] : [BFCompanion] [120042.595]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(970,1062) path=game.Players.cc_yw.PlayerGui.Backpack.Hotbar.Container.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.597]   [TextLabel] name="HintText" text="Remove From Hotbar" visible=nil valid=false pos=(796,824) path=game.Players.cc_yw.PlayerGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:20] : [BFCompanion] [120042.599]   [TextLabel] name="HintText" text="Select/Swap" visible=nil valid=false pos=(1019,824) path=game.Players.cc_yw.PlayerGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:20] : [BFCompanion] [120042.600]   [TextLabel] name="HintText" text="Close Backpack" visible=nil valid=false pos=(1218,824) path=game.Players.cc_yw.PlayerGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:20] : [BFCompanion] [120042.601]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(992,601) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Title
+[16:14:20] : [BFCompanion] [120042.602]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(990,599) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.602]   [TextLabel] name="Number" text="failed to fetch text" visible=nil valid=false pos=(969,578) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Number
+[16:14:20] : [BFCompanion] [120042.602]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(967,576) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Number.TextLabel
+[16:14:20] : [BFCompanion] [120042.602]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(1002,623) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Stack
+[16:14:20] : [BFCompanion] [120042.603]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1000,621) path=game.Players.cc_yw.PlayerGui.Backpack.Template.Stack.TextLabel
+[16:14:20] : [BFCompanion] [120042.605]   [TextLabel] name="Duration" text="00:00:00" visible=nil valid=false pos=(416,967) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Container.Consumables.Template.Duration
+[16:14:20] : [BFCompanion] [120042.607]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(562,944) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Container.Consumables.ExpandedButton.TextButton.TextLabel
+[16:14:20] : [BFCompanion] [120042.609]   [TextLabel] name="Description" text="Grants invisibility that varies between opaque and transparent" visible=nil valid=false pos=(1075,794) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Tooltip.Description
+[16:14:20] : [BFCompanion] [120042.609]   [TextLabel] name="Timer" text="00:00" visible=nil valid=false pos=(1075,748) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Tooltip.Timer
+[16:14:20] : [BFCompanion] [120042.610]   [TextLabel] name="Queuedheader" text="Queued:" visible=nil valid=false pos=(1075,839) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Tooltip.Queuedheader
+[16:14:20] : [BFCompanion] [120042.610]   [TextLabel] name="ConsumableName" text="Invisibility IV Potion" visible=nil valid=false pos=(1075,709) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Tooltip.ConsumableName
+[16:14:20] : [BFCompanion] [120042.611]   [TextLabel] name="QueuedRef" text="Tier III: 00:30" visible=nil valid=false pos=(1075,861) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Tooltip.QueuedRef
+[16:14:20] : [BFCompanion] [120042.612]   [TextLabel] name="TextLabel" text="Consumables" visible=nil valid=false pos=(960,282) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Window.Title.TextLabel
+[16:14:20] : [BFCompanion] [120042.613]   [TextLabel] name="TextLabel" text="Consumables" visible=nil valid=false pos=(960,280) path=game.Players.cc_yw.PlayerGui.ConsumableStats.Window.Title.TextLabel.TextLabel
+[16:14:20] : [BFCompanion] [120042.615]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Confirm.TextLabel
+[16:14:20] : [BFCompanion] [120042.616]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Confirm.TextLabel.TextLabel
+[16:14:20] : [BFCompanion] [120042.616]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Select.TextLabel
+[16:14:20] : [BFCompanion] [120042.617]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Select.TextLabel.TextLabel
+[16:14:20] : [BFCompanion] [120042.617]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Back.TextLabel
+[16:14:20] : [BFCompanion] [120042.618]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Info.Back.TextLabel.TextLabel
+[16:14:20] : [BFCompanion] [120042.619]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.ItemCount
+[16:14:20] : [BFCompanion] [120042.620]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.Plus
+[16:14:20] : [BFCompanion] [120042.623]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.RedBanner.BannerText
+[16:14:20] : [BFCompanion] [120042.623]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:20] : [BFCompanion] [120042.624]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.Counter.Shadow
+[16:14:20] : [BFCompanion] [120042.625]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:20] : [BFCompanion] [120042.625]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemLine1
+[16:14:20] : [BFCompanion] [120042.625]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:20] : [BFCompanion] [120042.626]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemLine2
+[16:14:20] : [BFCompanion] [120042.626]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:20] : [BFCompanion] [120042.627]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemName
+[16:14:20] : [BFCompanion] [120042.627]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.1.Filled.ItemInformation.ItemName.TextLabel
+[16:14:20] : [BFCompanion] [120042.629]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.ItemCount
+[16:14:20] : [BFCompanion] [120042.629]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.Plus
+[16:14:20] : [BFCompanion] [120042.633]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.RedBanner.BannerText
+[16:14:20] : [BFCompanion] [120042.634]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:20] : [BFCompanion] [120042.634]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.Counter.Shadow
+[16:14:20] : [BFCompanion] [120042.635]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:20] : [BFCompanion] [120042.635]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemLine1
+[16:14:20] : [BFCompanion] [120042.635]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:20] : [BFCompanion] [120042.636]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemLine2
+[16:14:20] : [BFCompanion] [120042.636]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:20] : [BFCompanion] [120042.637]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemName
+[16:14:20] : [BFCompanion] [120042.637]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.2.Filled.ItemInformation.ItemName.TextLabel
+[16:14:20] : [BFCompanion] [120042.640]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.ItemCount
+[16:14:20] : [BFCompanion] [120042.641]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.Plus
+[16:14:20] : [BFCompanion] [120042.643]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.RedBanner.BannerText
+[16:14:20] : [BFCompanion] [120042.643]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:20] : [BFCompanion] [120042.644]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.Counter.Shadow
+[16:14:20] : [BFCompanion] [120042.644]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:20] : [BFCompanion] [120042.645]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemLine1
+[16:14:20] : [BFCompanion] [120042.645]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:20] : [BFCompanion] [120042.645]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemLine2
+[16:14:20] : [BFCompanion] [120042.648]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:20] : [BFCompanion] [120042.648]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemName
+[16:14:20] : [BFCompanion] [120042.648]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.3.Filled.ItemInformation.ItemName.TextLabel
+[16:14:20] : [BFCompanion] [120042.649]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.ItemCount
+[16:14:20] : [BFCompanion] [120042.650]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.Plus
+[16:14:20] : [BFCompanion] [120042.652]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.RedBanner.BannerText
+[16:14:20] : [BFCompanion] [120042.652]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:20] : [BFCompanion] [120042.653]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.Counter.Shadow
+[16:14:20] : [BFCompanion] [120042.653]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:20] : [BFCompanion] [120042.655]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemLine1
+[16:14:20] : [BFCompanion] [120042.655]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:20] : [BFCompanion] [120042.655]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemLine2
+[16:14:20] : [BFCompanion] [120042.656]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:20] : [BFCompanion] [120042.656]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemName
+[16:14:20] : [BFCompanion] [120042.656]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.4.Filled.ItemInformation.ItemName.TextLabel
+[16:14:20] : [BFCompanion] [120042.658]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.ItemCount
+[16:14:20] : [BFCompanion] [120042.658]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.Plus
+[16:14:20] : [BFCompanion] [120042.663]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.RedBanner.BannerText
+[16:14:20] : [BFCompanion] [120042.663]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:20] : [BFCompanion] [120042.664]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.Counter.Shadow
+[16:14:20] : [BFCompanion] [120042.664]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:20] : [BFCompanion] [120042.665]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemLine1
+[16:14:20] : [BFCompanion] [120042.665]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:20] : [BFCompanion] [120042.666]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemLine2
+[16:14:20] : [BFCompanion] [120042.666]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:20] : [BFCompanion] [120042.666]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemName
+[16:14:20] : [BFCompanion] [120042.667]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.5.Filled.ItemInformation.ItemName.TextLabel
+[16:14:20] : [BFCompanion] [120042.668]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.ItemCount
+[16:14:20] : [BFCompanion] [120042.668]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.Plus
+[16:14:21] : [BFCompanion] [120042.672]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.RedBanner.BannerText
+[16:14:21] : [BFCompanion] [120042.673]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.RedBanner.BannerText.TextLabel
+[16:14:21] : [BFCompanion] [120042.674]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.Counter.Shadow
+[16:14:21] : [BFCompanion] [120042.674]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:21] : [BFCompanion] [120042.675]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemLine1
+[16:14:21] : [BFCompanion] [120042.675]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:21] : [BFCompanion] [120042.675]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemLine2
+[16:14:21] : [BFCompanion] [120042.676]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:21] : [BFCompanion] [120042.676]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemName
+[16:14:21] : [BFCompanion] [120042.677]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.6.Filled.ItemInformation.ItemName.TextLabel
+[16:14:21] : [BFCompanion] [120042.680]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.ChangeRecipe.TextLabel
+[16:14:21] : [BFCompanion] [120042.681]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.LeftSide.ChangeRecipe.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.684]   [TextLabel] name="BannerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.RedBanner.BannerText
+[16:14:21] : [BFCompanion] [120042.684]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.RedBanner.BannerText.TextLa
+[16:14:21] : [BFCompanion] [120042.685]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.Counter.Shadow
+[16:14:21] : [BFCompanion] [120042.685]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:21] : [BFCompanion] [120042.688]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemLine1
+[16:14:21] : [BFCompanion] [120042.688]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemLine1.TextLabel
+[16:14:21] : [BFCompanion] [120042.688]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemLine2
+[16:14:21] : [BFCompanion] [120042.689]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemLine2.TextLabel
+[16:14:21] : [BFCompanion] [120042.689]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemName
+[16:14:21] : [BFCompanion] [120042.690]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.ResultAsset.Filled.ItemInformation.ItemName.TextLabel
+[16:14:21] : [BFCompanion] [120042.691]   [TextLabel] name="AbilityNameLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.HiddenAbilityInfo.AbilityNameLabel
+[16:14:21] : [BFCompanion] [120042.691]   [TextLabel] name="KeybindLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.HiddenAbilityInfo.KeybindLabel
+[16:14:21] : [BFCompanion] [120042.692]   [TextLabel] name="Desc" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.ItemInfo.Desc
+[16:14:21] : [BFCompanion] [120042.692]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.ItemInfo.ItemName
+[16:14:21] : [BFCompanion] [120042.693]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.DecreaseQuantity.TextLabel
+[16:14:21] : [BFCompanion] [120042.694]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.DecreaseQuantity.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.696]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.IncreaseQuantity.TextLabel
+[16:14:21] : [BFCompanion] [120042.697]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.IncreaseQuantity.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.697]   [TextLabel] name="Current" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.Stats.Current
+[16:14:21] : [BFCompanion] [120042.698]   [TextLabel] name="New" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Crafting.Main.Result.Stats.New
+[16:14:21] : [BFCompanion] [120042.699]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Selection.Header
+[16:14:21] : [BFCompanion] [120042.700]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Main.Selection.Header.TextLabel
+[16:14:21] : [BFCompanion] [120042.701]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Title.TextLabel
+[16:14:21] : [BFCompanion] [120042.701]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Title.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.703]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Title.Close.TextLabel
+[16:14:21] : [BFCompanion] [120042.703]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Craft.Window.Title.Close.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.705]   [TextLabel] name="ReloadingLabel" text="reloading" visible=nil valid=false pos=(886,607) path=game.Players.cc_yw.PlayerGui.CustomCursor.OverlayHolder.ReloadingLabel
+[16:14:21] : [BFCompanion] [120042.706]   [TextLabel] name="ReloadingLabel" text="reloading" visible=nil valid=false pos=(886,607) path=game.Players.cc_yw.PlayerGui.CustomCursor.ReloadOverlayHolder.ReloadingLabel
+[16:14:21] : [BFCompanion] [120042.707]   [TextLabel] name="Title" text="Disconnected" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Back.Title
+[16:14:21] : [BFCompanion] [120042.707]   [TextLabel] name="Center" text="You have been kicked by ?ÌµÍŽÍ’Ì…?Ì¶Ì³Í–ÌžÌ°ÌžÌ®ÍÍˆÌ¿Ì¾ÌŽÌÌÌ…Íœ?Ì¶ÍŽÌ—Í™Ì¹Ì£Ì" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Back.Center
+[16:14:21] : [BFCompanion] [120042.708]   [TextLabel] name="Content" text="Connecting to target...\
+Bypassing firewall...\
+Accessing port 443... SUCCESS\
+Gran" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.Content
+[16:14:21] : [BFCompanion] [120042.709]   [TextLabel] name="Bottom" text="user@admin:~$ _" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.Bottom
+[16:14:21] : [BFCompanion] [120042.709]   [TextLabel] name="TextLabel" text=":nuke" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.BottomButtons.Nuke.TextLabel
+[16:14:21] : [BFCompanion] [120042.712]   [TextLabel] name="TextLabel" text=":freeze" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.BottomButtons.Freeze.TextLabel
+[16:14:21] : [BFCompanion] [120042.712]   [TextLabel] name="TextLabel" text=":shrink" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.BottomButtons.Shrink.TextLabel
+[16:14:21] : [BFCompanion] [120042.713]   [TextLabel] name="TextLabel" text=":jail" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.BottomButtons.Jail.TextLabel
+[16:14:21] : [BFCompanion] [120042.714]   [TextLabel] name="Top" text="> Admin Terminal" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.FakeCrash.Terminal.Top
+[16:14:21] : [BFCompanion] [120042.715]   [TextLabel] name="textLabel" text="Fish Index" visible=nil valid=false pos=(960,296) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.header.textLabel
+[16:14:21] : [BFCompanion] [120042.716]   [TextLabel] name="textLabel" text="Fish Index" visible=nil valid=false pos=(960,294) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.header.textLabel.textLabel
+[16:14:21] : [BFCompanion] [120042.717]   [TextLabel] name="highestWeight" text="??" visible=nil valid=false pos=(1287,740) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.infoOverlay.bar.highestWeight
+[16:14:21] : [BFCompanion] [120042.717]   [TextLabel] name="lowestWeight" text="??" visible=nil valid=false pos=(987,740) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.infoOverlay.bar.lowestWeight
+[16:14:21] : [BFCompanion] [120042.719]   [TextLabel] name="highestWeight" text="failed to fetch text" visible=nil valid=false pos=(1036,778) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.infoOverlay.bar.innerBar.progressBar.arrow.highestWeight
+[16:14:21] : [BFCompanion] [120042.720]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(832,746) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.infoOverlay.textLabel
+[16:14:21] : [BFCompanion] [120042.720]   [TextLabel] name="creator" text="failed to fetch text" visible=nil valid=false pos=(833,776) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.infoOverlay.creator
+[16:14:21] : [BFCompanion] [120042.723]   [TextLabel] name="fishNumber" text="32" visible=nil valid=false pos=(804,1497) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-442.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.724]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,1628) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-442.textLabel
+[16:14:21] : [BFCompanion] [120042.725]   [TextLabel] name="fishNumber" text="09" visible=nil valid=false pos=(1093,538) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-419.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.725]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,670) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-419.textLabel
+[16:14:21] : [BFCompanion] [120042.729]   [TextLabel] name="fishNumber" text="02" visible=nil valid=false pos=(804,346) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-412.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.729]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,478) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-412.textLabel
+[16:14:21] : [BFCompanion] [120042.731]   [TextLabel] name="fishNumber" text="41" visible=nil valid=false pos=(659,1880) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-516.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.731]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,2012) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-516.textLabel
+[16:14:21] : [BFCompanion] [120042.732]   [TextLabel] name="fishNumber" text="12" visible=nil valid=false pos=(804,730) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-422.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.733]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,861) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-422.textLabel
+[16:14:21] : [BFCompanion] [120042.736]   [TextLabel] name="fishNumber" text="37" visible=nil valid=false pos=(804,1688) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-447.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.736]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,1820) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-447.textLabel
+[16:14:21] : [BFCompanion] [120042.738]   [TextLabel] name="fishNumber" text="59" visible=nil valid=false pos=(1093,2263) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-888.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.738]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,2395) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-888.textLabel
+[16:14:21] : [BFCompanion] [120042.739]   [TextLabel] name="fishNumber" text="17" visible=nil valid=false pos=(804,922) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-427.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.740]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,1053) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-427.textLabel
+[16:14:21] : [BFCompanion] [120042.743]   [TextLabel] name="fishNumber" text="48" visible=nil valid=false pos=(948,2072) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-523.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.744]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,2203) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-523.textLabel
+[16:14:21] : [BFCompanion] [120042.745]   [TextLabel] name="fishNumber" text="61" visible=nil valid=false pos=(659,2455) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-890.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.745]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,2587) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-890.textLabel
+[16:14:21] : [BFCompanion] [120042.747]   [TextLabel] name="fishNumber" text="14" visible=nil valid=false pos=(1093,730) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-424.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.747]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,861) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-424.textLabel
+[16:14:21] : [BFCompanion] [120042.749]   [TextLabel] name="fishNumber" text="16" visible=nil valid=false pos=(659,922) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-426.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.749]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,1053) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-426.textLabel
+[16:14:21] : [BFCompanion] [120042.753]   [TextLabel] name="fishNumber" text="40" visible=nil valid=false pos=(1238,1688) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-515.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.753]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,1820) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-515.textLabel
+[16:14:21] : [BFCompanion] [120042.755]   [TextLabel] name="fishNumber" text="06" visible=nil valid=false pos=(659,538) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-416.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.755]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,670) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-416.textLabel
+[16:14:21] : [BFCompanion] [120042.756]   [TextLabel] name="fishNumber" text="15" visible=nil valid=false pos=(1238,730) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-425.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.757]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,861) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-425.textLabel
+[16:14:21] : [BFCompanion] [120042.760]   [TextLabel] name="fishNumber" text="27" visible=nil valid=false pos=(804,1305) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-437.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.760]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,1437) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-437.textLabel
+[16:14:21] : [BFCompanion] [120042.761]   [TextLabel] name="fishNumber" text="03" visible=nil valid=false pos=(948,346) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-413.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.762]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,478) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-413.textLabel
+[16:14:21] : [BFCompanion] [120042.763]   [TextLabel] name="fishNumber" text="22" visible=nil valid=false pos=(804,1113) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-432.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.763]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,1245) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-432.textLabel
+[16:14:21] : [BFCompanion] [120042.765]   [TextLabel] name="fishNumber" text="58" visible=nil valid=false pos=(948,2263) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-887.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.767]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,2395) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-887.textLabel
+[16:14:21] : [BFCompanion] [120042.770]   [TextLabel] name="fishNumber" text="05" visible=nil valid=false pos=(1238,346) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-415.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.771]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,478) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-415.textLabel
+[16:14:21] : [BFCompanion] [120042.773]   [TextLabel] name="fishNumber" text="50" visible=nil valid=false pos=(1238,2072) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-525.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.773]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,2203) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-525.textLabel
+[16:14:21] : [BFCompanion] [120042.776]   [TextLabel] name="fishNumber" text="33" visible=nil valid=false pos=(948,1497) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-443.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.776]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,1628) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-443.textLabel
+[16:14:21] : [BFCompanion] [120042.777]   [TextLabel] name="fishNumber" text="30" visible=nil valid=false pos=(1238,1305) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-440.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.778]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,1437) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-440.textLabel
+[16:14:21] : [BFCompanion] [120042.780]   [TextLabel] name="fishNumber" text="24" visible=nil valid=false pos=(1093,1113) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-434.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.780]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,1245) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-434.textLabel
+[16:14:21] : [BFCompanion] [120042.783]   [TextLabel] name="fishNumber" text="29" visible=nil valid=false pos=(1093,1305) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-439.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.784]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,1437) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-439.textLabel
+[16:14:21] : [BFCompanion] [120042.785]   [TextLabel] name="fishNumber" text="49" visible=nil valid=false pos=(1093,2072) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-524.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.786]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,2203) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-524.textLabel
+[16:14:21] : [BFCompanion] [120042.787]   [TextLabel] name="fishNumber" text="28" visible=nil valid=false pos=(948,1305) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-438.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.788]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,1437) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-438.textLabel
+[16:14:21] : [BFCompanion] [120042.789]   [TextLabel] name="fishNumber" text="38" visible=nil valid=false pos=(948,1688) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-513.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.789]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,1820) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-513.textLabel
+[16:14:21] : [BFCompanion] [120042.792]   [TextLabel] name="fishNumber" text="57" visible=nil valid=false pos=(804,2263) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-868.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.792]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,2395) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-868.textLabel
+[16:14:21] : [BFCompanion] [120042.794]   [TextLabel] name="fishNumber" text="51" visible=nil valid=false pos=(659,2263) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-526.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.794]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,2395) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-526.textLabel
+[16:14:21] : [BFCompanion] [120042.796]   [TextLabel] name="fishNumber" text="20" visible=nil valid=false pos=(1238,922) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-430.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.796]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,1053) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-430.textLabel
+[16:14:21] : [BFCompanion] [120042.798]   [TextLabel] name="fishNumber" text="21" visible=nil valid=false pos=(659,1113) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-431.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.799]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,1245) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-431.textLabel
+[16:14:21] : [BFCompanion] [120042.801]   [TextLabel] name="fishNumber" text="43" visible=nil valid=false pos=(948,1880) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-518.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.801]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,2012) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-518.textLabel
+[16:14:21] : [BFCompanion] [120042.803]   [TextLabel] name="fishNumber" text="42" visible=nil valid=false pos=(804,1880) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-517.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.803]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,2012) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-517.textLabel
+[16:14:21] : [BFCompanion] [120042.805]   [TextLabel] name="fishNumber" text="47" visible=nil valid=false pos=(804,2072) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-522.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.805]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,2203) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-522.textLabel
+[16:14:21] : [BFCompanion] [120042.808]   [TextLabel] name="fishNumber" text="39" visible=nil valid=false pos=(1093,1688) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-514.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.809]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,1820) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-514.textLabel
+[16:14:21] : [BFCompanion] [120042.810]   [TextLabel] name="fishNumber" text="35" visible=nil valid=false pos=(1238,1497) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-445.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.810]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,1628) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-445.textLabel
+[16:14:21] : [BFCompanion] [120042.812]   [TextLabel] name="fishNumber" text="36" visible=nil valid=false pos=(659,1688) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-446.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.812]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,1820) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-446.textLabel
+[16:14:21] : [BFCompanion] [120042.814]   [TextLabel] name="fishNumber" text="34" visible=nil valid=false pos=(1093,1497) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-444.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.816]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,1628) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-444.textLabel
+[16:14:21] : [BFCompanion] [120042.817]   [TextLabel] name="fishNumber" text="25" visible=nil valid=false pos=(1238,1113) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-435.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.817]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,1245) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-435.textLabel
+[16:14:21] : [BFCompanion] [120042.819]   [TextLabel] name="fishNumber" text="01" visible=nil valid=false pos=(659,346) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-411.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.819]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,478) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-411.textLabel
+[16:14:21] : [BFCompanion] [120042.820]   [TextLabel] name="fishNumber" text="31" visible=nil valid=false pos=(659,1497) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-441.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.821]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,1628) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-441.textLabel
+[16:14:21] : [BFCompanion] [120042.824]   [TextLabel] name="fishNumber" text="07" visible=nil valid=false pos=(804,538) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-417.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.824]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(818,670) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-417.textLabel
+[16:14:21] : [BFCompanion] [120042.826]   [TextLabel] name="fishNumber" text="26" visible=nil valid=false pos=(659,1305) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-436.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.826]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,1437) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-436.textLabel
+[16:14:21] : [BFCompanion] [120042.828]   [TextLabel] name="fishNumber" text="04" visible=nil valid=false pos=(1093,346) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-414.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.829]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,478) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-414.textLabel
+[16:14:21] : [BFCompanion] [120042.830]   [TextLabel] name="fishNumber" text="23" visible=nil valid=false pos=(948,1113) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-433.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.832]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,1245) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-433.textLabel
+[16:14:21] : [BFCompanion] [120042.834]   [TextLabel] name="fishNumber" text="60" visible=nil valid=false pos=(1238,2263) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-889.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.834]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,2395) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-889.textLabel
+[16:14:21] : [BFCompanion] [120042.835]   [TextLabel] name="fishNumber" text="44" visible=nil valid=false pos=(1093,1880) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-519.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.836]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,2012) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-519.textLabel
+[16:14:21] : [BFCompanion] [120042.837]   [TextLabel] name="fishNumber" text="19" visible=nil valid=false pos=(1093,922) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-429.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.837]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1108,1053) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-429.textLabel
+[16:14:21] : [BFCompanion] [120042.840]   [TextLabel] name="fishNumber" text="10" visible=nil valid=false pos=(1238,538) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-420.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.841]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,670) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-420.textLabel
+[16:14:21] : [BFCompanion] [120042.842]   [TextLabel] name="fishNumber" text="08" visible=nil valid=false pos=(948,538) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-418.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.843]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,670) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-418.textLabel
+[16:14:21] : [BFCompanion] [120042.844]   [TextLabel] name="fishNumber" text="13" visible=nil valid=false pos=(948,730) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-423.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.844]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,861) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-423.textLabel
+[16:14:21] : [BFCompanion] [120042.848]   [TextLabel] name="fishNumber" text="46" visible=nil valid=false pos=(659,2072) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-521.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.848]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,2203) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-521.textLabel
+[16:14:21] : [BFCompanion] [120042.849]   [TextLabel] name="fishNumber" text="11" visible=nil valid=false pos=(659,730) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-421.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.850]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(673,861) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-421.textLabel
+[16:14:21] : [BFCompanion] [120042.851]   [TextLabel] name="fishNumber" text="18" visible=nil valid=false pos=(948,922) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-428.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.852]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(963,1053) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-428.textLabel
+[16:14:21] : [BFCompanion] [120042.853]   [TextLabel] name="fishNumber" text="45" visible=nil valid=false pos=(1238,1880) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-520.undiscoveredState.fishNumber
+[16:14:21] : [BFCompanion] [120042.853]   [TextLabel] name="textLabel" text="???" visible=nil valid=false pos=(1253,2012) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.scrollingFrame.Fish-520.textLabel
+[16:14:21] : [BFCompanion] [120042.856]   [TextLabel] name="counter" text="failed to fetch text" visible=nil valid=false pos=(1141,293) path=game.Players.cc_yw.PlayerGui.FishIndex.ROOT.Frame.indexFrame.container.header.counter
+[16:14:21] : [BFCompanion] [120042.857]   [TextLabel] name="SkillNameLabel" text="Punch" visible=nil valid=false pos=(2089,594) path=game.Players.cc_yw.PlayerGui.HUDNoInset.Frame.SkillNameLabel
+[16:14:21] : [BFCompanion] [120042.858]   [TextLabel] name="MobileRage" text="Fury Meter" visible=nil valid=false pos=(1728,486) path=game.Players.cc_yw.PlayerGui.HUDNoInset.MobileRage
+[16:14:21] : [BFCompanion] [120042.869]   [TextLabel] name="TextLabel" text="Fury Meter" visible=nil valid=false pos=(1728,486) path=game.Players.cc_yw.PlayerGui.HUDNoInset.MobileRage.TextLabel
+[16:14:21] : [BFCompanion] [120042.875]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.TextLabel
+[16:14:21] : [BFCompanion] [120042.876]   [TextLabel] name="AbilityName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.AbilityName
+[16:14:21] : [BFCompanion] [120042.877]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.AbilityName.TextLabel
+[16:14:21] : [BFCompanion] [120042.877]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton.TextLabel
+[16:14:21] : [BFCompanion] [120042.878]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.879]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.Progress
+[16:14:21] : [BFCompanion] [120042.880]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.LockedOverlay.TextLabel
+[16:14:21] : [BFCompanion] [120042.880]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton2.TextLabel
+[16:14:21] : [BFCompanion] [120042.881]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton2.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.881]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.Description
+[16:14:21] : [BFCompanion] [120042.883]   [TextLabel] name="FruitName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.FruitName
+[16:14:21] : [BFCompanion] [120042.883]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.FruitName.TextLabel
+[16:14:21] : [BFCompanion] [120042.884]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.Description
+[16:14:21] : [BFCompanion] [120042.884]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.Progress
+[16:14:21] : [BFCompanion] [120042.887]   [TextLabel] name="AbilityName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.AbilityName
+[16:14:21] : [BFCompanion] [120042.888]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.AbilityName.TextLabel
+[16:14:21] : [BFCompanion] [120042.889]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.Progress
+[16:14:21] : [BFCompanion] [120042.890]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.TextButton.TextLabel
+[16:14:21] : [BFCompanion] [120042.890]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.TextButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.890]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.Description
+[16:14:21] : [BFCompanion] [120042.891]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Locked.TextLabel
+[16:14:21] : [BFCompanion] [120042.891]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Locked.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.892]   [TextLabel] name="Experiment" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Experiment
+[16:14:21] : [BFCompanion] [120042.893]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.TextButton.TextLabel
+[16:14:21] : [BFCompanion] [120042.894]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.TextButton.TextLabel.TextLab
+[16:14:21] : [BFCompanion] [120042.896]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.ProgressBarFrame.Progress
+[16:14:21] : [BFCompanion] [120042.897]   [TextLabel] name="Observation" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Header.Observation
+[16:14:21] : [BFCompanion] [120042.899]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.Title.TextLabel
+[16:14:21] : [BFCompanion] [120042.899]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.Title.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.900]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.Title.Close.TextLabel
+[16:14:21] : [BFCompanion] [120042.900]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Modal.Title.Close.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.901]   [TextLabel] name="Quote" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.HiddenAbilities.Quote
+[16:14:21] : [BFCompanion] [120042.905]   [TextLabel] name="TextLabel" text="PLAYERS" visible=nil valid=false pos=(655,1450) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Players.TextLabel
+[16:14:21] : [BFCompanion] [120042.906]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(647,1489) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Players.ScrollingFrame.Frame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120042.906]   [TextLabel] name="Label" text="(Invite)" visible=nil valid=false pos=(647,1523) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Players.ScrollingFrame.Frame.Template.Label
+[16:14:21] : [BFCompanion] [120042.907]   [TextLabel] name="TextLabel" text="ALLIED PLAYERS" visible=nil valid=false pos=(969,1450) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Allies.TextLabel
+[16:14:21] : [BFCompanion] [120042.908]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(961,1489) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Allies.ScrollingFrame.Frame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120042.909]   [TextLabel] name="Label" text="(Remove)" visible=nil valid=false pos=(961,1523) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Allies.ScrollingFrame.Frame.Template.Label
+[16:14:21] : [BFCompanion] [120042.909]   [TextLabel] name="TextLabel" text="REQUESTS" visible=nil valid=false pos=(1284,1450) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Requests.TextLabel
+[16:14:21] : [BFCompanion] [120042.912]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(1276,1489) path=game.Players.cc_yw.PlayerGui.Main.Allies.Container.Requests.ScrollingFrame.Frame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120042.913]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1398,1347) path=game.Players.cc_yw.PlayerGui.Main.Allies.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120042.913]   [TextLabel] name="TextLabel" text="Click on a player to send them an ally request." visible=nil valid=false pos=(988,1778) path=game.Players.cc_yw.PlayerGui.Main.Allies.Info.TextLabel
+[16:14:21] : [BFCompanion] [120042.913]   [TextLabel] name="Title" text="ALLIES" visible=nil valid=false pos=(970,1398) path=game.Players.cc_yw.PlayerGui.Main.Allies.Title
+[16:14:21] : [BFCompanion] [120042.914]   [TextLabel] name="Title" text="AWAKENING ABILITIES" visible=nil valid=false pos=(970,488) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.Title
+[16:14:21] : [BFCompanion] [120042.915]   [TextLabel] name="TextLabel" text="Click on a move to toggle between both versions." visible=nil valid=false pos=(903,654) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.Info.TextLabel
+[16:14:21] : [BFCompanion] [120042.915]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1366,654) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120042.916]   [TextLabel] name="Subtitle" text="TOGGLES" visible=nil valid=false pos=(970,536) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.Subtitle
+[16:14:21] : [BFCompanion] [120042.917]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(589,576) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.TopContainer.Frame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120042.917]   [TextLabel] name="Label" text="(Unawakened)" visible=nil valid=false pos=(589,612) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.TopContainer.Frame.Template.Label
+[16:14:21] : [BFCompanion] [120042.920]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(589,478) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.BottomContainer.Frame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120042.920]   [TextLabel] name="Label" text="(Unawakened)" visible=nil valid=false pos=(589,514) path=game.Players.cc_yw.PlayerGui.Main.AwakeningToggler.BottomContainer.Frame.Template.Label
+[16:14:21] : [BFCompanion] [120042.920]   [TextLabel] name="Beli" text="$622,596" visible=nil valid=false pos=(150,804) path=game.Players.cc_yw.PlayerGui.Main.Beli
+[16:14:21] : [BFCompanion] [120042.921]   [TextLabel] name="CurrentBait" text="[Current Bait: Abyssal Bait]" visible=nil valid=false pos=(960,-5) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.CurrentBait
+[16:14:21] : [BFCompanion] [120042.922]   [TextLabel] name="FreshieNotify" text="â€¼ï¸ There is more to do on Starter Island â€¼ï" visible=nil valid=false pos=(960,7) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.FreshieNotify
+[16:14:21] : [BFCompanion] [120042.925]   [TextLabel] name="Label" text="Sail towards the indicators for a boost." visible=nil valid=false pos=(960,-8) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.HelmsmanMiniGame.Label
+[16:14:21] : [BFCompanion] [120042.926]   [TextLabel] name="TextLabel" text="0/5" visible=nil valid=false pos=(960,28) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.HelmsmanMiniGame.ProgressBar.TextLabel
+[16:14:21] : [BFCompanion] [120042.929]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.HelmsmanV2.Helmsman.Helm.CanvasGroup.Timer
+[16:14:21] : [BFCompanion] [120042.930]   [TextLabel] name="InCombat" text="âš”ï¸In Combat - Bounty at risk!âš”ï" visible=nil valid=false pos=(960,7) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.InCombat
+[16:14:21] : [BFCompanion] [120042.930]   [TextLabel] name="InCombatBottom" text="DON'T LEAVE THE GAME!" visible=nil valid=false pos=(960,-5) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.InCombatBottom
+[16:14:21] : [BFCompanion] [120042.931]   [TextLabel] name="PvpDisabled" text="ðŸ›¡Died Recently - PvP disabledð" visible=nil valid=false pos=(756,8) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.PvpDisabled
+[16:14:21] : [BFCompanion] [120042.931]   [TextLabel] name="Radar" text="FRUIT RADAR: 15,000m away." visible=nil valid=false pos=(960,7) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.Radar
+[16:14:21] : [BFCompanion] [120042.933]   [TextLabel] name="Label" text="Release when in green for extra HP" visible=nil valid=false pos=(960,-8) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.RepairMiniGame.Label
+[16:14:21] : [BFCompanion] [120042.934]   [TextLabel] name="Label" text="Repairing..." visible=nil valid=false pos=(960,-8) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.RepairProgressBar.Label
+[16:14:21] : [BFCompanion] [120042.934]   [TextLabel] name="SafeZone" text="ðŸ›¡Safe Zone - PvP disabledð" visible=nil valid=false pos=(960,7) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.SafeZone
+[16:14:21] : [BFCompanion] [120042.936]   [TextLabel] name="TextLabel" text="X" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.ShipHealthBar.CancelButton.TextLabel
+[16:14:21] : [BFCompanion] [120042.938]   [TextLabel] name="TextLabel" text="Ship 100/100" visible=nil valid=false pos=(960,7) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.ShipHealthBar.TextLabel
+[16:14:21] : [BFCompanion] [120042.940]   [TextLabel] name="HotkeyLabel" text="J" visible=nil valid=false pos=(972,965) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.HotkeyLabel
+[16:14:21] : [BFCompanion] [120042.940]   [TextLabel] name="TextLabel" text="J" visible=nil valid=false pos=(970,963) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.HotkeyLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.941]   [TextLabel] name="Label" text="Flash Step" visible=nil valid=false pos=(987,1000) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.Label
+[16:14:21] : [BFCompanion] [120042.941]   [TextLabel] name="TextLabel" text="Flash Step" visible=nil valid=false pos=(985,998) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.Label.TextLabel
+[16:14:21] : [BFCompanion] [120042.941]   [TextLabel] name="Label" text="Mas. 999" visible=nil valid=false pos=(987,980) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.LockedFrame.Label
+[16:14:21] : [BFCompanion] [120042.944]   [TextLabel] name="CooldownLabel" text="failed to fetch text" visible=nil valid=false pos=(987,980) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.CooldownLabel
+[16:14:21] : [BFCompanion] [120042.945]   [TextLabel] name="DodgesLeftLabel" text="5/7" visible=nil valid=false pos=(1002,965) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.DodgesLeftLabel
+[16:14:21] : [BFCompanion] [120042.945]   [TextLabel] name="TextLabel" text="5/7" visible=nil valid=false pos=(1000,963) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionBuso.DodgesLeftLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.946]   [TextLabel] name="HotkeyLabel" text="Q" visible=nil valid=false pos=(917,965) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.HotkeyLabel
+[16:14:21] : [BFCompanion] [120042.947]   [TextLabel] name="TextLabel" text="Q" visible=nil valid=false pos=(915,963) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.HotkeyLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.947]   [TextLabel] name="Label" text="Flash Step" visible=nil valid=false pos=(932,1000) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.Label
+[16:14:21] : [BFCompanion] [120042.947]   [TextLabel] name="TextLabel" text="Flash Step" visible=nil valid=false pos=(930,998) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.Label.TextLabel
+[16:14:21] : [BFCompanion] [120042.948]   [TextLabel] name="Label" text="Mas. 999" visible=nil valid=false pos=(932,980) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.LockedFrame.Label
+[16:14:21] : [BFCompanion] [120042.949]   [TextLabel] name="CooldownLabel" text="failed to fetch text" visible=nil valid=false pos=(932,980) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.CooldownLabel
+[16:14:21] : [BFCompanion] [120042.949]   [TextLabel] name="DodgesLeftLabel" text="5/7" visible=nil valid=false pos=(947,965) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.DodgesLeftLabel
+[16:14:21] : [BFCompanion] [120042.950]   [TextLabel] name="TextLabel" text="5/7" visible=nil valid=false pos=(945,963) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.UniversalContextButtons.BoundActionDodge.DodgesLeftLabel.TextLabel
+[16:14:21] : [BFCompanion] [120042.952]   [TextLabel] name="EggRadar" text="FRUIT RADAR: 15,000m away." visible=nil valid=false pos=(900,1) path=game.Players.cc_yw.PlayerGui.Main.BottomHUDList.EggRadar
+[16:14:21] : [BFCompanion] [120042.962]   [TextLabel] name="Perk1" text="Team up on pirates!" visible=nil valid=false pos=(1162,757) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Marines.Perks.Perk1
+[16:14:21] : [BFCompanion] [120042.962]   [TextLabel] name="Perk3" text="Claim bounties!" visible=nil valid=false pos=(1162,821) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Marines.Perks.Perk3
+[16:14:21] : [BFCompanion] [120042.963]   [TextLabel] name="Perk2" text="Faster, cheaper ships!" visible=nil valid=false pos=(1162,789) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Marines.Perks.Perk2
+[16:14:21] : [BFCompanion] [120042.963]   [TextLabel] name="TextLabel" text="MARINES" visible=nil valid=false pos=(1162,370) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Marines.TextLabel
+[16:14:21] : [BFCompanion] [120042.973]   [TextLabel] name="Perk1" text="Defy the marines and battle pirates!" visible=nil valid=false pos=(778,757) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Pirates.Perks.Perk1
+[16:14:21] : [BFCompanion] [120042.973]   [TextLabel] name="Perk3" text="Get a high player bounty!" visible=nil valid=false pos=(778,821) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Pirates.Perks.Perk3
+[16:14:21] : [BFCompanion] [120042.973]   [TextLabel] name="Perk2" text="Create your own pirate crew!" visible=nil valid=false pos=(778,789) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Pirates.Perks.Perk2
+[16:14:21] : [BFCompanion] [120042.974]   [TextLabel] name="TextLabel" text="PIRATES" visible=nil valid=false pos=(778,370) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Container.Pirates.TextLabel
+[16:14:21] : [BFCompanion] [120042.977]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(980,926) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.FastModeButton.TextLabel
+[16:14:21] : [BFCompanion] [120042.977]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(980,1013) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.FastModeButton.Notify
+[16:14:21] : [BFCompanion] [120042.977]   [TextLabel] name="Title" text="PICK A SIDE!" visible=nil valid=false pos=(970,297) path=game.Players.cc_yw.PlayerGui.Main.ChooseTeam.Title
+[16:14:21] : [BFCompanion] [120042.978]   [TextLabel] name="Title" text="NOTIFICATION" visible=nil valid=false pos=(960,332) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Title
+[16:14:21] : [BFCompanion] [120042.978]   [TextLabel] name="TextLabel" text="Convert your remaining <font color=\"#fee447\">&lt; Dragon Fruit &gt;</font> item(" visible=nil valid=false pos=(959,413) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120042.979]   [TextLabel] name="TextLabel" text="Get a random <font color=\"#fee447\">permanent</font> MYTHICAL fruit<font color=\"#" visible=nil valid=false pos=(863,675) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option2.TextLabel
+[16:14:21] : [BFCompanion] [120042.979]   [TextLabel] name="TitleShadow" text="Fruits" visible=nil valid=false pos=(863,607) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option2.TitleShadow
+[16:14:21] : [BFCompanion] [120042.980]   [TextLabel] name="Title" text="Fruits" visible=nil valid=false pos=(863,605) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option2.TitleShadow.Title
+[16:14:21] : [BFCompanion] [120042.981]   [TextLabel] name="Question" text="?" visible=nil valid=false pos=(863,545) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option2.Backdrop.Question
+[16:14:21] : [BFCompanion] [120042.981]   [TextLabel] name="Question" text="?" visible=nil valid=false pos=(861,543) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option2.Backdrop.Question.Question
+[16:14:21] : [BFCompanion] [120042.982]   [TextLabel] name="TextLabel" text="Receive 2x Money, 2x Boss Drops, 2x Mastery, Fast Boats, +1 Fruit Storage (3) <f" visible=nil valid=false pos=(1056,688) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option3.TextLabel
+[16:14:21] : [BFCompanion] [120042.982]   [TextLabel] name="TitleShadow" text="Game Passes" visible=nil valid=false pos=(1056,607) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option3.TitleShadow
+[16:14:21] : [BFCompanion] [120042.984]   [TextLabel] name="Title" text="Game Passes" visible=nil valid=false pos=(1056,605) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option3.TitleShadow.Title
+[16:14:21] : [BFCompanion] [120042.985]   [TextLabel] name="TitleShadow" text="Swordsman" visible=nil valid=false pos=(1248,607) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option4.TitleShadow
+[16:14:21] : [BFCompanion] [120042.985]   [TextLabel] name="Title" text="Swordsman" visible=nil valid=false pos=(1248,605) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option4.TitleShadow.Title
+[16:14:21] : [BFCompanion] [120042.987]   [TextLabel] name="TextLabel" text="Receive Dark Blade, 2x Mythical Scrolls, 2x Legendary Scrolls<font color=\"#ff383" visible=nil valid=false pos=(1248,684) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option4.TextLabel
+[16:14:21] : [BFCompanion] [120042.988]   [TextLabel] name="TextLabel" text="Purchase the new <font color=\"#fee447\">permanent</font> DRAGON fruit at a discou" visible=nil valid=false pos=(671,675) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option1.TextLabel
+[16:14:21] : [BFCompanion] [120042.988]   [TextLabel] name="TitleShadow" text="Upgrade" visible=nil valid=false pos=(671,607) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option1.TitleShadow
+[16:14:21] : [BFCompanion] [120042.989]   [TextLabel] name="Title" text="Upgrade" visible=nil valid=false pos=(671,605) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Container.List.Container.Option1.TitleShadow.Title
+[16:14:21] : [BFCompanion] [120042.992]   [TextLabel] name="TextLabel" text="Equip Classic" visible=nil valid=false pos=(827,802) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Info.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120042.993]   [TextLabel] name="TextLabel" text="Convert" visible=nil valid=false pos=(1092,802) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Info.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120042.994]   [TextLabel] name="TextLabel" text="You have chosen to convert your Permanent Dragon (Classic) to Gamepass items.\
+TH" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Confirm.Container.Content.TextLabel
+[16:14:21] : [BFCompanion] [120042.995]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Confirm.Container.Bottom.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120042.996]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Confirm.Container.Bottom.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120042.997]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.Confirm.Container.Title.TextLabel
+[16:14:21] : [BFCompanion] [120042.997]   [TextLabel] name="Title" text="You have chosen to convert your Physical Dragon into a random <font color=\"#fee4" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.ConfirmExtended.Container.Content.Title
+[16:14:21] : [BFCompanion] [120042.998]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.ConfirmExtended.Container.Bottom.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120042.998]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.ConfirmExtended.Container.Bottom.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.001]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ClassicDragon.ConfirmExtended.Container.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.001]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(265,15793) path=game.Players.cc_yw.PlayerGui.Main.Code.TextLabel
+[16:14:21] : [BFCompanion] [120043.002]   [TextLabel] name="Title" text="COLORS" visible=nil valid=false pos=(970,374) path=game.Players.cc_yw.PlayerGui.Main.Colors.Title
+[16:14:21] : [BFCompanion] [120043.003]   [TextLabel] name="Title" text=" (LOCKED)" visible=nil valid=false pos=(964,434) path=game.Players.cc_yw.PlayerGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Title
+[16:14:21] : [BFCompanion] [120043.004]   [TextLabel] name="TextLabel" text="Enable Color" visible=nil valid=false pos=(1327,436) path=game.Players.cc_yw.PlayerGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Activate.TextLabel
+[16:14:21] : [BFCompanion] [120043.004]   [TextLabel] name="Desc" text=" Find the Master of Enhancement or buy it now with Robux." visible=nil valid=false pos=(964,481) path=game.Players.cc_yw.PlayerGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Desc
+[16:14:21] : [BFCompanion] [120043.005]   [TextLabel] name="TextLabel" text="Choose a color for your Aura ability." visible=nil valid=false pos=(823,796) path=game.Players.cc_yw.PlayerGui.Main.Colors.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.005]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1371,796) path=game.Players.cc_yw.PlayerGui.Main.Colors.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.005]   [TextLabel] name="TextLabel" text="Disable" visible=nil valid=false pos=(1234,796) path=game.Players.cc_yw.PlayerGui.Main.Colors.Info.Disable.TextLabel
+[16:14:21] : [BFCompanion] [120043.006]   [TextLabel] name="TextLabel" text="ITEMS UNBOXED" visible=nil valid=false pos=(960,458) path=game.Players.cc_yw.PlayerGui.Main.Confirm.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.008]   [TextLabel] name="TextLabel" text="Obtained <Cursed Scroll> x1!" visible=nil valid=false pos=(960,569) path=game.Players.cc_yw.PlayerGui.Main.Confirm.Content.TextLabel
+[16:14:21] : [BFCompanion] [120043.008]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(959,679) path=game.Players.cc_yw.PlayerGui.Main.Confirm.Bottom.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.009]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.Frame.ItemLine1
+[16:14:21] : [BFCompanion] [120043.010]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.Frame.ItemLine2
+[16:14:21] : [BFCompanion] [120043.010]   [TextLabel] name="Template" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.Info.Template
+[16:14:21] : [BFCompanion] [120043.011]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.ItemDescription
+[16:14:21] : [BFCompanion] [120043.011]   [TextLabel] name="ItemName" text="Red Eastern Dragon" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.ItemName
+[16:14:21] : [BFCompanion] [120043.011]   [TextLabel] name="ItemRarity" text="Legendary Skin" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.ItemRarity
+[16:14:21] : [BFCompanion] [120043.012]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Left.Selector.Equip.TextLabel
+[16:14:21] : [BFCompanion] [120043.014]   [TextLabel] name="TextLabel" text="INVENTORY" visible=nil valid=false pos=(769,1561) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Right.Content.Return.TextLabel
+[16:14:21] : [BFCompanion] [120043.016]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1213,1491) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Right.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.017]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(960,1520) path=game.Players.cc_yw.PlayerGui.Main.Consumables.Right.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.017]   [TextLabel] name="TextLabel" text="CONFIRM ENCHANT" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.019]   [TextLabel] name="ItemName" text="Cursed Scroll" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemName
+[16:14:21] : [BFCompanion] [120043.020]   [TextLabel] name="ItemRarity" text="30 in Inventory" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemRarity
+[16:14:21] : [BFCompanion] [120043.020]   [TextLabel] name="TextLabel" text="Select a scroll to apply.<br/><font color=\"#ff0000\"><b>This will replace your cu" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Content.Right.TextLabel
+[16:14:21] : [BFCompanion] [120043.021]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Content.Right.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.021]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Craft.Confirm.Content.Right.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.026]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(648,472) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.028]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(774,472) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.030]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(901,472) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.034]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(648,599) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.036]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(774,599) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.038]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(901,599) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:21] : [BFCompanion] [120043.043]   [TextLabel] name="ItemLine1" text="â˜…â" visible=nil valid=false pos=(1068,491) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.Result.Top.Item.ItemLine1
+[16:14:21] : [BFCompanion] [120043.043]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(1219,508) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.Result.Top.Frame.ItemName
+[16:14:21] : [BFCompanion] [120043.043]   [TextLabel] name="ItemRarity" text="Common Sword, Grade 2" visible=nil valid=false pos=(1219,538) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.Result.Top.Frame.ItemRarity
+[16:14:21] : [BFCompanion] [120043.045]   [TextLabel] name="TextLabel" text="New:" visible=nil valid=false pos=(1179,583) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Content.Result.StatContainer.TextLabel
+[16:14:21] : [BFCompanion] [120043.046]   [TextLabel] name="TextLabel" text="CRAFT" visible=nil valid=false pos=(959,374) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.049]   [TextLabel] name="TextLabel" text="Craft" visible=nil valid=false pos=(863,702) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Bottom.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.049]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(1056,702) path=game.Players.cc_yw.PlayerGui.Main.Craft.Main.Bottom.Close.TextLabel
+[16:14:21] : [BFCompanion] [120043.050]   [TextLabel] name="TextLabel" text="Create" visible=nil valid=false pos=(719,1708) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.CreateButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.051]   [TextLabel] name="CrewNameLabel" text="Name: " visible=nil valid=false pos=(717,1460) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.CrewNameLabel
+[16:14:21] : [BFCompanion] [120043.051]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1253,1388) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.051]   [TextLabel] name="ExtraInfo" text="Creating a crew allows you to compete with other crews in the leaderboard for ra" visible=nil valid=false pos=(1041,1730) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.ExtraInfo
+[16:14:21] : [BFCompanion] [120043.052]   [TextLabel] name="Title" text="Crew Invite" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Invite.Title
+[16:14:21] : [BFCompanion] [120043.052]   [TextLabel] name="name" text="The Straw Hat Pirates" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Invite.name
+[16:14:21] : [BFCompanion] [120043.053]   [TextLabel] name="TextLabel" text="Join" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Invite.Accept.TextLabel
+[16:14:21] : [BFCompanion] [120043.054]   [TextLabel] name="TextLabel" text="Ignore" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Invite.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.054]   [TextLabel] name="LogoLabel" text="Logo Link:" visible=nil valid=false pos=(717,1500) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.LogoLabel
+[16:14:21] : [BFCompanion] [120043.056]   [TextLabel] name="TextLabel" text="How to make a Logo: In the Roblox website, go to Create > Decals and upload the " visible=nil valid=false pos=(1042,1602) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Preview.LogoHelp.TextLabel
+[16:14:21] : [BFCompanion] [120043.057]   [TextLabel] name="Requirement" text="Level 300+ required" visible=nil valid=false pos=(717,1753) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Requirement
+[16:14:21] : [BFCompanion] [120043.057]   [TextLabel] name="Title" text="Create Crew" visible=nil valid=false pos=(960,1420) path=game.Players.cc_yw.PlayerGui.Main.Crew.Create.Title
+[16:14:21] : [BFCompanion] [120043.058]   [TextLabel] name="Warning" text="WARNING: Pressing this button will make you leave the crew!" visible=nil valid=false pos=(901,1761) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Bar.Warning
+[16:14:21] : [BFCompanion] [120043.058]   [TextLabel] name="TextLabel" text="Abandon" visible=nil valid=false pos=(1224,1761) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Bar.Abandon.TextLabel
+[16:14:21] : [BFCompanion] [120043.059]   [TextLabel] name="TextLabel" text="Invite" visible=nil valid=false pos=(917,1761) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Bar.Invite.TextLabel
+[16:14:21] : [BFCompanion] [120043.060]   [TextLabel] name="TextLabel" text="Kick" visible=nil valid=false pos=(1083,1761) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Bar.Kick.TextLabel
+[16:14:21] : [BFCompanion] [120043.060]   [TextLabel] name="Title" text="ARE YOU SURE?" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.ConfirmAbandon.Title
+[16:14:21] : [BFCompanion] [120043.060]   [TextLabel] name="TextLabel" text="Abandon" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.ConfirmAbandon.Yes.TextLabel
+[16:14:21] : [BFCompanion] [120043.061]   [TextLabel] name="TextLabel" text="No" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.ConfirmAbandon.No.TextLabel
+[16:14:21] : [BFCompanion] [120043.061]   [TextLabel] name="Title" text="YOU'RE ABOUT TO LEAVE THIS CREW. If you're the owner of the Crew, it will be del" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.ConfirmAbandon.Title
+[16:14:21] : [BFCompanion] [120043.061]   [TextLabel] name="CrewBounty" text="Rank: #1" visible=nil valid=false pos=(1154,1492) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.CrewBounty
+[16:14:21] : [BFCompanion] [120043.062]   [TextLabel] name="CrewName" text="The Straw Hat Pirates | Members: 1/25" visible=nil valid=false pos=(960,1460) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.CrewName
+[16:14:21] : [BFCompanion] [120043.062]   [TextLabel] name="CrewOwner" text="Crew Leader: ONLYTWENTYCHARACTERS" visible=nil valid=false pos=(830,1492) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.CrewOwner
+[16:14:21] : [BFCompanion] [120043.065]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1253,1388) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.067]   [TextLabel] name="Title" text="CREW" visible=nil valid=false pos=(960,1420) path=game.Players.cc_yw.PlayerGui.Main.Crew.Main.Title
+[16:14:21] : [BFCompanion] [120043.068]   [TextLabel] name="Title" text="DATA RESTORE AVAILABLE" visible=nil valid=false pos=(970,374) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Title
+[16:14:21] : [BFCompanion] [120043.069]   [TextLabel] name="TextLabel" text="You were probably falsely banned due to an error in the anti-exploit systems. We" visible=nil valid=false pos=(970,465) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120043.069]   [TextLabel] name="TextLabel" text="Restore data to (2022-01-01 | Level 1200 | Lava) <font color=\"#FFFF00\">â˜…Recomm" visible=nil valid=false pos=(991,603) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.Restore.TextLabel
+[16:14:21] : [BFCompanion] [120043.069]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(589,603) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.Restore.Button.TextLabel
+[16:14:21] : [BFCompanion] [120043.070]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(589,676) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.Update.Button.TextLabel
+[16:14:21] : [BFCompanion] [120043.072]   [TextLabel] name="TextLabel" text="Update current data (boosts level, masteries, bounty, etc by old data)" visible=nil valid=false pos=(991,676) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.Update.TextLabel
+[16:14:21] : [BFCompanion] [120043.073]   [TextLabel] name="TextLabel" text="Select a restore option:" visible=nil valid=false pos=(970,558) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120043.073]   [TextLabel] name="TextLabel" text="Click Next to verify the contents of your restore." visible=nil valid=false pos=(970,743) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120043.074]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(823,796) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.075]   [TextLabel] name="TextLabel" text="Next" visible=nil valid=false pos=(969,796) path=game.Players.cc_yw.PlayerGui.Main.DataRestore.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.076]   [TextLabel] name="Title" text="DATA RESTORE AVAILABLE" visible=nil valid=false pos=(970,374) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Title
+[16:14:21] : [BFCompanion] [120043.076]   [TextLabel] name="TextLabel" text="Please confirm data before continuing:" visible=nil valid=false pos=(970,465) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120043.077]   [TextLabel] name="Subtitle" text="Restoring Old Data" visible=nil valid=false pos=(970,558) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.Subtitle
+[16:14:21] : [BFCompanion] [120043.077]   [TextLabel] name="TextLabel" text="Click Confirm to accept your restore." visible=nil valid=false pos=(970,743) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.TextLabel
+[16:14:21] : [BFCompanion] [120043.078]   [TextLabel] name="Level" text="Level: 1500 -> 2200" visible=nil valid=false pos=(970,594) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.Level
+[16:14:21] : [BFCompanion] [120043.081]   [TextLabel] name="Fruit" text="Blox Fruit: Magma added to storage" visible=nil valid=false pos=(970,631) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.Fruit
+[16:14:21] : [BFCompanion] [120043.081]   [TextLabel] name="Fragments" text="Bounty/Respect, Masteries, Currencies were increased." visible=nil valid=false pos=(970,667) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Container.List.Fragments
+[16:14:21] : [BFCompanion] [120043.082]   [TextLabel] name="TextLabel" text="Back" visible=nil valid=false pos=(894,796) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Info.Back.TextLabel
+[16:14:21] : [BFCompanion] [120043.082]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(1045,796) path=game.Players.cc_yw.PlayerGui.Main.DataRestore2.Info.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.083]   [TextLabel] name="TranslateMe" text="[Quest accepted.]" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.TranslateMe
+[16:14:21] : [BFCompanion] [120043.084]   [TextLabel] name="Group001" text="[Quest" visible=nil valid=false pos=(823,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001
+[16:14:21] : [BFCompanion] [120043.084]   [TextLabel] name="Char001" text="[" visible=nil valid=false pos=(770,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char001
+[16:14:21] : [BFCompanion] [120043.085]   [TextLabel] name="Char002" text="Q" visible=nil valid=false pos=(791,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char002
+[16:14:21] : [BFCompanion] [120043.085]   [TextLabel] name="Char003" text="u" visible=nil valid=false pos=(817,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char003
+[16:14:21] : [BFCompanion] [120043.085]   [TextLabel] name="Char004" text="e" visible=nil valid=false pos=(840,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char004
+[16:14:21] : [BFCompanion] [120043.085]   [TextLabel] name="Char005" text="s" visible=nil valid=false pos=(860,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char005
+[16:14:21] : [BFCompanion] [120043.086]   [TextLabel] name="Char006" text="t" visible=nil valid=false pos=(877,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group001.Char006
+[16:14:21] : [BFCompanion] [120043.086]   [TextLabel] name="Group002" text=" " visible=nil valid=false pos=(888,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group002
+[16:14:21] : [BFCompanion] [120043.086]   [TextLabel] name="Char001" text=" " visible=nil valid=false pos=(888,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group002.Char001
+[16:14:21] : [BFCompanion] [120043.089]   [TextLabel] name="Group003" text="accepted.]" visible=nil valid=false pos=(987,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003
+[16:14:21] : [BFCompanion] [120043.089]   [TextLabel] name="Char001" text="a" visible=nil valid=false pos=(903,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char001
+[16:14:21] : [BFCompanion] [120043.089]   [TextLabel] name="Char002" text="c" visible=nil valid=false pos=(924,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char002
+[16:14:21] : [BFCompanion] [120043.089]   [TextLabel] name="Char003" text="c" visible=nil valid=false pos=(944,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char003
+[16:14:21] : [BFCompanion] [120043.090]   [TextLabel] name="Char004" text="e" visible=nil valid=false pos=(965,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char004
+[16:14:21] : [BFCompanion] [120043.090]   [TextLabel] name="Char005" text="p" visible=nil valid=false pos=(988,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char005
+[16:14:21] : [BFCompanion] [120043.090]   [TextLabel] name="Char006" text="t" visible=nil valid=false pos=(1008,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char006
+[16:14:21] : [BFCompanion] [120043.091]   [TextLabel] name="Char007" text="e" visible=nil valid=false pos=(1026,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char007
+[16:14:21] : [BFCompanion] [120043.091]   [TextLabel] name="Char008" text="d" visible=nil valid=false pos=(1049,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char008
+[16:14:21] : [BFCompanion] [120043.091]   [TextLabel] name="Char009" text="." visible=nil valid=false pos=(1067,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char009
+[16:14:21] : [BFCompanion] [120043.092]   [TextLabel] name="Char010" text="]" visible=nil valid=false pos=(1079,620) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.TextFrame.Line001.Container.Group003.Char010
+[16:14:21] : [BFCompanion] [120043.092]   [TextLabel] name="TextLabel" text="Nevermind" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.092]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.Option1.TextLabel
+[16:14:21] : [BFCompanion] [120043.093]   [TextLabel] name="TextLabel" text="Return" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.Option2.TextLabel
+[16:14:21] : [BFCompanion] [120043.093]   [TextLabel] name="TextLabel" text="Option" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.Option3.TextLabel
+[16:14:21] : [BFCompanion] [120043.093]   [TextLabel] name="Title" text="Quest" visible=nil valid=false pos=(959,552) path=game.Players.cc_yw.PlayerGui.Main.Dialogue.Title
+[16:14:21] : [BFCompanion] [120043.094]   [TextLabel] name="TextLabel" text="0" visible=nil valid=false pos=(959,898) path=game.Players.cc_yw.PlayerGui.Main.DodgeNotifier.TextLabel
+[16:14:21] : [BFCompanion] [120043.097]   [TextLabel] name="Shadow" text="0" visible=nil valid=false pos=(957,896) path=game.Players.cc_yw.PlayerGui.Main.DodgeNotifier.TextLabel.Shadow
+[16:14:21] : [BFCompanion] [120043.098]   [TextLabel] name="Version" text="v31.2.12-sea1 : e7fc63c5" visible=nil valid=false pos=(192,76) path=game.Players.cc_yw.PlayerGui.Main.DynamicTopBar.Version
+[16:14:21] : [BFCompanion] [120043.099]   [TextLabel] name="TextLabel" text="CONFIRM ENCHANT" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Confirm.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.101]   [TextLabel] name="TextLabel" text="Select a scroll to apply.<br/><font color=\"#ff0000\"><b>This will replace your cu" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Confirm.Content.Right.TextLabel
+[16:14:21] : [BFCompanion] [120043.101]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Confirm.Content.Right.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.102]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Confirm.Content.Right.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.105]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(1144,805) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Content.Close.TextLabel
+[16:14:21] : [BFCompanion] [120043.105]   [TextLabel] name="TextLabel" text="Reroll Enchants" visible=nil valid=false pos=(775,805) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Content.Roll.TextLabel
+[16:14:21] : [BFCompanion] [120043.108]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(995,332) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Content.Top.Frame.ItemName
+[16:14:21] : [BFCompanion] [120043.109]   [TextLabel] name="ItemRarity" text="Common Sword, Grade 2" visible=nil valid=false pos=(995,374) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Content.Top.Frame.ItemRarity
+[16:14:21] : [BFCompanion] [120043.110]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1293,211) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.110]   [TextLabel] name="TextLabel" text="ENCHANT" visible=nil valid=false pos=(959,256) path=game.Players.cc_yw.PlayerGui.Main.Enchant.Main.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.112]   [TextLabel] name="TextLabel" text="Energy 2425/2425" visible=nil valid=false pos=(192,1011) path=game.Players.cc_yw.PlayerGui.Main.Energy.TextLabel
+[16:14:21] : [BFCompanion] [120043.113]   [TextLabel] name="Fragments" text="failed to fetch text" visible=nil valid=false pos=(150,804) path=game.Players.cc_yw.PlayerGui.Main.Fragments
+[16:14:21] : [BFCompanion] [120043.113]   [TextLabel] name="Title" text="TREASURE INVENTORY" visible=nil valid=false pos=(970,388) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Title
+[16:14:21] : [BFCompanion] [120043.114]   [TextLabel] name="TextLabel" text="STORED" visible=nil valid=false pos=(1163,440) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Stored.TextLabel
+[16:14:21] : [BFCompanion] [120043.116]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,621) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.117]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(1062,476) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.117]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,548) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.118]   [TextLabel] name="TextLabel" text="CURRENT" visible=nil valid=false pos=(776,440) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Current.TextLabel
+[16:14:21] : [BFCompanion] [120043.121]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,620) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.122]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(675,476) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.123]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,548) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.123]   [TextLabel] name="TextLabel" text="Note: stored fruits cannot be dropped, only traded." visible=nil valid=false pos=(915,768) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.124]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1294,768) path=game.Players.cc_yw.PlayerGui.Main.FruitInventory.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.125]   [TextLabel] name="TextLabel" text="Portal Gateways" visible=nil valid=false pos=(960,379) path=game.Players.cc_yw.PlayerGui.Main.Gateway.Header.TextLabel
+[16:14:21] : [BFCompanion] [120043.125]   [TextLabel] name="TextLabel" text="Portal Gateways" visible=nil valid=false pos=(960,377) path=game.Players.cc_yw.PlayerGui.Main.Gateway.Header.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.129]   [TextLabel] name="TextName" text="Forgotten Island" visible=nil valid=false pos=(689,488) path=game.Players.cc_yw.PlayerGui.Main.Gateway.MainContent.ScrollingFrame.Template.TextName
+[16:14:21] : [BFCompanion] [120043.129]   [TextLabel] name="Price" text="$20,500" visible=nil valid=false pos=(689,514) path=game.Players.cc_yw.PlayerGui.Main.Gateway.MainContent.ScrollingFrame.Template.Price
+[16:14:21] : [BFCompanion] [120043.131]   [TextLabel] name="TextLabel" text="Haunted Ship" visible=nil valid=false pos=(590,465) path=game.Players.cc_yw.PlayerGui.Main.Gateway3.Container.List.ScrollingFrame.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.131]   [TextLabel] name="TextLabel" text=" Choose a place to teleport to." visible=nil valid=false pos=(823,796) path=game.Players.cc_yw.PlayerGui.Main.Gateway3.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.132]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1371,796) path=game.Players.cc_yw.PlayerGui.Main.Gateway3.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.132]   [TextLabel] name="Title" text="GATEWAY" visible=nil valid=false pos=(970,374) path=game.Players.cc_yw.PlayerGui.Main.Gateway3.Title
+[16:14:21] : [BFCompanion] [120043.134]   [TextLabel] name="TextLabel" text="Health 2035/2035" visible=nil valid=false pos=(192,945) path=game.Players.cc_yw.PlayerGui.Main.HP.TextLabel
+[16:14:21] : [BFCompanion] [120043.134]   [TextLabel] name="Notify" text="!" visible=nil valid=false pos=(90,450) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.AlliesButton.Notify
+[16:14:21] : [BFCompanion] [120043.136]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(120,450) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.HomeButton.Notify
+[16:14:21] : [BFCompanion] [120043.136]   [TextLabel] name="ExclamationMark" text="!" visible=nil valid=false pos=(152,454) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.ProfileButton.ExclamationMark
+[16:14:21] : [BFCompanion] [120043.138]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(235,463) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.ProfileButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.138]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(-108,397) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.FastModeButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.139]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(178,397) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.FastModeButton.Notify
+[16:14:21] : [BFCompanion] [120043.139]   [TextLabel] name="Notify" text="Redeem DLC codes for rewards." visible=nil valid=false pos=(328,360) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.CodeRedemption.Notify
+[16:14:21] : [BFCompanion] [120043.140]   [TextLabel] name="TextLabel" text="Redeem Codes" visible=nil valid=false pos=(42,360) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.CodeRedemption.TextLabel
+[16:14:21] : [BFCompanion] [120043.141]   [TextLabel] name="TextLabel" text="Hide Tags (OFF)" visible=nil valid=false pos=(42,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.DisplayButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.141]   [TextLabel] name="Notify" text="Hides your character tags from your own screen." visible=nil valid=false pos=(328,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.DisplayButton.Notify
+[16:14:21] : [BFCompanion] [120043.142]   [TextLabel] name="TextLabel" text="Counter (OFF)" visible=nil valid=false pos=(42,385) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.DmgCounterButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.142]   [TextLabel] name="Notify" text="Toggles the damage counter." visible=nil valid=false pos=(328,385) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.DmgCounterButton.Notify
+[16:14:21] : [BFCompanion] [120043.142]   [TextLabel] name="Notify" text="Show more settings." visible=nil valid=false pos=(328,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.NextPage.Notify
+[16:14:21] : [BFCompanion] [120043.144]   [TextLabel] name="TextLabel" text="More Options" visible=nil valid=false pos=(42,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.NextPage.TextLabel
+[16:14:21] : [BFCompanion] [120043.145]   [TextLabel] name="TextLabel" text="Enable PvP" visible=nil valid=false pos=(42,410) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.145]   [TextLabel] name="Notify" text="Enables PvP back after dying In Combat." visible=nil valid=false pos=(328,410) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.Notify
+[16:14:21] : [BFCompanion] [120043.145]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(131,403) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.Notify2
+[16:14:21] : [BFCompanion] [120043.146]   [TextLabel] name="Notify" text="Open the update log and see what changed." visible=nil valid=false pos=(328,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.UpdateLogButton.Notify
+[16:14:21] : [BFCompanion] [120043.146]   [TextLabel] name="TextLabel" text="Open Log" visible=nil valid=false pos=(42,435) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page1.UpdateLogButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.147]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.FastModeButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.147]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.FastModeButton.Notify
+[16:14:21] : [BFCompanion] [120043.148]   [TextLabel] name="Notify" text="Show more settings." visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.NextPage.Notify
+[16:14:21] : [BFCompanion] [120043.148]   [TextLabel] name="TextLabel" text="More Options" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.NextPage.TextLabel
+[16:14:21] : [BFCompanion] [120043.149]   [TextLabel] name="TextLabel" text="Ally FX (ON)" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.DisableAllyEffects.TextLabel
+[16:14:21] : [BFCompanion] [120043.149]   [TextLabel] name="Notify" text="Reduce LAG by disabling ally fx (recommended for Mobile)" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.DisableAllyEffects.Notify
+[16:14:21] : [BFCompanion] [120043.150]   [TextLabel] name="TextLabel" text="New Layout (OFF)" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.MobileLayout.TextLabel
+[16:14:21] : [BFCompanion] [120043.150]   [TextLabel] name="Notify" text="Toggle between the new and the old mobile control scheme." visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.Page2.MobileLayout.Notify
+[16:14:21] : [BFCompanion] [120043.150]   [TextLabel] name="TextLabel" text="Enable PvP" visible=nil valid=false pos=(-108,416) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.151]   [TextLabel] name="Notify" text="Enables PvP back after dying In Combat." visible=nil valid=false pos=(178,416) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.Notify
+[16:14:21] : [BFCompanion] [120043.152]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(-19,409) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.Notify2
+[16:14:21] : [BFCompanion] [120043.153]   [TextLabel] name="Notify" text="!" visible=nil valid=false pos=(30,450) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Notify
+[16:14:21] : [BFCompanion] [120043.153]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(22,463) path=game.Players.cc_yw.PlayerGui.Main.HUDButtonBar.Settings.Notify2
+[16:14:21] : [BFCompanion] [120043.154]   [TextLabel] name="TextLabel" text="Play" visible=nil valid=false pos=(960,620) path=game.Players.cc_yw.PlayerGui.Main.HomescreenPlayButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.155]   [TextLabel] name="Title" text="INVENTORY" visible=nil valid=false pos=(970,388) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Title
+[16:14:21] : [BFCompanion] [120043.155]   [TextLabel] name="TextLabel" text="CURRENT" visible=nil valid=false pos=(776,440) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Current.TextLabel
+[16:14:21] : [BFCompanion] [120043.157]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,620) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.158]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(675,476) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.158]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,548) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.160]   [TextLabel] name="TextLabel" text="STORED" visible=nil valid=false pos=(1163,440) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Stored.TextLabel
+[16:14:21] : [BFCompanion] [120043.162]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,621) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.163]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(1062,476) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.163]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,548) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.164]   [TextLabel] name="TextLabel" text="Click on a weapon to store or load it." visible=nil valid=false pos=(908,768) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.165]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1294,768) path=game.Players.cc_yw.PlayerGui.Main.Inventory.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.166]   [TextLabel] name="TextLabel" text="Items" visible=nil valid=false pos=(288,684) path=game.Players.cc_yw.PlayerGui.Main.InventoryButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.166]   [TextLabel] name="TextLabel" text="2" visible=nil valid=false pos=(365,663) path=game.Players.cc_yw.PlayerGui.Main.InventoryButton.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.169]   [TextLabel] name="TextLabel" text="ALL ()" visible=nil valid=false pos=(808,1561) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Right.Content.Sort.TextLabel
+[16:14:21] : [BFCompanion] [120043.173]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(960,1520) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Right.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.173]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1213,1491) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Right.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.174]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(556,1524) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.ItemName
+[16:14:21] : [BFCompanion] [120043.174]   [TextLabel] name="ItemRarity" text="Legendary, Grade 3" visible=nil valid=false pos=(556,1548) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.ItemRarity
+[16:14:21] : [BFCompanion] [120043.176]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(540,1577) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Frame.ItemLine1
+[16:14:21] : [BFCompanion] [120043.178]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(540,1594) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Frame.ItemLine2
+[16:14:21] : [BFCompanion] [120043.178]   [TextLabel] name="ItemDescription" text="A mythical blade, forged from the darkest of metals and wielded by the strongest" visible=nil valid=false pos=(556,1738) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.ItemDescription
+[16:14:21] : [BFCompanion] [120043.179]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(463,1787) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Ability1.KeyIcon.TextLabel
+[16:14:21] : [BFCompanion] [120043.179]   [TextLabel] name="TextLabel" text="Energy Slash" visible=nil valid=false pos=(586,1787) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Ability1.TextLabel
+[16:14:21] : [BFCompanion] [120043.180]   [TextLabel] name="TextLabel" text="X" visible=nil valid=false pos=(463,1814) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Ability2.KeyIcon.TextLabel
+[16:14:21] : [BFCompanion] [120043.180]   [TextLabel] name="TextLabel" text="(250 Mastery)" visible=nil valid=false pos=(586,1814) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Ability2.TextLabel
+[16:14:21] : [BFCompanion] [120043.181]   [TextLabel] name="TextLabel" text="Unequip" visible=nil valid=false pos=(556,1854) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Equip.TextLabel
+[16:14:21] : [BFCompanion] [120043.181]   [TextLabel] name="ItemDescription2" text="A mythical blade, forged from the darkest of metals and wielded by the strongest" visible=nil valid=false pos=(556,1764) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.ItemDescription2
+[16:14:21] : [BFCompanion] [120043.182]   [TextLabel] name="TextLabel" text="Convert" visible=nil valid=false pos=(556,1854) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Convert.TextLabel
+[16:14:21] : [BFCompanion] [120043.182]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(556,1809) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.Use.TextLabel
+[16:14:21] : [BFCompanion] [120043.183]   [TextLabel] name="TextLabel" text="..." visible=nil valid=false pos=(556,1854) path=game.Players.cc_yw.PlayerGui.Main.InventoryContainer.Left.UseMaterial.TextLabel
+[16:14:21] : [BFCompanion] [120043.188]   [TextLabel] name="Level" text="Lv. 289" visible=nil valid=false pos=(188,858) path=game.Players.cc_yw.PlayerGui.Main.Level
+[16:14:21] : [BFCompanion] [120043.189]   [TextLabel] name="Exp" text="Ð¸z¦" visible=nil valid=false pos=(188,891) path=game.Players.cc_yw.PlayerGui.Main.Level.Exp
+[16:14:21] : [BFCompanion] [120043.189]   [TextLabel] name="TextLabel" text="30%" visible=nil valid=false pos=(375,834) path=game.Players.cc_yw.PlayerGui.Main.Level.FriendBoost.TextLabel
+[16:14:21] : [BFCompanion] [120043.190]   [TextLabel] name="TextLabel2" text="2 friends are in your server! +30% EXP" visible=nil valid=false pos=(723,825) path=game.Players.cc_yw.PlayerGui.Main.Level.FriendBoost.TextLabel2
+[16:14:21] : [BFCompanion] [120043.190]   [TextLabel] name="TextLabel" text="30%" visible=nil valid=false pos=(375,867) path=game.Players.cc_yw.PlayerGui.Main.Level.ExploreBoost.TextLabel
+[16:14:21] : [BFCompanion] [120043.191]   [TextLabel] name="TextLabel2" text="Sea Exploration Group: 6 Players" visible=nil valid=false pos=(607,858) path=game.Players.cc_yw.PlayerGui.Main.Level.ExploreBoost.TextLabel2
+[16:14:21] : [BFCompanion] [120043.195]   [TextLabel] name="TextLabel" text="+5% Luck" visible=nil valid=false pos=(428,867) path=game.Players.cc_yw.PlayerGui.Main.Level.FishBoost.TextLabel
+[16:14:21] : [BFCompanion] [120043.195]   [TextLabel] name="TextLabel2" text="Fishing Together" visible=nil valid=false pos=(480,849) path=game.Players.cc_yw.PlayerGui.Main.Level.FishBoost.TextLabel2
+[16:14:21] : [BFCompanion] [120043.195]   [TextLabel] name="caret" text="^" visible=nil valid=false pos=(367,864) path=game.Players.cc_yw.PlayerGui.Main.Level.FishBoost.caret
+[16:14:21] : [BFCompanion] [120043.196]   [TextLabel] name="Loading" text="Loading Data..." visible=nil valid=false pos=(960,556) path=game.Players.cc_yw.PlayerGui.Main.Loading
+[16:14:21] : [BFCompanion] [120043.196]   [TextLabel] name="TextLabel" text="Menu" visible=nil valid=false pos=(96,745) path=game.Players.cc_yw.PlayerGui.Main.MenuButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.196]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(174,722) path=game.Players.cc_yw.PlayerGui.Main.MenuButton.Notify
+[16:14:21] : [BFCompanion] [120043.197]   [TextLabel] name="TextLabel" text="!!" visible=nil valid=false pos=(173,724) path=game.Players.cc_yw.PlayerGui.Main.MenuButton.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.198]   [TextLabel] name="MobileMasteryLevel" text="failed to fetch text" visible=nil valid=false pos=(1632,1016) path=game.Players.cc_yw.PlayerGui.Main.MobileMasteryLevel
+[16:14:21] : [BFCompanion] [120043.200]   [TextLabel] name="Exp" text="°½§^" visible=nil valid=false pos=(1632,1054) path=game.Players.cc_yw.PlayerGui.Main.MobileMasteryLevel.Exp
+[16:14:21] : [BFCompanion] [120043.201]   [TextLabel] name="TextLabel" text="Shop" visible=nil valid=false pos=(288,763) path=game.Players.cc_yw.PlayerGui.Main.MobileShopButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.202]   [TextLabel] name="TextLabel" text="SALE!" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.MobileShopButton.Themes.Christmas.Sale.TextLabel
+[16:14:21] : [BFCompanion] [120043.202]   [TextLabel] name="TextLabel" text="Stats" visible=nil valid=false pos=(86,763) path=game.Players.cc_yw.PlayerGui.Main.MobileStatsButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.203]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(164,740) path=game.Players.cc_yw.PlayerGui.Main.MobileStatsButton.Notify
+[16:14:21] : [BFCompanion] [120043.204]   [TextLabel] name="TextLabel" text="14" visible=nil valid=false pos=(163,742) path=game.Players.cc_yw.PlayerGui.Main.MobileStatsButton.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.204]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(953,824) path=game.Players.cc_yw.PlayerGui.Main.Note.ScrollingFrame.TextLabel
+[16:14:21] : [BFCompanion] [120043.205]   [TextLabel] name="PvpDisabled" text="ðŸ›¡Died Recently - PvP disabledð" visible=nil valid=false pos=(960,960) path=game.Players.cc_yw.PlayerGui.Main.PvpDisabled
+[16:14:21] : [BFCompanion] [120043.205]   [TextLabel] name="Title" text="QUEST" visible=nil valid=false pos=(192,500) path=game.Players.cc_yw.PlayerGui.Main.Quest.Title
+[16:14:21] : [BFCompanion] [120043.206]   [TextLabel] name="Title" text="Defeat 7 Toga Warriors (0/7)" visible=nil valid=false pos=(192,536) path=game.Players.cc_yw.PlayerGui.Main.Quest.Container.QuestTitle.Title
+[16:14:21] : [BFCompanion] [120043.209]   [TextLabel] name="Title" text="Reward:\
+$7,000\
+1,100,000 Exp." visible=nil valid=false pos=(192,598) path=game.Players.cc_yw.PlayerGui.Main.Quest.Container.QuestReward.Title
+[16:14:21] : [BFCompanion] [120043.213]   [TextLabel] name="Hint" text="Show or hide ally ability VFX" visible=nil valid=false pos=(782,516) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.Hint
+[16:14:21] : [BFCompanion] [120043.214]   [TextLabel] name="TitleName" text="Ally VFX" visible=nil valid=false pos=(782,480) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.TitleName
+[16:14:21] : [BFCompanion] [120043.214]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,498) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.215]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.217]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,498) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.217]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.217]   [TextLabel] name="AudioHeader" text="ðŸ”Š Audio" visible=nil valid=false pos=(959,300) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.AudioHeader
+[16:14:21] : [BFCompanion] [120043.219]   [TextLabel] name="TitleName" text="Background Music" visible=nil valid=false pos=(781,316) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.TitleName
+[16:14:21] : [BFCompanion] [120043.219]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,368) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.220]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,366) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.220]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,368) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.221]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,366) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.222]   [TextLabel] name="Hint" text="Turn on or off ability camera shake" visible=nil valid=false pos=(782,610) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.Hint
+[16:14:21] : [BFCompanion] [120043.223]   [TextLabel] name="TitleName" text="Camera Shake" visible=nil valid=false pos=(782,574) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.TitleName
+[16:14:21] : [BFCompanion] [120043.225]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,592) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.225]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,590) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.226]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,592) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.226]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,590) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.228]   [TextLabel] name="TitleName" text="Ability Control Scheme" visible=nil valid=false pos=(781,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.TitleName
+[16:14:21] : [BFCompanion] [120043.228]   [TextLabel] name="TextLabel" text="Modern" visible=nil valid=false pos=(1316,498) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.229]   [TextLabel] name="TextLabel" text="Modern" visible=nil valid=false pos=(1316,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.229]   [TextLabel] name="TextLabel" text="Classic" visible=nil valid=false pos=(1146,498) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.230]   [TextLabel] name="TextLabel" text="Classic" visible=nil valid=false pos=(1146,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.233]   [TextLabel] name="Hint" text="Show or hide the total damage counter on HUD" visible=nil valid=false pos=(781,706) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.Hint
+[16:14:21] : [BFCompanion] [120043.233]   [TextLabel] name="TitleName" text="Damage Counter" visible=nil valid=false pos=(782,668) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.TitleName
+[16:14:21] : [BFCompanion] [120043.234]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,686) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.234]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,684) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.235]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,686) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.235]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,684) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.236]   [TextLabel] name="TitleName" text="Enable PvP" visible=nil valid=false pos=(781,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.TitleName
+[16:14:21] : [BFCompanion] [120043.237]   [TextLabel] name="TextLabel" text="Enable" visible=nil valid=false pos=(1302,498) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.ToggleButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.237]   [TextLabel] name="TextLabel" text="Enable" visible=nil valid=false pos=(1302,496) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.ToggleButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.238]   [TextLabel] name="Hint" text="Disables materials (recommended for mobile)" visible=nil valid=false pos=(781,930) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.Hint
+[16:14:21] : [BFCompanion] [120043.239]   [TextLabel] name="TitleName" text="Fast Mode" visible=nil valid=false pos=(782,893) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.TitleName
+[16:14:21] : [BFCompanion] [120043.240]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,911) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.241]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1146,909) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.241]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,911) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.242]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1316,909) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.242]   [TextLabel] name="GameplayHeader" text="ðŸŽ® Gameplay" visible=nil valid=false pos=(959,430) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.GameplayHeader
+[16:14:21] : [BFCompanion] [120043.243]   [TextLabel] name="QualityOfLifeHeader" text="ðŸ¤ Quality of Life" visible=nil valid=false pos=(959,843) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.QualityOfLifeHeader
+[16:14:21] : [BFCompanion] [120043.244]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(1302,780) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.RedeemButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.244]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(1302,778) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.RedeemButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.245]   [TextLabel] name="TitleName" text="Redeem DLC Code" visible=nil valid=false pos=(782,778) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.TitleName
+[16:14:21] : [BFCompanion] [120043.247]   [TextLabel] name="TitleName" text="Ability Skill Mode" visible=nil valid=false pos=(781,590) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.TitleName
+[16:14:21] : [BFCompanion] [120043.248]   [TextLabel] name="TextLabel" text="Double Tap" visible=nil valid=false pos=(1316,592) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.SecondButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.249]   [TextLabel] name="TextLabel" text="Double Tap" visible=nil valid=false pos=(1316,590) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.SecondButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.249]   [TextLabel] name="TextLabel" text="Drag" visible=nil valid=false pos=(1146,592) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.FirstButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.249]   [TextLabel] name="TextLabel" text="Drag" visible=nil valid=false pos=(1146,590) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.FirstButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.251]   [TextLabel] name="TitleName" text="Sound Effects" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.TitleName
+[16:14:21] : [BFCompanion] [120043.251]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.EquipButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.252]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.EquipButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.253]   [TextLabel] name="TitleName" text="Update Log" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.TitleName
+[16:14:21] : [BFCompanion] [120043.254]   [TextLabel] name="TextLabel" text="Open" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.UpdateLogButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.254]   [TextLabel] name="TextLabel" text="Open" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.UpdateLogButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.258]   [TextLabel] name="TextLabel" text="Settings" visible=nil valid=false pos=(960,402) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.259]   [TextLabel] name="TextLabel" text="Settings" visible=nil valid=false pos=(960,400) path=game.Players.cc_yw.PlayerGui.Main.SettingsMenu.Title.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.260]   [TextLabel] name="TextLabel" text="GIFT" visible=nil valid=false pos=(1021,1682) path=game.Players.cc_yw.PlayerGui.Main.Shop.Blackout.Confirm.Gift.TextLabel
+[16:14:21] : [BFCompanion] [120043.261]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(959,1483) path=game.Players.cc_yw.PlayerGui.Main.Shop.Blackout.Confirm.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.261]   [TextLabel] name="TextLabel" text="Purchase this product for yourself or for a friend?" visible=nil valid=false pos=(959,1576) path=game.Players.cc_yw.PlayerGui.Main.Shop.Blackout.Confirm.TextLabel
+[16:14:21] : [BFCompanion] [120043.262]   [TextLabel] name="TextLabel" text="BUY" visible=nil valid=false pos=(805,1682) path=game.Players.cc_yw.PlayerGui.Main.Shop.Blackout.Confirm.Buy.TextLabel
+[16:14:21] : [BFCompanion] [120043.262]   [TextLabel] name="TextLabel" text="CANCEL" visible=nil valid=false pos=(1175,1682) path=game.Players.cc_yw.PlayerGui.Main.Shop.Blackout.Confirm.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.265]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1307,1320) path=game.Players.cc_yw.PlayerGui.Main.Shop.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.265]   [TextLabel] name="TextLabel" text="SHOP" visible=nil valid=false pos=(960,1360) path=game.Players.cc_yw.PlayerGui.Main.Shop.Header.TextLabel
+[16:14:21] : [BFCompanion] [120043.266]   [TextLabel] name="TextLabel" text="You have 1 unclaimed gift!" visible=nil valid=false pos=(921,1425) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.GiftBanner.TextLabel
+[16:14:21] : [BFCompanion] [120043.268]   [TextLabel] name="TextLabel" text="THE FASTEST!" visible=nil valid=false pos=(950,3293) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.268]   [TextLabel] name="TextLabel" text="FAST BOATS" visible=nil valid=false pos=(950,2980) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.269]   [TextLabel] name="TextLabel" text="î€‚ 350" visible=nil valid=false pos=(950,3185) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.270]   [TextLabel] name="TextLabel" text="î€‚ 350" visible=nil valid=false pos=(736,3185) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleDrops.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.271]   [TextLabel] name="TextLabel" text="2x DROP CHANCE" visible=nil valid=false pos=(736,2980) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleDrops.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.273]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(1165,3185) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleBeli.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.275]   [TextLabel] name="TextLabel" text="2x MONEY" visible=nil valid=false pos=(1165,2980) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleBeli.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.276]   [TextLabel] name="TextLabel" text="+35% MORE" visible=nil valid=false pos=(953,2333) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.276]   [TextLabel] name="TextLabel" text="î€‚ 499" visible=nil valid=false pos=(953,2357) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.277]   [TextLabel] name="TextLabel" text="+$135K" visible=nil valid=false pos=(953,2248) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.278]   [TextLabel] name="TextLabel" text="+$500K" visible=nil valid=false pos=(1209,2248) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.278]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,2333) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.280]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2357) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.281]   [TextLabel] name="TextLabel" text="+$50K" visible=nil valid=false pos=(826,2248) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.282]   [TextLabel] name="TextLabel" text="+25% MORE" visible=nil valid=false pos=(826,2333) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.282]   [TextLabel] name="TextLabel" text="î€‚ 199" visible=nil valid=false pos=(826,2357) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.283]   [TextLabel] name="TextLabel" text="î€‚ 999" visible=nil valid=false pos=(1081,2357) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.283]   [TextLabel] name="TextLabel" text="+$300K" visible=nil valid=false pos=(1081,2248) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.284]   [TextLabel] name="TextLabel" text="+50% MORE" visible=nil valid=false pos=(1081,2333) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.285]   [TextLabel] name="TextLabel" text="î€‚ 50" visible=nil valid=false pos=(698,2357) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.286]   [TextLabel] name="TextLabel" text="+$10K" visible=nil valid=false pos=(698,2248) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.289]   [TextLabel] name="TextLabel" text="+Æ’4,500" visible=nil valid=false pos=(953,2071) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.290]   [TextLabel] name="TextLabel" text="î€‚ 499" visible=nil valid=false pos=(953,2180) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.290]   [TextLabel] name="TextLabel" text="+35% MORE" visible=nil valid=false pos=(953,2156) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.291]   [TextLabel] name="TextLabel" text="+25% MORE" visible=nil valid=false pos=(826,2156) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.292]   [TextLabel] name="TextLabel" text="+Æ’2,100" visible=nil valid=false pos=(826,2071) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.293]   [TextLabel] name="TextLabel" text="î€‚ 250" visible=nil valid=false pos=(826,2180) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.294]   [TextLabel] name="TextLabel" text="î€‚ 75" visible=nil valid=false pos=(698,2180) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack1.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.294]   [TextLabel] name="TextLabel" text="+Æ’500" visible=nil valid=false pos=(698,2071) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.297]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,2156) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.298]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2180) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.299]   [TextLabel] name="TextLabel" text="+Æ’16,000" visible=nil valid=false pos=(1209,2071) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.299]   [TextLabel] name="TextLabel" text="+50% MORE" visible=nil valid=false pos=(1081,2156) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.300]   [TextLabel] name="TextLabel" text="+Æ’10,000" visible=nil valid=false pos=(1081,2071) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.300]   [TextLabel] name="TextLabel" text="î€‚ 999" visible=nil valid=false pos=(1081,2180) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.301]   [TextLabel] name="TextLabel" text="âœ¨  LIMITED OFFERS!" visible=nil valid=false pos=(777,1413) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.FrameExtra.TextLabel
+[16:14:21] : [BFCompanion] [120043.302]   [TextLabel] name="TextLabel" text="ROBLOX PREMIUM - MONTHLY" visible=nil valid=false pos=(840,3488) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.302]   [TextLabel] name="TextLabel" text="<b>In-game benefits:</b><br/>- 20% off Blox Fruits Dealer Cousin.<br/>- 10% addi" visible=nil valid=false pos=(1023,3577) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Premium.TextLabel
+[16:14:21] : [BFCompanion] [120043.304]   [TextLabel] name="TextLabel" text="Buy" visible=nil valid=false pos=(705,3636) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Premium.Pack1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.305]   [TextLabel] name="TextLabel" text="PREMIUM" visible=nil valid=false pos=(705,3522) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Premium.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.306]   [TextLabel] name="TextLabel" text="GAME PASSES - PERMANENT" visible=nil valid=false pos=(840,2940) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.306]   [TextLabel] name="TextLabel" text="PRODUCTS" visible=nil valid=false pos=(777,2393) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.308]   [TextLabel] name="TextLabel" text="î€‚ 75" visible=nil valid=false pos=(950,2637) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.RefundStats.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.309]   [TextLabel] name="TextLabel" text="REFUND STATS" visible=nil valid=false pos=(950,2432) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.RefundStats.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.310]   [TextLabel] name="TextLabel" text="î€‚ 50" visible=nil valid=false pos=(736,2637) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.RespawnAll.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.311]   [TextLabel] name="TextLabel" text="RESPAWN BOSSES" visible=nil valid=false pos=(736,2432) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.RespawnAll.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.314]   [TextLabel] name="TextLabel" text="î€‚ 90" visible=nil valid=false pos=(1165,2637) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.314]   [TextLabel] name="TextLabel" text="CHANGE RACE" visible=nil valid=false pos=(1165,2432) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.315]   [TextLabel] name="TextLabel" text="1/3 CHANCE PER RACE (RANDOM)" visible=nil valid=false pos=(1165,2746) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.315]   [TextLabel] name="TextLabel" text="HUMAN, SHARK, ANGEL, RABBIT" visible=nil valid=false pos=(1165,2467) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.316]   [TextLabel] name="TextLabel" text="(2x) EXP BOOSTS  - SAVES ON EXIT" visible=nil valid=false pos=(887,1860) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.317]   [TextLabel] name="TextLabel" text="+1 FRUIT STORAGE" visible=nil valid=false pos=(736,2689) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products2.UpgradeBag.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.317]   [TextLabel] name="TextLabel" text="î€‚ 400" visible=nil valid=false pos=(736,2893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Products2.UpgradeBag.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.321]   [TextLabel] name="TextLabel" text="1 hour" visible=nil valid=false pos=(826,1893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp2.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.322]   [TextLabel] name="TextLabel" text="î€‚ 99" visible=nil valid=false pos=(826,2002) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp2.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.323]   [TextLabel] name="TextLabel" text="î€‚ 850" visible=nil valid=false pos=(1081,2002) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.323]   [TextLabel] name="TextLabel" text="POPULAR" visible=nil valid=false pos=(1081,1978) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.324]   [TextLabel] name="TextLabel" text="12 hours" visible=nil valid=false pos=(1081,1893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.325]   [TextLabel] name="TextLabel" text="î€‚ 25" visible=nil valid=false pos=(698,2002) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.326]   [TextLabel] name="TextLabel" text="15 mins." visible=nil valid=false pos=(698,1893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.327]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,1978) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.329]   [TextLabel] name="TextLabel" text="24 hours" visible=nil valid=false pos=(1209,1893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.330]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2002) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.331]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(953,2002) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp3.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.332]   [TextLabel] name="TextLabel" text="6 hours" visible=nil valid=false pos=(953,1893) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp3.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.333]   [TextLabel] name="TextLabel" text="(Æ’) FRAGMENTS" visible=nil valid=false pos=(777,2037) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.FragmentsFrame.TextLabel
+[16:14:21] : [BFCompanion] [120043.333]   [TextLabel] name="TextLabel" text="î€‚ 2700" visible=nil valid=false pos=(1165,3441) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Notifier.ImageLabelBottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.335]   [TextLabel] name="TextLabel" text="FRUIT NOTIFIER" visible=nil valid=false pos=(1165,3236) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Notifier.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.338]   [TextLabel] name="TextLabel" text="2x MASTERY" visible=nil valid=false pos=(736,3236) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.DoubleMastery.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.338]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(736,3441) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.DoubleMastery.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.339]   [TextLabel] name="TextLabel" text="î€‚ 1200" visible=nil valid=false pos=(950,3441) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.340]   [TextLabel] name="TextLabel" text="DARK BLADE" visible=nil valid=false pos=(950,3236) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.341]   [TextLabel] name="TextLabel" text="MYTHICAL!" visible=nil valid=false pos=(950,3549) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.341]   [TextLabel] name="TextLabel" text="($) MONEY" visible=nil valid=false pos=(777,2215) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.342]   [TextLabel] name="TextLabel" text="BEAST BUNDLE" visible=nil valid=false pos=(1113,1417) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.343]   [TextLabel] name="TextLabel" text="0 days left" visible=nil valid=false pos=(1113,1532) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.346]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 3999</stroke> <font colo" visible=nil valid=false pos=(1113,1572) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.347]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 5999</stroke> <font colo" visible=nil valid=false pos=(794,1572) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.348]   [TextLabel] name="TextLabel" text="HOLIDAY SPECIAL" visible=nil valid=false pos=(794,1417) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.349]   [TextLabel] name="TextLabel" text="0 days left" visible=nil valid=false pos=(794,1532) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.350]   [TextLabel] name="Fruit1" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(794,1418) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fruit1
+[16:14:21] : [BFCompanion] [120043.351]   [TextLabel] name="Fruit2" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(794,1456) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fruit2
+[16:14:21] : [BFCompanion] [120043.351]   [TextLabel] name="Money" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(102,25" visible=nil valid=false pos=(794,1494) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Money
+[16:14:21] : [BFCompanion] [120043.353]   [TextLabel] name="Fragments" text="failed to fetch text" visible=nil valid=false pos=(794,1531) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fragments
+[16:14:21] : [BFCompanion] [120043.354]   [TextLabel] name="Dupes" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ªFruits will be stored.</s" visible=nil valid=false pos=(794,1569) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Dupes
+[16:14:21] : [BFCompanion] [120043.355]   [TextLabel] name="Fruit1" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1418) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit1
+[16:14:21] : [BFCompanion] [120043.355]   [TextLabel] name="Fruit2" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1456) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit2
+[16:14:21] : [BFCompanion] [120043.356]   [TextLabel] name="Fruit3" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1494) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit3
+[16:14:21] : [BFCompanion] [120043.356]   [TextLabel] name="Money" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(102,25" visible=nil valid=false pos=(1113,1531) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Money
+[16:14:21] : [BFCompanion] [120043.356]   [TextLabel] name="Fragments" text="failed to fetch text" visible=nil valid=false pos=(1113,1569) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fragments
+[16:14:21] : [BFCompanion] [120043.357]   [TextLabel] name="TextLabel" text="âœ¨  PERMANENT FRUITS & SKINS!" visible=nil valid=false pos=(840,1413) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.FrameFruits.TextLabel
+[16:14:21] : [BFCompanion] [120043.358]   [TextLabel] name="TextLabel" text="Yeti" visible=nil valid=false pos=(762,1652) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Yeti.Content.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.362]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\"><font size=\"12\">î€‚3000</fon" visible=nil valid=false pos=(762,1827) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Yeti.Content.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.363]   [TextLabel] name="TextLabel" text="Control" visible=nil valid=false pos=(1082,1652) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Alt.Content.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.364]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\"><font size=\"12\">î€‚4000</fon" visible=nil valid=false pos=(1082,1827) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Alt.Content.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.365]   [TextLabel] name="TextLabel" text="<b>Benefits:</b><br/>- Alerts you when a fruit spawns and displays how close you" visible=nil valid=false pos=(1067,1489) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.TextLabel
+[16:14:21] : [BFCompanion] [120043.366]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 1999</stroke> <font colo" visible=nil valid=false pos=(745,1599) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Notifier.ImageLabelBottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.367]   [TextLabel] name="TextLabel" text="FRUIT NOTIFIER" visible=nil valid=false pos=(745,1420) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Notifier.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.370]   [TextLabel] name="Countdown" text="2 days left" visible=nil valid=false pos=(1067,1598) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Countdown
+[16:14:21] : [BFCompanion] [120043.371]   [TextLabel] name="TextLabel" text="ðŸ¥š EASTER SALE!" visible=nil valid=false pos=(777,1413) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.FrameExtra2.TextLabel
+[16:14:21] : [BFCompanion] [120043.373]   [TextLabel] name="TextLabel" text="î€‚750" visible=nil valid=false pos=(953,1967) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack3.Price.TextLabel
+[16:14:21] : [BFCompanion] [120043.373]   [TextLabel] name="TextLabel" text="Ice" visible=nil valid=false pos=(953,1858) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack3.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.374]   [TextLabel] name="TextLabel" text="Control" visible=nil valid=false pos=(1209,1858) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack5.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.375]   [TextLabel] name="TextLabel" text="î€‚4000" visible=nil valid=false pos=(1209,1967) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack5.Price.TextLabel
+[16:14:21] : [BFCompanion] [120043.378]   [TextLabel] name="TextLabel" text="Bomb" visible=nil valid=false pos=(826,1858) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack2.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.379]   [TextLabel] name="TextLabel" text="î€‚220" visible=nil valid=false pos=(826,1967) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack2.Price.TextLabel
+[16:14:21] : [BFCompanion] [120043.380]   [TextLabel] name="TextLabel" text="î€‚1700" visible=nil valid=false pos=(1081,1967) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack4.Price.TextLabel
+[16:14:21] : [BFCompanion] [120043.381]   [TextLabel] name="TextLabel" text="Love" visible=nil valid=false pos=(1081,1858) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack4.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.382]   [TextLabel] name="TextLabel" text="î€‚100" visible=nil valid=false pos=(698,1967) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack1.Price.TextLabel
+[16:14:21] : [BFCompanion] [120043.383]   [TextLabel] name="TextLabel" text="Blade" visible=nil valid=false pos=(698,1858) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.386]   [TextLabel] name="TextLabel" text="Open Fruit Shop" visible=nil valid=false pos=(953,1609) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.ViewAllFruits.More.More.ImageLabelBottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.387]   [TextLabel] name="TextLabel" text="<stroke thickness=\"1\">Get <font color=\"rgb(255,200,90)\">Permanent </font>&lt;Tig" visible=nil valid=false pos=(954,1596) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.TextLabel
+[16:14:21] : [BFCompanion] [120043.388]   [TextLabel] name="TextLabel" text="13d 23h 59m" visible=nil valid=false pos=(694,1452) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.Countdown.TextLabel
+[16:14:21] : [BFCompanion] [120043.388]   [TextLabel] name="TextLabel" text="13d 23h 59m" visible=nil valid=false pos=(694,1450) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.Countdown.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.390]   [TextLabel] name="TextLabel" text="Preview" visible=nil valid=false pos=(1209,1457) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.PreviewButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.390]   [TextLabel] name="TextLabel" text="Preview" visible=nil valid=false pos=(1209,1455) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.PreviewButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.393]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚3999</stroke> <font color" visible=nil valid=false pos=(953,1644) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Bottom.TextLabel
+[16:14:21] : [BFCompanion] [120043.394]   [TextLabel] name="TextLabel" text="ðŸ¯ Hunter Bundle ð" visible=nil valid=false pos=(954,1415) path=game.Players.cc_yw.PlayerGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Top.TextLabel
+[16:14:21] : [BFCompanion] [120043.396]   [TextLabel] name="TextLabel" text="Shop" visible=nil valid=false pos=(288,745) path=game.Players.cc_yw.PlayerGui.Main.ShopButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.397]   [TextLabel] name="TextLabel" text="0" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ShopButton.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.398]   [TextLabel] name="TextLabel" text="SALE!" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.ShopButton.Themes.Christmas.Sale.TextLabel
+[16:14:21] : [BFCompanion] [120043.401]   [TextLabel] name="Title" text="Super Earthquake" visible=nil valid=false pos=(1684,788) path=game.Players.cc_yw.PlayerGui.Main.Skills.Container.Template.Title
+[16:14:21] : [BFCompanion] [120043.402]   [TextLabel] name="Level" text="Lv. 10" visible=nil valid=false pos=(1825,763) path=game.Players.cc_yw.PlayerGui.Main.Skills.Container.Template.Level
+[16:14:21] : [BFCompanion] [120043.402]   [TextLabel] name="Key" text="[Q]" visible=nil valid=false pos=(1825,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Container.Template.Key
+[16:14:21] : [BFCompanion] [120043.402]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Container.Template.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.403]   [TextLabel] name="Level" text="Î§^" visible=nil valid=false pos=(1744,611) path=game.Players.cc_yw.PlayerGui.Main.Skills.Level
+[16:14:21] : [BFCompanion] [120043.405]   [TextLabel] name="Exp" text="112,141/149,858" visible=nil valid=false pos=(1744,640) path=game.Players.cc_yw.PlayerGui.Main.Skills.Level.Exp
+[16:14:21] : [BFCompanion] [120043.405]   [TextLabel] name="Rage" text="Fury Meter" visible=nil valid=false pos=(1744,547) path=game.Players.cc_yw.PlayerGui.Main.Skills.Rage
+[16:14:21] : [BFCompanion] [120043.420]   [TextLabel] name="TextLabel" text="Fury Meter" visible=nil valid=false pos=(1744,547) path=game.Players.cc_yw.PlayerGui.Main.Skills.Rage.TextLabel
+[16:14:21] : [BFCompanion] [120043.422]   [TextLabel] name="StarContainer" text="failed to fetch text" visible=nil valid=false pos=(1746,641) path=game.Players.cc_yw.PlayerGui.Main.Skills.StarContainer
+[16:14:21] : [BFCompanion] [120043.423]   [TextLabel] name="TextLabel" text="Use" visible=nil valid=false pos=(1858,641) path=game.Players.cc_yw.PlayerGui.Main.Skills.StarContainer.Center.Button.Center.TextLabel
+[16:14:21] : [BFCompanion] [120043.425]   [TextLabel] name="TextLabel" text="0/50 Stored" visible=nil valid=false pos=(1715,641) path=game.Players.cc_yw.PlayerGui.Main.Skills.StarContainer.Center.Bar.TextLabel
+[16:14:21] : [BFCompanion] [120043.426]   [TextLabel] name="Title" text="DARK STEP" visible=nil valid=false pos=(1746,694) path=game.Players.cc_yw.PlayerGui.Main.Skills.Title
+[16:14:21] : [BFCompanion] [120043.427]   [TextLabel] name="Title" text="Super Earthquake" visible=nil valid=false pos=(1684,788) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Template.Title
+[16:14:21] : [BFCompanion] [120043.428]   [TextLabel] name="Level" text="Lv. 10" visible=nil valid=false pos=(1825,763) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Template.Level
+[16:14:21] : [BFCompanion] [120043.428]   [TextLabel] name="Key" text="[Q]" visible=nil valid=false pos=(1825,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Template.Key
+[16:14:21] : [BFCompanion] [120043.428]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Template.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.430]   [TextLabel] name="Title" text="Flying Kick" visible=nil valid=false pos=(1684,788) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Z.Title
+[16:14:21] : [BFCompanion] [120043.430]   [TextLabel] name="Level" text="Mas. 1" visible=nil valid=false pos=(1825,763) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Z.Level
+[16:14:21] : [BFCompanion] [120043.430]   [TextLabel] name="Key" text="[Z]" visible=nil valid=false pos=(1825,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Z.Key
+[16:14:21] : [BFCompanion] [120043.431]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,805) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.Z.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.434]   [TextLabel] name="Title" text="Breakdance" visible=nil valid=false pos=(1684,873) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.X.Title
+[16:14:21] : [BFCompanion] [120043.434]   [TextLabel] name="Level" text="Mas. 40" visible=nil valid=false pos=(1825,848) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.X.Level
+[16:14:21] : [BFCompanion] [120043.434]   [TextLabel] name="Key" text="[X]" visible=nil valid=false pos=(1825,890) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.X.Key
+[16:14:21] : [BFCompanion] [120043.435]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,890) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.X.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.436]   [TextLabel] name="Title" text="Barrage" visible=nil valid=false pos=(1684,958) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.C.Title
+[16:14:21] : [BFCompanion] [120043.436]   [TextLabel] name="Level" text="Mas. 80" visible=nil valid=false pos=(1825,933) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.C.Level
+[16:14:21] : [BFCompanion] [120043.437]   [TextLabel] name="Key" text="[C]" visible=nil valid=false pos=(1825,975) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.C.Key
+[16:14:21] : [BFCompanion] [120043.437]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,975) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.C.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.438]   [TextLabel] name="Title" text="Overheat" visible=nil valid=false pos=(1684,1043) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.V.Title
+[16:14:21] : [BFCompanion] [120043.439]   [TextLabel] name="Level" text="Mas. 150" visible=nil valid=false pos=(1825,1018) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.V.Level
+[16:14:21] : [BFCompanion] [120043.439]   [TextLabel] name="Key" text="[V]" visible=nil valid=false pos=(1825,1060) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.V.Key
+[16:14:21] : [BFCompanion] [120043.439]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,1060) path=game.Players.cc_yw.PlayerGui.Main.Skills.Black Leg.V.Key.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.442]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.Frame.ItemLine1
+[16:14:21] : [BFCompanion] [120043.443]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.Frame.ItemLine2
+[16:14:21] : [BFCompanion] [120043.443]   [TextLabel] name="Template" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.Info.Template
+[16:14:21] : [BFCompanion] [120043.444]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.ItemDescription
+[16:14:21] : [BFCompanion] [120043.444]   [TextLabel] name="ItemDescription2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.ItemDescription2
+[16:14:21] : [BFCompanion] [120043.444]   [TextLabel] name="ItemName" text="Red Eastern Dragon" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.ItemName
+[16:14:21] : [BFCompanion] [120043.445]   [TextLabel] name="ItemRarity" text="Legendary Skin" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.ItemRarity
+[16:14:21] : [BFCompanion] [120043.445]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Skins.Left.Selector.Equip.TextLabel
+[16:14:21] : [BFCompanion] [120043.450]   [TextLabel] name="TextLabel" text="INVENTORY" visible=nil valid=false pos=(769,1561) path=game.Players.cc_yw.PlayerGui.Main.Skins.Right.Content.Return.TextLabel
+[16:14:21] : [BFCompanion] [120043.451]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1213,1491) path=game.Players.cc_yw.PlayerGui.Main.Skins.Right.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.452]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(960,1520) path=game.Players.cc_yw.PlayerGui.Main.Skins.Right.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.452]   [TextLabel] name="Available" text="Available: 36" visible=nil valid=false pos=(972,2161) path=game.Players.cc_yw.PlayerGui.Main.Stars.Bottom.Available
+[16:14:21] : [BFCompanion] [120043.453]   [TextLabel] name="TextLabel" text="World Warp (Mas. 200)" visible=nil valid=false pos=(873,2113) path=game.Players.cc_yw.PlayerGui.Main.Stars.Container.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.454]   [TextLabel] name="TextLabel" text="18" visible=nil valid=false pos=(1245,2112) path=game.Players.cc_yw.PlayerGui.Main.Stars.Container.Template.Add.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.455]   [TextLabel] name="TextLabel" text="1" visible=nil valid=false pos=(755,2115) path=game.Players.cc_yw.PlayerGui.Main.Stars.ExtraRow.1.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.455]   [TextLabel] name="TextLabel" text="5" visible=nil valid=false pos=(866,2115) path=game.Players.cc_yw.PlayerGui.Main.Stars.ExtraRow.5.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.458]   [TextLabel] name="TextLabel" text="50" visible=nil valid=false pos=(1089,2115) path=game.Players.cc_yw.PlayerGui.Main.Stars.ExtraRow.50.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.459]   [TextLabel] name="TextLabel" text="100" visible=nil valid=false pos=(1200,2115) path=game.Players.cc_yw.PlayerGui.Main.Stars.ExtraRow.100.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.460]   [TextLabel] name="TextLabel" text="25" visible=nil valid=false pos=(978,2115) path=game.Players.cc_yw.PlayerGui.Main.Stars.ExtraRow.25.ImageLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.460]   [TextLabel] name="Title" text="STARS" visible=nil valid=false pos=(960,2053) path=game.Players.cc_yw.PlayerGui.Main.Stars.Title
+[16:14:21] : [BFCompanion] [120043.461]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1251,2008) path=game.Players.cc_yw.PlayerGui.Main.Stars.Title.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.462]   [TextLabel] name="TextLabel" text="Melee" visible=nil valid=false pos=(741,1455) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Melee.TextLabel
+[16:14:21] : [BFCompanion] [120043.462]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1455) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Melee.Number
+[16:14:21] : [BFCompanion] [120043.463]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1454) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Melee.Add.TextLabel
+[16:14:21] : [BFCompanion] [120043.464]   [TextLabel] name="TextLabel" text="Defense" visible=nil valid=false pos=(741,1531) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Defense.TextLabel
+[16:14:21] : [BFCompanion] [120043.466]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1531) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Defense.Number
+[16:14:21] : [BFCompanion] [120043.467]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1530) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Defense.Add.TextLabel
+[16:14:21] : [BFCompanion] [120043.467]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(741,1607) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Sword.TextLabel
+[16:14:21] : [BFCompanion] [120043.467]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1607) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Sword.Number
+[16:14:21] : [BFCompanion] [120043.468]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1606) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Sword.Add.TextLabel
+[16:14:21] : [BFCompanion] [120043.468]   [TextLabel] name="TextLabel" text="Gun" visible=nil valid=false pos=(741,1683) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Gun.TextLabel
+[16:14:21] : [BFCompanion] [120043.469]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1683) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Gun.Number
+[16:14:21] : [BFCompanion] [120043.469]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1682) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Gun.Add.TextLabel
+[16:14:21] : [BFCompanion] [120043.470]   [TextLabel] name="TextLabel" text="Blox Fruit" visible=nil valid=false pos=(741,1759) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Demon Fruit.TextLabel
+[16:14:21] : [BFCompanion] [120043.470]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1759) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Demon Fruit.Number
+[16:14:21] : [BFCompanion] [120043.471]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1757) path=game.Players.cc_yw.PlayerGui.Main.Stats.Container.Demon Fruit.Add.TextLabel
+[16:14:21] : [BFCompanion] [120043.472]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1307,1320) path=game.Players.cc_yw.PlayerGui.Main.Stats.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.474]   [TextLabel] name="Available" text="Available Points: 0" visible=nil valid=false pos=(975,1826) path=game.Players.cc_yw.PlayerGui.Main.Stats.Points.Available
+[16:14:21] : [BFCompanion] [120043.474]   [TextLabel] name="TextLabel" text="Refund (99 Stored)" visible=nil valid=false pos=(1235,1826) path=game.Players.cc_yw.PlayerGui.Main.Stats.Points.Reset.TextLabel
+[16:14:21] : [BFCompanion] [120043.475]   [TextLabel] name="Race" text="Race: (Loading...)" visible=nil valid=false pos=(923,1317) path=game.Players.cc_yw.PlayerGui.Main.Stats.Race
+[16:14:21] : [BFCompanion] [120043.475]   [TextLabel] name="Title" text="STATS" visible=nil valid=false pos=(960,1373) path=game.Players.cc_yw.PlayerGui.Main.Stats.Title
+[16:14:21] : [BFCompanion] [120043.475]   [TextLabel] name="Race" text="Race: (Loading...)" visible=nil valid=false pos=(737,1317) path=game.Players.cc_yw.PlayerGui.Main.Stats.Top.Race
+[16:14:21] : [BFCompanion] [120043.476]   [TextLabel] name="Subclass" text="failed to fetch text" visible=nil valid=false pos=(1065,1317) path=game.Players.cc_yw.PlayerGui.Main.Stats.Top.Subclass
+[16:14:21] : [BFCompanion] [120043.477]   [TextLabel] name="TextLabel" text="Stats" visible=nil valid=false pos=(96,684) path=game.Players.cc_yw.PlayerGui.Main.StatsButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.477]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(174,661) path=game.Players.cc_yw.PlayerGui.Main.StatsButton.Notify
+[16:14:21] : [BFCompanion] [120043.478]   [TextLabel] name="TextLabel" text="12" visible=nil valid=false pos=(173,663) path=game.Players.cc_yw.PlayerGui.Main.StatsButton.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.478]   [TextLabel] name="Timer" text="Time Left: 10:00" visible=nil valid=false pos=(960,43) path=game.Players.cc_yw.PlayerGui.Main.Timer
+[16:14:21] : [BFCompanion] [120043.482]   [TextLabel] name="Title" text=" #041 (LOCKED)" visible=nil valid=false pos=(741,375) path=game.Players.cc_yw.PlayerGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Title
+[16:14:21] : [BFCompanion] [120043.482]   [TextLabel] name="Desc" text=" ???" visible=nil valid=false pos=(741,419) path=game.Players.cc_yw.PlayerGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Desc
+[16:14:21] : [BFCompanion] [120043.482]   [TextLabel] name="TextLabel" text="Enable Title" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Activate.TextLabel
+[16:14:21] : [BFCompanion] [120043.483]   [TextLabel] name="Title" text="Original Color" visible=nil valid=false pos=(1333,375) path=game.Players.cc_yw.PlayerGui.Main.Titles.Right.ScrollingFrame.Template.Title
+[16:14:21] : [BFCompanion] [120043.483]   [TextLabel] name="Desc" text="Unlocked automatically." visible=nil valid=false pos=(1385,417) path=game.Players.cc_yw.PlayerGui.Main.Titles.Right.ScrollingFrame.Template.Desc
+[16:14:21] : [BFCompanion] [120043.484]   [TextLabel] name="TextLabel" text="[Equipped]" visible=nil valid=false pos=(1536,377) path=game.Players.cc_yw.PlayerGui.Main.Titles.Right.ScrollingFrame.Template.Activate.TextLabel
+[16:14:21] : [BFCompanion] [120043.484]   [TextLabel] name="TextLabel" text=" Choose a title to show next to your chat tag. (45/162)" visible=nil valid=false pos=(760,807) path=game.Players.cc_yw.PlayerGui.Main.Titles.Info.TextLabel
+[16:14:21] : [BFCompanion] [120043.485]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1507,807) path=game.Players.cc_yw.PlayerGui.Main.Titles.Info.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.485]   [TextLabel] name="TextLabel" text="Disable" visible=nil valid=false pos=(1320,807) path=game.Players.cc_yw.PlayerGui.Main.Titles.Info.Disable.TextLabel
+[16:14:21] : [BFCompanion] [120043.486]   [TextLabel] name="Title" text="TITLES" visible=nil valid=false pos=(960,320) path=game.Players.cc_yw.PlayerGui.Main.Titles.Title
+[16:14:21] : [BFCompanion] [120043.486]   [TextLabel] name="RaidTimer" text="Time Left: 10:00" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.RaidTimer
+[16:14:21] : [BFCompanion] [120043.486]   [TextLabel] name="ActiveRocks" text="Active Rocks: 0" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.ActiveRocks
+[16:14:21] : [BFCompanion] [120043.487]   [TextLabel] name="ActiveMobs" text="Active Mobs: 0" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.ActiveMobs
+[16:14:21] : [BFCompanion] [120043.487]   [TextLabel] name="ShutdownCountdown" text="Time Left: 10:00" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.ShutdownCountdown
+[16:14:21] : [BFCompanion] [120043.487]   [TextLabel] name="PrehistoricRaidTimer" text="Volcano Pressure: 0%" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.PrehistoricRaidTimer
+[16:14:21] : [BFCompanion] [120043.487]   [TextLabel] name="PrehistoricRelicHealth" text="Relic Health: 100%" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.PrehistoricRelicHealth
+[16:14:21] : [BFCompanion] [120043.488]   [TextLabel] name="LightningEventTimer" text=" Ã§^" visible=nil valid=false pos=(960,25) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.LightningEventTimer
+[16:14:21] : [BFCompanion] [120043.490]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(764,22) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.CelestialCountdown.TextLabel
+[16:14:21] : [BFCompanion] [120043.491]   [TextLabel] name="TextLabel" text="€¡©^" visible=nil valid=false pos=(764,19) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.CelestialCountdown.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.493]   [TextLabel] name="TextLabel" text="Earn x2 Celestial Tokens" visible=nil valid=false pos=(877,33) path=game.Players.cc_yw.PlayerGui.Main.TopHUDList.CelestialMeter.CelestialMeter.TextLabel
+[16:14:21] : [BFCompanion] [120043.494]   [TextLabel] name="Title" text="TREASURE TRADE" visible=nil valid=false pos=(970,307) path=game.Players.cc_yw.PlayerGui.Main.Trade.Title
+[16:14:21] : [BFCompanion] [120043.495]   [TextLabel] name="TextLabel" text="rip_indra" visible=nil valid=false pos=(776,358) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.1.TextLabel
+[16:14:21] : [BFCompanion] [120043.499]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(679,394) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.1.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.500]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(679,522) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.1.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.500]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(679,455) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.1.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.502]   [TextLabel] name="TextLabel" text="they" visible=nil valid=false pos=(1163,358) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.2.TextLabel
+[16:14:21] : [BFCompanion] [120043.502]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1065,464) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.2.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.506]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(1065,396) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.2.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.506]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(1065,538) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.2.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.507]   [TextLabel] name="TextLabel" text="<" visible=nil valid=false pos=(677,505) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.FrameAdd.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.508]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(677,505) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.FrameAdd.Frame.Template.IconLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.509]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(677,433) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.FrameAdd.Frame.Template.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.510]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(677,584) path=game.Players.cc_yw.PlayerGui.Main.Trade.Container.FrameAdd.Frame.Template.Type.TextLabel
+[16:14:21] : [BFCompanion] [120043.511]   [TextLabel] name="TextLabel" text="Accept" visible=nil valid=false pos=(970,764) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Accept.TextLabel
+[16:14:21] : [BFCompanion] [120043.511]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(970,806) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Cancel.TextLabel
+[16:14:21] : [BFCompanion] [120043.512]   [TextLabel] name="Ready1" text="Not ready" visible=nil valid=false pos=(666,764) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Ready1
+[16:14:21] : [BFCompanion] [120043.514]   [TextLabel] name="Ready2" text="Not ready" visible=nil valid=false pos=(1273,764) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Ready2
+[16:14:21] : [BFCompanion] [120043.514]   [TextLabel] name="Value1" text="Value: $9,999,999" visible=nil valid=false pos=(744,807) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Value1
+[16:14:21] : [BFCompanion] [120043.515]   [TextLabel] name="Value2" text="Value: $9,999,999" visible=nil valid=false pos=(1195,807) path=game.Players.cc_yw.PlayerGui.Main.Trade.Info.Value2
+[16:14:21] : [BFCompanion] [120043.515]   [TextLabel] name="Countdown" text="1" visible=nil valid=false pos=(970,559) path=game.Players.cc_yw.PlayerGui.Main.Trade.Countdown
+[16:14:21] : [BFCompanion] [120043.516]   [TextLabel] name="Lock1" text="failed to fetch text" visible=nil valid=false pos=(776,559) path=game.Players.cc_yw.PlayerGui.Main.Trade.Lock1
+[16:14:21] : [BFCompanion] [120043.516]   [TextLabel] name="Lock2" text="failed to fetch text" visible=nil valid=false pos=(1163,559) path=game.Players.cc_yw.PlayerGui.Main.Trade.Lock2
+[16:14:21] : [BFCompanion] [120043.516]   [TextLabel] name="BottomTitle" text="Value difference: 0%" visible=nil valid=false pos=(970,852) path=game.Players.cc_yw.PlayerGui.Main.Trade.BottomTitle
+[16:14:21] : [BFCompanion] [120043.518]   [TextLabel] name="ItemName" text="Cursed Scroll" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.Enchant.Example.Right.ItemName
+[16:14:21] : [BFCompanion] [120043.518]   [TextLabel] name="ItemRarity" text="30 in Inventory" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.Enchant.Example.Right.ItemRarity
+[16:14:21] : [BFCompanion] [120043.519]   [TextLabel] name="ItemName" text="Strong Grip (Unique)" visible=nil valid=false pos=(957,444) path=game.Players.cc_yw.PlayerGui.Main.UIController.Enchant.Example.ItemName
+[16:14:21] : [BFCompanion] [120043.519]   [TextLabel] name="ItemRarity" text="Damage scales with up to 20% of your melee stat, and 80% of your Gun stat." visible=nil valid=false pos=(974,469) path=game.Players.cc_yw.PlayerGui.Main.UIController.Enchant.Example.ItemRarity
+[16:14:21] : [BFCompanion] [120043.521]   [TextLabel] name="DangerLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerLevel
+[16:14:21] : [BFCompanion] [120043.521]   [TextLabel] name="Symbol" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerLevel.Symbol
+[16:14:21] : [BFCompanion] [120043.522]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerLevel.Symbol.Shadow
+[16:14:21] : [BFCompanion] [120043.522]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerLevel.TextLabel
+[16:14:21] : [BFCompanion] [120043.522]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerLevel.TextLabel.Shadow
+[16:14:21] : [BFCompanion] [120043.523]   [TextLabel] name="DangerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerText
+[16:14:21] : [BFCompanion] [120043.523]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.DangerText.Shadow
+[16:14:21] : [BFCompanion] [120043.525]   [TextLabel] name="DangerLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.Frame2.DangerLevel
+[16:14:21] : [BFCompanion] [120043.525]   [TextLabel] name="Symbol" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.Frame2.DangerLevel.Symbol
+[16:14:21] : [BFCompanion] [120043.526]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.Frame2.DangerLevel.Symbol.Shadow
+[16:14:21] : [BFCompanion] [120043.526]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.Frame2.DangerLevel.TextLabel
+[16:14:21] : [BFCompanion] [120043.526]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.UIController.SeaExploration.Frame2.DangerLevel.TextLabel.Shadow
+[16:14:21] : [BFCompanion] [120043.530]   [TextLabel] name="Version" text="v31.2.12-Sea1 : e7fc63c5" visible=nil valid=false pos=(196,1072) path=game.Players.cc_yw.PlayerGui.Main.Version
+[16:14:21] : [BFCompanion] [120043.531]   [TextLabel] name="TextLabel" text="â€¢ Control Fruit Rework<br/>â€¢ Dungeon PvE Realm<br/>â€¢ Modern Mobile Control" visible=nil valid=false pos=(728,2465) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile1.ScrollingFrame.TextLabel
+[16:14:21] : [BFCompanion] [120043.532]   [TextLabel] name="ItemName" text="This Update" visible=nil valid=false pos=(727,2362) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile1.SubHeader.ItemName
+[16:14:21] : [BFCompanion] [120043.532]   [TextLabel] name="TextLabel" text="This Update" visible=nil valid=false pos=(727,2360) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile1.SubHeader.ItemName.TextLabel
+[16:14:21] : [BFCompanion] [120043.534]   [TextLabel] name="BottomText" text="ðŸ”” on Roblox for Update Release Notifications" visible=nil valid=false pos=(1186,2537) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.BottomText
+[16:14:21] : [BFCompanion] [120043.534]   [TextLabel] name="TextLabel" text="Get Update Notifications" visible=nil valid=false pos=(1186,2540) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.NotifyButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.535]   [TextLabel] name="TextLabel" text="Get Update Notifications" visible=nil valid=false pos=(1186,2539) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.NotifyButton.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.535]   [TextLabel] name="TextLabel" text="â€¢ FREE FRUITS EVERY HOUR<br/>â€¢ Winter Gacha<br/>... and more!" visible=nil valid=false pos=(1186,2438) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.TextLabel
+[16:14:21] : [BFCompanion] [120043.538]   [TextLabel] name="ItemName" text="Christmas Update" visible=nil valid=false pos=(1189,2362) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.SubHeader.ItemName
+[16:14:21] : [BFCompanion] [120043.538]   [TextLabel] name="TextLabel" text="Christmas Update" visible=nil valid=false pos=(1189,2360) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Frame.Tile2.SubHeader.ItemName.TextLabel
+[16:14:21] : [BFCompanion] [120043.539]   [TextLabel] name="TextLabel" text="What's New?" visible=nil valid=false pos=(960,2045) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.540]   [TextLabel] name="TextLabel" text="What's New?" visible=nil valid=false pos=(960,2042) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.Title.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.541]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.UpdateLogClient_Temporary.Brush.TextLabel
+[16:14:21] : [BFCompanion] [120043.542]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.WhatsNew.UpdateLogClient_Temporary.Brush.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.542]   [TextLabel] name="Text" text="0" visible=nil valid=false pos=(495,717) path=game.Players.cc_yw.PlayerGui.Main.DmgCounter.Text
+[16:14:21] : [BFCompanion] [120043.544]   [TextLabel] name="TextLabel" text="Abandon" visible=nil valid=false pos=(745,608) path=game.Players.cc_yw.PlayerGui.Main.Guide.LeftFrame.Abandon.TextLabel
+[16:14:21] : [BFCompanion] [120043.554]   [TextLabel] name="TextLabel" text="Track" visible=nil valid=false pos=(745,608) path=game.Players.cc_yw.PlayerGui.Main.Guide.LeftFrame.Track.TextLabel
+[16:14:21] : [BFCompanion] [120043.555]   [TextLabel] name="Header" text="v½" visible=nil valid=false pos=(1007,458) path=game.Players.cc_yw.PlayerGui.Main.Guide.TopFrame.Header
+[16:14:21] : [BFCompanion] [120043.555]   [TextLabel] name="Subtitle2" text="(0/7)" visible=nil valid=false pos=(1039,551) path=game.Players.cc_yw.PlayerGui.Main.Guide.TopFrame.Subtitle2
+[16:14:21] : [BFCompanion] [120043.555]   [TextLabel] name="Subtitle1" text="Defeat 7 Toga Warriors" visible=nil valid=false pos=(1039,506) path=game.Players.cc_yw.PlayerGui.Main.Guide.TopFrame.Subtitle1
+[16:14:21] : [BFCompanion] [120043.556]   [TextLabel] name="Header" text="Reward:" visible=nil valid=false pos=(908,597) path=game.Players.cc_yw.PlayerGui.Main.Guide.BottomFrame.Header
+[16:14:21] : [BFCompanion] [120043.556]   [TextLabel] name="Description" text="$7,000\
+1,100,000 Exp." visible=nil valid=false pos=(1034,668) path=game.Players.cc_yw.PlayerGui.Main.Guide.BottomFrame.Description
+[16:14:21] : [BFCompanion] [120043.558]   [TextLabel] name="DistanceText" text="None" visible=nil valid=false pos=(66,652) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DistanceText
+[16:14:21] : [BFCompanion] [120043.559]   [TextLabel] name="Shadow" text="None" visible=nil valid=false pos=(64,650) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DistanceText.Shadow
+[16:14:21] : [BFCompanion] [120043.562]   [TextLabel] name="DangerText" text="None" visible=nil valid=false pos=(66,652) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerText
+[16:14:21] : [BFCompanion] [120043.562]   [TextLabel] name="Shadow" text="None" visible=nil valid=false pos=(64,650) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerText.Shadow
+[16:14:21] : [BFCompanion] [120043.562]   [TextLabel] name="DangerLevel" text="failed to fetch text" visible=nil valid=false pos=(21,547) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerLevel
+[16:14:21] : [BFCompanion] [120043.563]   [TextLabel] name="Symbol" text="â" visible=nil valid=false pos=(11,548) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerLevel.Symbol
+[16:14:21] : [BFCompanion] [120043.563]   [TextLabel] name="Shadow" text="â" visible=nil valid=false pos=(10,547) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerLevel.Symbol.Shadow
+[16:14:21] : [BFCompanion] [120043.563]   [TextLabel] name="TextLabel" text="0" visible=nil valid=false pos=(29,547) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerLevel.TextLabel
+[16:14:21] : [BFCompanion] [120043.563]   [TextLabel] name="Shadow" text="0" visible=nil valid=false pos=(27,545) path=game.Players.cc_yw.PlayerGui.Main.Compass.Frame.DangerLevel.TextLabel.Shadow
+[16:14:21] : [BFCompanion] [120043.564]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(128,538) path=game.Players.cc_yw.PlayerGui.Main.Compass.Notify
+[16:14:21] : [BFCompanion] [120043.565]   [TextLabel] name="TextLabel" text="X" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Main.MobileShipHealthBar.CancelButton.TextLabel
+[16:14:21] : [BFCompanion] [120043.567]   [TextLabel] name="TextLabel" text="Ship 100/100" visible=nil valid=false pos=(182,1036) path=game.Players.cc_yw.PlayerGui.Main.MobileShipHealthBar.TextLabel
+[16:14:21] : [BFCompanion] [120043.569]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.BundleMenuRoot.ScreenGui.Close.TextLabel
+[16:14:21] : [BFCompanion] [120043.570]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.BundleMenuRoot.ScreenGui.Close.TextLabel.TextLabel
+[16:14:21] : [BFCompanion] [120043.571]   [TextLabel] name="InvalidTextShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.BundleMenuRoot.ScreenGui.InvalidTextShadow
+[16:14:21] : [BFCompanion] [120043.571]   [TextLabel] name="RealText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.BundleMenuRoot.ScreenGui.InvalidTextShadow.RealText
+[16:14:21] : [BFCompanion] [120043.573]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Inventory.Inventory.Main.PageContent.ToolBar.BracketDropdown.Button.Content.InnerButton.Text
+[16:14:21] : [BFCompanion] [120043.579]   [TextLabel] name="NoItemsFound" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Inventory.Inventory.Main.PageContent.TileGrid.NoItemsFound
+[16:14:21] : [BFCompanion] [120043.583]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Inventory.Inventory.Main.Header.Title
+[16:14:21] : [BFCompanion] [120043.594]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Inventory.Inventory.RightCard.ItemCard.Title.Text
+[16:14:21] : [BFCompanion] [120043.596]   [TextLabel] name="Category" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Inventory.Inventory.RightCard.ItemCard.Display.Header.Category
+[16:14:21] : [BFCompanion] [120043.598]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ModelPopup.DummyTileHolder.DummyTile.AnimationFrame.TextLabel
+[16:14:21] : [BFCompanion] [120043.598]   [TextLabel] name="RarityLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ModelPopup.DummyTileHolder.DummyTile.AnimationFrame.RarityLabel
+[16:14:21] : [BFCompanion] [120043.599]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ModelPopup.DummyTileHolder.DummyTile.AnimationFrame.BonusFrame.TextLabel
+[16:14:21] : [BFCompanion] [120043.603]   [TextLabel] name="HeaderTextShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.Header.HeaderTextShadow
+[16:14:21] : [BFCompanion] [120043.604]   [TextLabel] name="RealText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.Header.HeaderTextShadow.RealText
+[16:14:21] : [BFCompanion] [120043.605]   [TextLabel] name="TextShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.TextShadow
+[16:14:21] : [BFCompanion] [120043.605]   [TextLabel] name="RealText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.TextShadow.RealText
+[16:14:21] : [BFCompanion] [120043.606]   [TextLabel] name="InvalidTextShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.InvalidTextShadow
+[16:14:21] : [BFCompanion] [120043.606]   [TextLabel] name="RealText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.InvalidTextShadow.RealText
+[16:14:21] : [BFCompanion] [120043.607]   [TextLabel] name="TextShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.ConfirmButton.Frame.TextShadow
+[16:14:21] : [BFCompanion] [120043.608]   [TextLabel] name="RealText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TwitterCodes.Frame.ConfirmButton.Frame.TextShadow.RealText
+[16:14:21] : [BFCompanion] [120043.611]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Prompt.Window.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.611]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Prompt.Templates.Default.Description
+[16:14:21] : [BFCompanion] [120043.612]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.613]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.613]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.614]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.615]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.615]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.616]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.617]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.618]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.618]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.619]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.619]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.620]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.621]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.621]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.621]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.622]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.622]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.623]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(906,425) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:21] : [BFCompanion] [120043.623]   [TextLabel] name="ServerName" text="Server Name: El Congo TV" visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:21] : [BFCompanion] [120043.623]   [TextLabel] name="Fake" text="Server Name: " visible=nil valid=false pos=(952,391) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:21] : [BFCompanion] [120043.626]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1428,786) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.Filters.Full.TextLabel
+[16:14:21] : [BFCompanion] [120043.626]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(584,786) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.Filters.SearchBounty.TextLabel
+[16:14:21] : [BFCompanion] [120043.627]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1006,786) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.Filters.SearchName.TextLabel
+[16:14:21] : [BFCompanion] [120043.628]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(584,786) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.Filters.SearchRegion.TextLabel
+[16:14:21] : [BFCompanion] [120043.632]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(595,864) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea1.TextLabel
+[16:14:21] : [BFCompanion] [120043.634]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(684,841) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea1.Notify
+[16:14:21] : [BFCompanion] [120043.634]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(685,843) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea1.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.635]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(838,864) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea2.TextLabel
+[16:14:21] : [BFCompanion] [120043.635]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(927,841) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea2.Notify
+[16:14:21] : [BFCompanion] [120043.637]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(928,843) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea2.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.637]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1081,864) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea3.TextLabel
+[16:14:21] : [BFCompanion] [120043.638]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(1169,841) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea3.Notify
+[16:14:21] : [BFCompanion] [120043.638]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1170,843) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Sea3.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.639]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1324,864) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Dungeon.TextLabel
+[16:14:21] : [BFCompanion] [120043.639]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(1412,841) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Dungeon.Notify
+[16:14:21] : [BFCompanion] [120043.642]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1413,843) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TeleportButtons.Dungeon.Badge.Badge.TextLabel
+[16:14:21] : [BFCompanion] [120043.643]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(960,343) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.TextLabel
+[16:14:21] : [BFCompanion] [120043.643]   [TextLabel] name="Total" text="failed to fetch text" visible=nil valid=false pos=(960,343) path=game.Players.cc_yw.PlayerGui.ServerBrowser.Frame.Total
+[16:14:21] : [BFCompanion] [120043.644]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ServerModeInfo.Window.Content.Description
+[16:14:21] : [BFCompanion] [120043.645]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ServerModeInfo.Window.Title.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.646]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.ServerModeInfo.Window.Title.Header
+[16:14:21] : [BFCompanion] [120043.650]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SpiritTree.BarContainer.TextLabel
+[16:14:21] : [BFCompanion] [120043.651]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SpiritTree.BarContainer.BottomProgress.TextLabel
+[16:14:21] : [BFCompanion] [120043.653]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Content.PassiveInfo.Buy.TextLabel
+[16:14:21] : [BFCompanion] [120043.654]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Content.PassiveInfo.Right.Description.TextLabel
+[16:14:21] : [BFCompanion] [120043.655]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Content.PassiveInfo.Right.Title.TextLabel
+[16:14:21] : [BFCompanion] [120043.655]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Content.PassiveInfo.Right.Upgrade.TextLabel
+[16:14:21] : [BFCompanion] [120043.658]   [TextLabel] name="SubclassExp" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Footer.ExpBar.SubclassExp
+[16:14:21] : [BFCompanion] [120043.659]   [TextLabel] name="AmountLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Footer.ValorFrame.AmountLabel
+[16:14:21] : [BFCompanion] [120043.659]   [TextLabel] name="CurrentLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Footer.CurrentLevel
+[16:14:21] : [BFCompanion] [120043.660]   [TextLabel] name="NextLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Footer.NextLevel
+[16:14:21] : [BFCompanion] [120043.660]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Title.Exit.TextLabel
+[16:14:21] : [BFCompanion] [120043.661]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.SubclassMenu.Window.Title.Header
+[16:14:21] : [BFCompanion] [120043.662]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Description.TextLabel
+[16:14:21] : [BFCompanion] [120043.662]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Description.Title
+[16:14:21] : [BFCompanion] [120043.662]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Description.Title.Title
+[16:14:21] : [BFCompanion] [120043.666]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.ItemName
+[16:14:21] : [BFCompanion] [120043.666]   [TextLabel] name="ItemRarity" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.ItemRarity
+[16:14:21] : [BFCompanion] [120043.667]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Frame.ItemLine1
+[16:14:22] : [BFCompanion] [120043.669]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Frame.ItemLine2
+[16:14:22] : [BFCompanion] [120043.669]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.ItemDescription
+[16:14:22] : [BFCompanion] [120043.670]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Ability1.KeyIcon.TextLabel
+[16:14:22] : [BFCompanion] [120043.670]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Ability1.TextLabel
+[16:14:22] : [BFCompanion] [120043.671]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Ability2.KeyIcon.TextLabel
+[16:14:22] : [BFCompanion] [120043.672]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Ability2.TextLabel
+[16:14:22] : [BFCompanion] [120043.675]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.Equip.TextLabel
+[16:14:22] : [BFCompanion] [120043.675]   [TextLabel] name="ItemDescription2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Left.ItemDescription2
+[16:14:22] : [BFCompanion] [120043.686]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup.Title.TextLabel
+[16:14:22] : [BFCompanion] [120043.688]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup.Info.Frame.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120043.690]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup.Info.TextLabel
+[16:14:22] : [BFCompanion] [120043.690]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup2.Title
+[16:14:22] : [BFCompanion] [120043.691]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup2.Info.Frame.Equip.TextLabel
+[16:14:22] : [BFCompanion] [120043.692]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup2.Info.Frame.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120043.693]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Popup2.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120043.693]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Skip.TextLabel
+[16:14:22] : [BFCompanion] [120043.694]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Title.TextLabel
+[16:14:22] : [BFCompanion] [120043.694]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.TempleGui.Title.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120043.696]   [TextLabel] name="TextLabel" text="1" visible=nil valid=false pos=(nil,nil) path=game.Players.cc_yw.PlayerGui.Topbar.Frame.Buttons.AlliesButton.NotificationBadgeCounter.TextLabel
+[16:14:22] : [BFCompanion] [120043.702]   [TextLabel] name="IconLabel" text="VIP" visible=nil valid=false pos=(695,35) path=game.Players.cc_yw.PlayerGui.Topbar.VIPServerOwnerCommands.IconButton.Menu.IconSpot.Contents.IconLabelContainer.IconLabel
+[16:14:22] : [BFCompanion] [120043.708]   [TextLabel] name="IconLabel" text="Server Entry: Unlocked ð" visible=nil valid=false pos=(616,115) path=game.Players.cc_yw.PlayerGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.LockVIPServer.IconButton.Menu.IconSpot.Conte
+[16:14:22] : [BFCompanion] [120043.711]   [TextLabel] name="IconLabel" text="PvP Mode: Default âš”ï" visible=nil valid=false pos=(633,171) path=game.Players.cc_yw.PlayerGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.ToggleServerMode.IconButton.Menu.IconSpot.Co
+[16:14:22] : [BFCompanion] [120043.716]   [TextLabel] name="IconLabel" text="Kick Players" visible=nil valid=false pos=(651,227) path=game.Players.cc_yw.PlayerGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.KickPlayers.IconButton.Menu.IconSpot.Content
+[16:14:22] : [BFCompanion] [120043.719]   [TextLabel] name="IconLabel" text="Shutdown Server" visible=nil valid=false pos=(650,283) path=game.Players.cc_yw.PlayerGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.ShutdownVIPServer.IconButton.Menu.IconSpot.C
+[16:14:22] : [BFCompanion] [120043.725]   [TextLabel] name="TextLabel" text="245,000/490,000" visible=nil valid=false pos=(960,122) path=game.Players.cc_yw.PlayerGui.TransformationHUD.BossBar.Border.TextLabel
+[16:14:22] : [BFCompanion] [120043.728]   [TextLabel] name="TextLabel" text="245,000/490,000" visible=nil valid=false pos=(960,160) path=game.Players.cc_yw.PlayerGui.TransformationHUD.BossBar.Subbar.TextLabel
+[16:14:22] : [BFCompanion] [120043.730]   [TextLabel] name="TextLabel" text="Leviathan, Frigid Lord of the Sea" visible=nil valid=false pos=(960,85) path=game.Players.cc_yw.PlayerGui.TransformationHUD.BossBar.TextLabel
+[16:14:22] : [BFCompanion] [120043.731]   [TextLabel] name="Shadow" text="Leviathan, Frigid Lord of the Sea" visible=nil valid=false pos=(960,83) path=game.Players.cc_yw.PlayerGui.TransformationHUD.BossBar.TextLabel.Shadow
+[16:14:22] : [BFCompanion] [120043.732] ROOT: CoreGui (class=CoreGui)
+[16:14:22] : [BFCompanion] [120043.749]   [TextLabel] name="UserPrompt" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ControlFrame.BottomLeftControl.DialogFrame.UserDialogArea.TextButton.UserPrompt
+[16:14:22] : [BFCompanion] [120043.750]   [TextLabel] name="UserPrompt" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ControlFrame.BottomLeftControl.DialogFrame.UserDialogArea.TextButton.UserPrompt
+[16:14:22] : [BFCompanion] [120043.750]   [TextLabel] name="UserPrompt" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ControlFrame.BottomLeftControl.DialogFrame.UserDialogArea.TextButton.UserPrompt
+[16:14:22] : [BFCompanion] [120043.751]   [TextLabel] name="UserPrompt" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ControlFrame.BottomLeftControl.DialogFrame.UserDialogArea.TextButton.UserPrompt
+[16:14:22] : [BFCompanion] [120043.751]   [TextLabel] name="UserPrompt" text="Goodbye!" visible=nil valid=false pos=(193,1069) path=game.CoreGui.RobloxGui.ControlFrame.BottomLeftControl.DialogFrame.UserDialogArea.TextButton.UserPrompt
+[16:14:22] : [BFCompanion] [120043.752]   [TextLabel] name="Text" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ControlFrame.DialogScriptMessage.Text
+[16:14:22] : [BFCompanion] [120044.049]   [TextLabel] name="PopupText" text="This is a popup" visible=nil valid=false pos=(960,592) path=game.CoreGui.RobloxGui.PopupFrame.PopupText
+[16:14:22] : [BFCompanion] [120044.052]   [TextLabel] name="ErrorTitle" text="Warning" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ErrorPrompt.TitleFrame.ErrorTitle
+[16:14:22] : [BFCompanion] [120044.053]   [TextLabel] name="ErrorMessage" text="Label" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ErrorPrompt.MessageArea.ErrorFrame.ErrorMessage
+[16:14:22] : [BFCompanion] [120044.054]   [TextLabel] name="ButtonText" text="Ok" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.RobloxGui.ErrorPrompt.MessageArea.ErrorFrame.ButtonArea.OkButton.ButtonText
+[16:14:22] : [BFCompanion] [120044.057]   [TextLabel] name="ToolName" text="Tool" visible=nil valid=false pos=(928,1045) path=game.CoreGui.RobloxGui.Backpack.Hotbar.1.ToolName
+[16:14:22] : [BFCompanion] [120044.057]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(928,998) path=game.CoreGui.RobloxGui.Backpack.Hotbar.1.ToolTip
+[16:14:22] : [BFCompanion] [120044.058]   [TextLabel] name="Number" text="1" visible=nil valid=false pos=(902,1019) path=game.CoreGui.RobloxGui.Backpack.Hotbar.1.Number
+[16:14:22] : [BFCompanion] [120044.061]   [TextLabel] name="ToolName" text="Black Leg" visible=nil valid=false pos=(993,1045) path=game.CoreGui.RobloxGui.Backpack.Hotbar.2.ToolName
+[16:14:22] : [BFCompanion] [120044.061]   [TextLabel] name="ToolTip" text="Melee" visible=nil valid=false pos=(993,998) path=game.CoreGui.RobloxGui.Backpack.Hotbar.2.ToolTip
+[16:14:22] : [BFCompanion] [120044.061]   [TextLabel] name="Number" text="2" visible=nil valid=false pos=(967,1019) path=game.CoreGui.RobloxGui.Backpack.Hotbar.2.Number
+[16:14:22] : [BFCompanion] [120044.062]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.3.ToolName
+[16:14:22] : [BFCompanion] [120044.062]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.3.ToolTip
+[16:14:22] : [BFCompanion] [120044.063]   [TextLabel] name="Number" text="3" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.3.Number
+[16:14:22] : [BFCompanion] [120044.063]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.4.ToolName
+[16:14:22] : [BFCompanion] [120044.063]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.4.ToolTip
+[16:14:22] : [BFCompanion] [120044.064]   [TextLabel] name="Number" text="4" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.4.Number
+[16:14:22] : [BFCompanion] [120044.065]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.5.ToolName
+[16:14:22] : [BFCompanion] [120044.065]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.5.ToolTip
+[16:14:22] : [BFCompanion] [120044.065]   [TextLabel] name="Number" text="5" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.5.Number
+[16:14:22] : [BFCompanion] [120044.066]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.6.ToolName
+[16:14:22] : [BFCompanion] [120044.066]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.6.ToolTip
+[16:14:22] : [BFCompanion] [120044.066]   [TextLabel] name="Number" text="6" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.6.Number
+[16:14:22] : [BFCompanion] [120044.068]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.7.ToolName
+[16:14:22] : [BFCompanion] [120044.068]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.7.ToolTip
+[16:14:22] : [BFCompanion] [120044.069]   [TextLabel] name="Number" text="7" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.7.Number
+[16:14:22] : [BFCompanion] [120044.069]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.8.ToolName
+[16:14:22] : [BFCompanion] [120044.069]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.8.ToolTip
+[16:14:22] : [BFCompanion] [120044.070]   [TextLabel] name="Number" text="8" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.8.Number
+[16:14:22] : [BFCompanion] [120044.071]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.9.ToolName
+[16:14:22] : [BFCompanion] [120044.071]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.9.ToolTip
+[16:14:22] : [BFCompanion] [120044.071]   [TextLabel] name="Number" text="9" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.9.Number
+[16:14:22] : [BFCompanion] [120044.072]   [TextLabel] name="ToolName" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.10.ToolName
+[16:14:22] : [BFCompanion] [120044.072]   [TextLabel] name="ToolTip" text="failed to fetch text" visible=nil valid=false pos=(663,1040) path=game.CoreGui.RobloxGui.Backpack.Hotbar.10.ToolTip
+[16:14:22] : [BFCompanion] [120044.072]   [TextLabel] name="Number" text="0" visible=nil valid=false pos=(637,1014) path=game.CoreGui.RobloxGui.Backpack.Hotbar.10.Number
+[16:14:22] : [BFCompanion] [120044.074]   [TextLabel] name="HintText" text="Remove From Hotbar" visible=nil valid=false pos=(362,85) path=game.CoreGui.RobloxGui.Backpack.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.076]   [TextLabel] name="HintText" text="Select/Swap" visible=nil valid=false pos=(362,85) path=game.CoreGui.RobloxGui.Backpack.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.077]   [TextLabel] name="HintText" text="Close Backpack" visible=nil valid=false pos=(362,85) path=game.CoreGui.RobloxGui.Backpack.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.079]   [TextLabel] name="SpeedLabel" text="Speed" visible=nil valid=false pos=(960,986) path=game.CoreGui.RobloxGui.VehicleHudFrame.SpeedLabel
+[16:14:22] : [BFCompanion] [120044.079]   [TextLabel] name="SpeedText" text="0" visible=nil valid=false pos=(960,986) path=game.CoreGui.RobloxGui.VehicleHudFrame.SpeedText
+[16:14:22] : [BFCompanion] [120044.086]   [TextLabel] name="ServerChannelLabel" text="Server Channel: production" visible=nil valid=false pos=(992,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.ServerChannelLabel
+[16:14:22] : [BFCompanion] [120044.086]   [TextLabel] name="ServerVersionLabel" text="Server Version: 0.726.19.7261142 (ff37fa)" visible=nil valid=false pos=(790,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.ServerVersionLabel
+[16:14:22] : [BFCompanion] [120044.086]   [TextLabel] name="ClientVersionLabel" text="Client Version: 0.726.0.7261140 (4359f2)" visible=nil valid=false pos=(553,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.ClientVersionLabel
+[16:14:22] : [BFCompanion] [120044.087]   [TextLabel] name="PlaceVersionLabel" text="Place Version: 4601" visible=nil valid=false pos=(1137,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.PlaceVersionLabel
+[16:14:22] : [BFCompanion] [120044.087]   [TextLabel] name="EnvironmentLabel" text="http://www.roblox.com/" visible=nil valid=false pos=(70,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.EnvironmentLabel
+[16:14:22] : [BFCompanion] [120044.087]   [TextLabel] name="OverridesPlayerScriptsLabel" text="PlayerScripts: Custom" visible=nil valid=false pos=(65,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.OverridesPlayerScriptsLabel
+[16:14:22] : [BFCompanion] [120044.087]   [TextLabel] name="CoreScriptVersionLabel" text="Client CoreScript Version: 80471914653504.9242" visible=nil valid=false pos=(1342,1096) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.VersionContainer.CoreScriptVersionLabel
+[16:14:22] : [BFCompanion] [120044.089]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(960,1110) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.Frame.TextLabel
+[16:14:22] : [BFCompanion] [120044.090]   [TextLabel] name="SwitchTabHintButtonL1" text="xbox-lb" visible=nil valid=false pos=(576,1105) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.SwitchTabHintContainer.SwitchTabHi
+[16:14:22] : [BFCompanion] [120044.093]   [TextLabel] name="SwitchTabHintButtonR1" text="xbox-rb" visible=nil valid=false pos=(1376,1105) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.SwitchTabHintContainer.SwitchTabHi
+[16:14:22] : [BFCompanion] [120044.094]   [TextLabel] name="Icon" text="two-people" visible=nil valid=false pos=(610,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.PeopleTab.TabLabel
+[16:14:22] : [BFCompanion] [120044.094]   [TextLabel] name="Title" text="People" visible=nil valid=false pos=(657,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.PeopleTab.TabLabel
+[16:14:22] : [BFCompanion] [120044.095]   [TextLabel] name="Icon" text="gear" visible=nil valid=false pos=(765,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.GameSettingsTab.Ta
+[16:14:22] : [BFCompanion] [120044.096]   [TextLabel] name="Title" text="Settings" visible=nil valid=false pos=(817,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.GameSettingsTab.Ta
+[16:14:22] : [BFCompanion] [120044.096]   [TextLabel] name="Icon" text="image" visible=nil valid=false pos=(929,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.CapturesTab.TabLab
+[16:14:22] : [BFCompanion] [120044.097]   [TextLabel] name="Title" text="Gallery" visible=nil valid=false pos=(977,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.CapturesTab.TabLab
+[16:14:22] : [BFCompanion] [120044.097]   [TextLabel] name="Icon" text="flag" visible=nil valid=false pos=(1090,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.ReportAbuseTab.Tab
+[16:14:22] : [BFCompanion] [120044.098]   [TextLabel] name="Title" text="Report" visible=nil valid=false pos=(1137,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.ReportAbuseTab.Tab
+[16:14:22] : [BFCompanion] [120044.100]   [TextLabel] name="Icon" text="circle-question" visible=nil valid=false pos=(1258,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.HelpTab.TabLabel.I
+[16:14:22] : [BFCompanion] [120044.101]   [TextLabel] name="Title" text="Help" visible=nil valid=false pos=(1297,1104) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.HubBar.TabHeaderContainer.HubBarContainer.HelpTab.TabLabel.T
+[16:14:22] : [BFCompanion] [120044.103]   [TextLabel] name="TextLabel" text="Return to previous experience" visible=nil valid=false pos=(708,1108) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.Children.BackButton.ImageButton.Frame.TextLabel
+[16:14:22] : [BFCompanion] [120044.103]   [TextLabel] name="ImageLabel" text="chevron-large-left" visible=nil valid=false pos=(582,1108) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.Children.BackButton.ImageButton.Frame.ImageLabel
+[16:14:22] : [BFCompanion] [120044.105]   [TextLabel] name="ImageLabel" text="chevron-large-right" visible=nil valid=false pos=(1203,1108) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.Children.FrontButton.ImageButton.Frame.ImageLabel
+[16:14:22] : [BFCompanion] [120044.105]   [TextLabel] name="TextLabel" text="Return to previous experience" visible=nil valid=false pos=(1076,1108) path=game.CoreGui.RobloxGui.SettingsClippingShield.SettingsShield.MenuContainer.Page.Children.FrontButton.ImageButton.Frame.TextLabel
+[16:14:22] : [BFCompanion] [120044.120]   [TextLabel] name="ScalingIcon" text="tilt" visible=nil valid=false pos=(38,34) path=game.CoreGui.TopBarApp.TopBarApp.MenuIconHolder.TriggerPoint.IconHitArea.ScalingIcon
+[16:14:22] : [BFCompanion] [120044.122]   [TextLabel] name="IntegrationIcon" text="speech-bubble-align-center" visible=nil valid=false pos=(138,34) path=game.CoreGui.TopBarApp.TopBarApp.UnibarLeftFrame.UnibarMenu.2.3.chat.IntegrationIconFrame.IntegrationIcon
+[16:14:22] : [BFCompanion] [120044.125]   [TextLabel] name="Overflow" text="three-bars-horizontal" visible=nil valid=false pos=(94,34) path=game.CoreGui.TopBarApp.TopBarApp.UnibarLeftFrame.UnibarMenu.2.3.nine_dot.IntegrationIconFrame.IntegrationIcon.Overflow
+[16:14:22] : [BFCompanion] [120044.125]   [TextLabel] name="Close" text="x" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.TopBarApp.TopBarApp.UnibarLeftFrame.UnibarMenu.2.3.nine_dot.IntegrationIconFrame.IntegrationIcon.Close
+[16:14:22] : [BFCompanion] [120044.127]   [TextLabel] name="IntegrationIcon" text="headphones-arrow-up" visible=nil valid=false pos=(182,34) path=game.CoreGui.TopBarApp.TopBarApp.UnibarLeftFrame.UnibarMenu.2.3.join_voice.IntegrationIconFrame.IntegrationIcon
+[16:14:22] : [BFCompanion] [120044.136]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.TeleportEffectGui.TextLabel
+[16:14:22] : [BFCompanion] [120044.145]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.CallDialogScreen.CallDialog.AlertContents.Footer.Buttons.1.Text
+[16:14:22] : [BFCompanion] [120044.146]   [TextLabel] name="BodyText" text="failed to fetch text" visible=nil valid=false pos=(960,536) path=game.CoreGui.CallDialogScreen.CallDialog.AlertContents.MiddleContent.Content.BodyText
+[16:14:22] : [BFCompanion] [120044.149]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(960,474) path=game.CoreGui.CallDialogScreen.CallDialog.AlertContents.TitleContainer.TitleArea.Title
+[16:14:22] : [BFCompanion] [120044.151]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 2.Cell.LeftAlignedContent.Text
+[16:14:22] : [BFCompanion] [120044.151]   [TextLabel] name="Icon" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 2.Cell.LeftAlignedContent.Icon
+[16:14:22] : [BFCompanion] [120044.153]   [TextLabel] name="SelectedIcon" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 2.Cell.RightAlignedContent.SelectedIcon
+[16:14:22] : [BFCompanion] [120044.154]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 1.Cell.LeftAlignedContent.Text
+[16:14:22] : [BFCompanion] [120044.156]   [TextLabel] name="Icon" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 1.Cell.LeftAlignedContent.Icon
+[16:14:22] : [BFCompanion] [120044.158]   [TextLabel] name="SelectedIcon" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.PlayerMenuScreen.PlayerMenu.ClippingFrame.ScrollingFrame.cell 1.Cell.RightAlignedContent.SelectedIcon
+[16:14:22] : [BFCompanion] [120044.165]   [TextLabel] name="centerContent" text="Roblox" visible=nil valid=false pos=(952,-56) path=game.CoreGui.InGameFullscreenTitleBarScreen.Bar.BarFrame.ThreeSectionBar.centerFrame.centerContent
+[16:14:22] : [BFCompanion] [120044.166]   [TextLabel] name="imageLabel" text="x" visible=nil valid=false pos=(1878,-56) path=game.CoreGui.InGameFullscreenTitleBarScreen.Bar.BarFrame.ThreeSectionBar.rightFrame.CloseButton.imageLabel
+[16:14:22] : [BFCompanion] [120044.167]   [TextLabel] name="imageLabel" text="two-arrows-to-center" visible=nil valid=false pos=(1822,-56) path=game.CoreGui.InGameFullscreenTitleBarScreen.Bar.BarFrame.ThreeSectionBar.rightFrame.ExitButton.imageLabel
+[16:14:22] : [BFCompanion] [120044.174]   [TextLabel] name="SendIcon" text="paper-airplane" visible=nil valid=false pos=(460,390) path=game.CoreGui.ExperienceChat.appLayout.chatInputBar.Background.Container.SendButton.SendIcon
+[16:14:22] : [BFCompanion] [120044.176]   [TextLabel] name="Children" text="three-dots-horizontal" visible=nil valid=false pos=(459,126) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.TopBanner.DotMenu.Children
+[16:14:22] : [BFCompanion] [120044.177]   [TextLabel] name="BodyText" text="<font color=\"#d4d4d4\">Only people in similar age groups and your trusted friends" visible=nil valid=false pos=(224,136) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.0-{F4E836A0-90C9-40A2-B757-1B9
+[16:14:22] : [BFCompanion] [120044.177]   [TextLabel] name="BodyText" text="<font color=\"#d4d4d4\">You are now on the 'Pirates' team.</font>" visible=nil valid=false pos=(224,157) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.0-{9B540EAB-A828-43B7-95EC-6B2
+[16:14:22] : [BFCompanion] [120044.178]   [TextLabel] name="BodyText" text="<font color='#d4d4d4' weight='600' size=\"12\"><font weight='600' size=\"10\" family" visible=nil valid=false pos=(224,116) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.0-{EC93E193-5F4E-4216-A037-7A7
+[16:14:22] : [BFCompanion] [120044.180]   [TextLabel] name="PrefixText" text="<font color=\"#ff5959\">king67in_2</font>:" visible=nil valid=false pos=(51,171) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.8665911503-{1D1B00CC-2975-4EA8
+[16:14:22] : [BFCompanion] [120044.180]   [TextLabel] name="BodyText" text="<font transparency='1.0' family='rbxasset://fonts/families/GothamSSm.json' weigh" visible=nil valid=false pos=(224,171) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.8665911503-{1D1B00CC-2975-4EA8
+[16:14:22] : [BFCompanion] [120044.181]   [TextLabel] name="PrefixText" text="<font color=\"#ff5959\">king67in_2</font>:" visible=nil valid=false pos=(51,185) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.8665911503-{37CA0E2E-C716-4E60
+[16:14:22] : [BFCompanion] [120044.181]   [TextLabel] name="BodyText" text="<font transparency='1.0' family='rbxasset://fonts/families/GothamSSm.json' weigh" visible=nil valid=false pos=(224,185) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.8665911503-{37CA0E2E-C716-4E60
+[16:14:22] : [BFCompanion] [120044.182]   [TextLabel] name="PrefixText" text="<font color=\"#ff8000\">[Primordial Guardian]</font> <font color=\"#ff5959\">pingDif" visible=nil valid=false pos=(108,199) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.9016258287-{4729B88C-47F2-472A
+[16:14:22] : [BFCompanion] [120044.183]   [TextLabel] name="BodyText" text="<font transparency='1.0' family='rbxasset://fonts/families/GothamSSm.json' weigh" visible=nil valid=false pos=(224,199) path=game.CoreGui.ExperienceChat.appLayout.chatWindow.contentFrame.scrollingView.bottomLockedScrollView.scrollView.9016258287-{4729B88C-47F2-472A
+[16:14:22] : [BFCompanion] [120044.184]   [TextLabel] name="TextLabel" text="Here" visible=nil valid=false pos=(126,82) path=game.CoreGui.ExperienceChat.appLayout.channelBar.HorizontalBar.ContentContainer.1.ChannelTab.TextLabel
+[16:14:22] : [BFCompanion] [120044.185]   [TextLabel] name="TextLabel" text="Global" visible=nil valid=false pos=(363,82) path=game.CoreGui.ExperienceChat.appLayout.channelBar.HorizontalBar.ContentContainer.2.ChannelTab.TextLabel
+[16:14:22] : [BFCompanion] [120044.189]   [TextLabel] name="Text" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.CoreGui.HeadsetDisconnectedDialog.Overlay.Alert.AlertContents.Footer.Buttons.1.Text
+[16:14:22] : [BFCompanion] [120044.190]   [TextLabel] name="BodyText" text="failed to fetch text" visible=nil valid=false pos=(960,568) path=game.CoreGui.HeadsetDisconnectedDialog.Overlay.Alert.AlertContents.MiddleContent.Content.BodyText
+[16:14:22] : [BFCompanion] [120044.191]   [TextLabel] name="Icon" text="failed to fetch text" visible=nil valid=false pos=(960,513) path=game.CoreGui.HeadsetDisconnectedDialog.Overlay.Alert.AlertContents.MiddleContent.Content.Icon
+[16:14:22] : [BFCompanion] [120044.191]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(960,442) path=game.CoreGui.HeadsetDisconnectedDialog.Overlay.Alert.AlertContents.TitleContainer.TitleArea.Title
+[16:14:22] : [BFCompanion] [120044.192] ROOT: StarterGui (class=StarterGui)
+[16:14:22] : [BFCompanion] [120044.217]   [TextLabel] name="Title" text="+" visible=nil valid=false pos=(647,1042) path=game.StarterGui.Backpack.Hotbar.Container.More.Title
+[16:14:22] : [BFCompanion] [120044.217]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(645,1040) path=game.StarterGui.Backpack.Hotbar.Container.More.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.218]   [TextLabel] name="Number" text="`" visible=nil valid=false pos=(624,1024) path=game.StarterGui.Backpack.Hotbar.Container.More.Number
+[16:14:22] : [BFCompanion] [120044.218]   [TextLabel] name="TextLabel" text="`" visible=nil valid=false pos=(622,1022) path=game.StarterGui.Backpack.Hotbar.Container.More.Number.TextLabel
+[16:14:22] : [BFCompanion] [120044.219]   [TextLabel] name="HintText" text="Remove From Hotbar" visible=nil valid=false pos=(796,949) path=game.StarterGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.220]   [TextLabel] name="HintText" text="Select/Swap" visible=nil valid=false pos=(1019,949) path=game.StarterGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.221]   [TextLabel] name="HintText" text="Close Backpack" visible=nil valid=false pos=(1218,949) path=game.StarterGui.Backpack.Inventory.GamepadHintsFrame.HintFrame.HintText
+[16:14:22] : [BFCompanion] [120044.224]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(992,601) path=game.StarterGui.Backpack.Template.Title
+[16:14:22] : [BFCompanion] [120044.224]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(990,599) path=game.StarterGui.Backpack.Template.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.224]   [TextLabel] name="Number" text="failed to fetch text" visible=nil valid=false pos=(969,578) path=game.StarterGui.Backpack.Template.Number
+[16:14:22] : [BFCompanion] [120044.225]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(967,576) path=game.StarterGui.Backpack.Template.Number.TextLabel
+[16:14:22] : [BFCompanion] [120044.225]   [TextLabel] name="Stack" text="failed to fetch text" visible=nil valid=false pos=(1002,623) path=game.StarterGui.Backpack.Template.Stack
+[16:14:22] : [BFCompanion] [120044.225]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1000,621) path=game.StarterGui.Backpack.Template.Stack.TextLabel
+[16:14:22] : [BFCompanion] [120044.226]   [TextLabel] name="Duration" text="00:00:00" visible=nil valid=false pos=(416,967) path=game.StarterGui.ConsumableStats.Container.Consumables.Template.Duration
+[16:14:22] : [BFCompanion] [120044.227]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(562,944) path=game.StarterGui.ConsumableStats.Container.Consumables.ExpandedButton.TextButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.229]   [TextLabel] name="Description" text="Grants invisibility that varies between opaque and transparent" visible=nil valid=false pos=(1075,794) path=game.StarterGui.ConsumableStats.Tooltip.Description
+[16:14:22] : [BFCompanion] [120044.229]   [TextLabel] name="Timer" text="00:00" visible=nil valid=false pos=(1075,748) path=game.StarterGui.ConsumableStats.Tooltip.Timer
+[16:14:22] : [BFCompanion] [120044.229]   [TextLabel] name="Queuedheader" text="Queued:" visible=nil valid=false pos=(1075,839) path=game.StarterGui.ConsumableStats.Tooltip.Queuedheader
+[16:14:22] : [BFCompanion] [120044.232]   [TextLabel] name="ConsumableName" text="Invisibility IV Potion" visible=nil valid=false pos=(1075,709) path=game.StarterGui.ConsumableStats.Tooltip.ConsumableName
+[16:14:22] : [BFCompanion] [120044.233]   [TextLabel] name="QueuedRef" text="Tier III: 00:30" visible=nil valid=false pos=(1075,861) path=game.StarterGui.ConsumableStats.Tooltip.QueuedRef
+[16:14:22] : [BFCompanion] [120044.234]   [TextLabel] name="TextLabel" text="Consumables" visible=nil valid=false pos=(960,282) path=game.StarterGui.ConsumableStats.Window.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.234]   [TextLabel] name="TextLabel" text="Consumables" visible=nil valid=false pos=(960,280) path=game.StarterGui.ConsumableStats.Window.Title.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.236]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.236]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Confirm.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.237]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Select.TextLabel
+[16:14:22] : [BFCompanion] [120044.237]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Select.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.239]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Back.TextLabel
+[16:14:22] : [BFCompanion] [120044.240]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Info.Back.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.242]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.ItemCount
+[16:14:22] : [BFCompanion] [120044.242]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.1.Plus
+[16:14:22] : [BFCompanion] [120044.243]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.ItemCount
+[16:14:22] : [BFCompanion] [120044.243]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.2.Plus
+[16:14:22] : [BFCompanion] [120044.244]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.ItemCount
+[16:14:22] : [BFCompanion] [120044.244]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.3.Plus
+[16:14:22] : [BFCompanion] [120044.245]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.ItemCount
+[16:14:22] : [BFCompanion] [120044.245]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.4.Plus
+[16:14:22] : [BFCompanion] [120044.248]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.ItemCount
+[16:14:22] : [BFCompanion] [120044.248]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.5.Plus
+[16:14:22] : [BFCompanion] [120044.249]   [TextLabel] name="ItemCount" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.ItemCount
+[16:14:22] : [BFCompanion] [120044.249]   [TextLabel] name="Plus" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.CraftingGrid.6.Plus
+[16:14:22] : [BFCompanion] [120044.250]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.ChangeRecipe.TextLabel
+[16:14:22] : [BFCompanion] [120044.250]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.LeftSide.ChangeRecipe.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.253]   [TextLabel] name="TextLabelShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.RedBanner.TextLabelShadow
+[16:14:22] : [BFCompanion] [120044.253]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.RedBanner.TextLabelShadow.TextLabel
+[16:14:22] : [BFCompanion] [120044.257]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.Counter.Shadow
+[16:14:22] : [BFCompanion] [120044.257]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.Counter.Shadow.TextLabel
+[16:14:22] : [BFCompanion] [120044.257]   [TextLabel] name="ItemTypeShadow_WithBanner" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemTypeShadow_WithBanner
+[16:14:22] : [BFCompanion] [120044.258]   [TextLabel] name="ItemType" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemTypeShadow_WithBanner.ItemType
+[16:14:22] : [BFCompanion] [120044.258]   [TextLabel] name="ItemNameShadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemNameShadow
+[16:14:22] : [BFCompanion] [120044.258]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemNameShadow.ItemName
+[16:14:22] : [BFCompanion] [120044.259]   [TextLabel] name="ItemTypeShadow_NoBanner" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemTypeShadow_NoBanner
+[16:14:22] : [BFCompanion] [120044.259]   [TextLabel] name="ItemType" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.AssetTile.Filled.ItemInformation.ItemTypeShadow_NoBanner.ItemType
+[16:14:22] : [BFCompanion] [120044.260]   [TextLabel] name="AbilityNameLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.HiddenAbilityInfo.AbilityNameLabel
+[16:14:22] : [BFCompanion] [120044.260]   [TextLabel] name="KeybindLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.HiddenAbilityInfo.KeybindLabel
+[16:14:22] : [BFCompanion] [120044.261]   [TextLabel] name="Desc" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.ItemInfo.Desc
+[16:14:22] : [BFCompanion] [120044.261]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.ItemInfo.ItemName
+[16:14:22] : [BFCompanion] [120044.264]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.DecreaseQuantity.TextLabel
+[16:14:22] : [BFCompanion] [120044.265]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.DecreaseQuantity.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.266]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.IncreaseQuantity.TextLabel
+[16:14:22] : [BFCompanion] [120044.266]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.MultiCraft.IncreaseQuantity.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.267]   [TextLabel] name="Current" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.Stats.Current
+[16:14:22] : [BFCompanion] [120044.268]   [TextLabel] name="New" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Crafting.Main.Result.Stats.New
+[16:14:22] : [BFCompanion] [120044.270]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Selection.Header
+[16:14:22] : [BFCompanion] [120044.272]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Main.Selection.Header.TextLabel
+[16:14:22] : [BFCompanion] [120044.273]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.274]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Title.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.274]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Title.Close.TextLabel
+[16:14:22] : [BFCompanion] [120044.275]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Craft.Window.Title.Close.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.276]   [TextLabel] name="ReloadingLabel" text="reloading" visible=nil valid=false pos=(0,113) path=game.StarterGui.CustomCursor.OverlayHolder.ReloadingLabel
+[16:14:22] : [BFCompanion] [120044.277]   [TextLabel] name="ReloadingLabel" text="reloading" visible=nil valid=false pos=(0,113) path=game.StarterGui.CustomCursor.ReloadOverlayHolder.ReloadingLabel
+[16:14:22] : [BFCompanion] [120044.280]   [TextLabel] name="Title" text="Disconnected" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Back.Title
+[16:14:22] : [BFCompanion] [120044.280]   [TextLabel] name="Center" text="You have been kicked by ?ÌµÍŽÍ’Ì…?Ì¶Ì³Í–ÌžÌ°ÌžÌ®ÍÍˆÌ¿Ì¾ÌŽÌÌÌ…Íœ?Ì¶ÍŽÌ—Í™Ì¹Ì£Ì" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Back.Center
+[16:14:22] : [BFCompanion] [120044.281]   [TextLabel] name="Content" text="Connecting to target...\
+Bypassing firewall...\
+Accessing port 443... SUCCESS\
+Gran" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.Content
+[16:14:22] : [BFCompanion] [120044.282]   [TextLabel] name="Bottom" text="user@admin:~$ _" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.Bottom
+[16:14:22] : [BFCompanion] [120044.282]   [TextLabel] name="TextLabel" text=":nuke" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.BottomButtons.Nuke.TextLabel
+[16:14:22] : [BFCompanion] [120044.283]   [TextLabel] name="TextLabel" text=":freeze" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.BottomButtons.Freeze.TextLabel
+[16:14:22] : [BFCompanion] [120044.284]   [TextLabel] name="TextLabel" text=":shrink" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.BottomButtons.Shrink.TextLabel
+[16:14:22] : [BFCompanion] [120044.284]   [TextLabel] name="TextLabel" text=":jail" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.BottomButtons.Jail.TextLabel
+[16:14:22] : [BFCompanion] [120044.285]   [TextLabel] name="Top" text="> Admin Terminal" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.FakeCrash.Terminal.Top
+[16:14:22] : [BFCompanion] [120044.286]   [TextLabel] name="SkillNameLabel" text="Punch" visible=nil valid=false pos=(1878,594) path=game.StarterGui.HUDNoInset.Frame.SkillNameLabel
+[16:14:22] : [BFCompanion] [120044.288]   [TextLabel] name="MobileRage" text="Fury Meter" visible=nil valid=false pos=(1728,486) path=game.StarterGui.HUDNoInset.MobileRage
+[16:14:22] : [BFCompanion] [120044.289]   [TextLabel] name="TextLabel" text="Fury Meter" visible=nil valid=false pos=(1728,486) path=game.StarterGui.HUDNoInset.MobileRage.TextLabel
+[16:14:22] : [BFCompanion] [120044.292]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.TextLabel
+[16:14:22] : [BFCompanion] [120044.294]   [TextLabel] name="AbilityName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.AbilityName
+[16:14:22] : [BFCompanion] [120044.296]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.AbilityName.TextLabel
+[16:14:22] : [BFCompanion] [120044.297]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.297]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.297]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.Progress
+[16:14:22] : [BFCompanion] [120044.298]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.LockedOverlay.TextLabel
+[16:14:22] : [BFCompanion] [120044.299]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton2.TextLabel
+[16:14:22] : [BFCompanion] [120044.299]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.TextButton2.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.300]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.AbilityView.Content.AbilityViewTemplate.Description
+[16:14:22] : [BFCompanion] [120044.301]   [TextLabel] name="FruitName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.FruitName
+[16:14:22] : [BFCompanion] [120044.302]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.FruitName.TextLabel
+[16:14:22] : [BFCompanion] [120044.302]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.Description
+[16:14:22] : [BFCompanion] [120044.304]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.FruitView.Content.FruitViewTemplate.Progress
+[16:14:22] : [BFCompanion] [120044.306]   [TextLabel] name="AbilityName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.AbilityName
+[16:14:22] : [BFCompanion] [120044.306]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.AbilityName.TextLabel
+[16:14:22] : [BFCompanion] [120044.306]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.Progress
+[16:14:22] : [BFCompanion] [120044.307]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.TextButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.307]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.TextButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.308]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.CurrentAbilityReseach.Description
+[16:14:22] : [BFCompanion] [120044.308]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Locked.TextLabel
+[16:14:22] : [BFCompanion] [120044.309]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Locked.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.310]   [TextLabel] name="Experiment" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Experiment
+[16:14:22] : [BFCompanion] [120044.311]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.TextButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.312]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.TextButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.313]   [TextLabel] name="Progress" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Footer.ProgressBarFrame.Progress
+[16:14:22] : [BFCompanion] [120044.313]   [TextLabel] name="Observation" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.ResearchView.Content.ExperimentViewTemplate3.Unlocked.Header.Observation
+[16:14:22] : [BFCompanion] [120044.316]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.316]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.Title.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.317]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.Title.Close.TextLabel
+[16:14:22] : [BFCompanion] [120044.317]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Modal.Title.Close.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.319]   [TextLabel] name="Quote" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.HiddenAbilities.Quote
+[16:14:22] : [BFCompanion] [120044.322]   [TextLabel] name="DangerLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerLevel
+[16:14:22] : [BFCompanion] [120044.322]   [TextLabel] name="Symbol" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerLevel.Symbol
+[16:14:22] : [BFCompanion] [120044.323]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerLevel.Symbol.Shadow
+[16:14:22] : [BFCompanion] [120044.323]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerLevel.TextLabel
+[16:14:22] : [BFCompanion] [120044.323]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerLevel.TextLabel.Shadow
+[16:14:22] : [BFCompanion] [120044.323]   [TextLabel] name="DangerText" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerText
+[16:14:22] : [BFCompanion] [120044.324]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.DangerText.Shadow
+[16:14:22] : [BFCompanion] [120044.325]   [TextLabel] name="DangerLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.Frame2.DangerLevel
+[16:14:22] : [BFCompanion] [120044.325]   [TextLabel] name="Symbol" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.Frame2.DangerLevel.Symbol
+[16:14:22] : [BFCompanion] [120044.326]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.Frame2.DangerLevel.Symbol.Shadow
+[16:14:22] : [BFCompanion] [120044.328]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.Frame2.DangerLevel.TextLabel
+[16:14:22] : [BFCompanion] [120044.328]   [TextLabel] name="Shadow" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.UIController.SeaExploration.Frame2.DangerLevel.TextLabel.Shadow
+[16:14:22] : [BFCompanion] [120044.330]   [TextLabel] name="TextLabel" text="PLAYERS" visible=nil valid=false pos=(655,1450) path=game.StarterGui.Main.Allies.Container.Players.TextLabel
+[16:14:22] : [BFCompanion] [120044.331]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(647,1489) path=game.StarterGui.Main.Allies.Container.Players.ScrollingFrame.Frame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.331]   [TextLabel] name="Label" text="(Invite)" visible=nil valid=false pos=(647,1523) path=game.StarterGui.Main.Allies.Container.Players.ScrollingFrame.Frame.Template.Label
+[16:14:22] : [BFCompanion] [120044.332]   [TextLabel] name="TextLabel" text="ALLIED PLAYERS" visible=nil valid=false pos=(969,1450) path=game.StarterGui.Main.Allies.Container.Allies.TextLabel
+[16:14:22] : [BFCompanion] [120044.333]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(961,1489) path=game.StarterGui.Main.Allies.Container.Allies.ScrollingFrame.Frame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.333]   [TextLabel] name="Label" text="(Remove)" visible=nil valid=false pos=(961,1523) path=game.StarterGui.Main.Allies.Container.Allies.ScrollingFrame.Frame.Template.Label
+[16:14:22] : [BFCompanion] [120044.333]   [TextLabel] name="TextLabel" text="REQUESTS" visible=nil valid=false pos=(1284,1450) path=game.StarterGui.Main.Allies.Container.Requests.TextLabel
+[16:14:22] : [BFCompanion] [120044.336]   [TextLabel] name="TextLabel" text="player_name" visible=nil valid=false pos=(1276,1489) path=game.StarterGui.Main.Allies.Container.Requests.ScrollingFrame.Frame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.337]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1398,1347) path=game.StarterGui.Main.Allies.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.337]   [TextLabel] name="TextLabel" text="Click on a player to send them an ally request." visible=nil valid=false pos=(988,1778) path=game.StarterGui.Main.Allies.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.338]   [TextLabel] name="Title" text="ALLIES" visible=nil valid=false pos=(970,1398) path=game.StarterGui.Main.Allies.Title
+[16:14:22] : [BFCompanion] [120044.339]   [TextLabel] name="Title" text="AWAKENING ABILITIES" visible=nil valid=false pos=(970,488) path=game.StarterGui.Main.AwakeningToggler.Title
+[16:14:22] : [BFCompanion] [120044.339]   [TextLabel] name="TextLabel" text="Click on a move to toggle between both versions." visible=nil valid=false pos=(903,654) path=game.StarterGui.Main.AwakeningToggler.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.339]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1366,654) path=game.StarterGui.Main.AwakeningToggler.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.340]   [TextLabel] name="Subtitle" text="TOGGLES" visible=nil valid=false pos=(970,536) path=game.StarterGui.Main.AwakeningToggler.Subtitle
+[16:14:22] : [BFCompanion] [120044.341]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(589,576) path=game.StarterGui.Main.AwakeningToggler.TopContainer.Frame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.342]   [TextLabel] name="Label" text="(Unawakened)" visible=nil valid=false pos=(589,612) path=game.StarterGui.Main.AwakeningToggler.TopContainer.Frame.Template.Label
+[16:14:22] : [BFCompanion] [120044.344]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(589,478) path=game.StarterGui.Main.AwakeningToggler.BottomContainer.Frame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.345]   [TextLabel] name="Label" text="(Unawakened)" visible=nil valid=false pos=(589,514) path=game.StarterGui.Main.AwakeningToggler.BottomContainer.Frame.Template.Label
+[16:14:22] : [BFCompanion] [120044.345]   [TextLabel] name="Beli" text="$ ..." visible=nil valid=false pos=(150,804) path=game.StarterGui.Main.Beli
+[16:14:22] : [BFCompanion] [120044.346]   [TextLabel] name="CurrentBait" text="[Current Bait: Abyssal Bait]" visible=nil valid=false pos=(960,-10) path=game.StarterGui.Main.BottomHUDList.CurrentBait
+[16:14:22] : [BFCompanion] [120044.346]   [TextLabel] name="FreshieNotify" text="â€¼ï¸ There is more to do on Starter Island â€¼ï" visible=nil valid=false pos=(960,2) path=game.StarterGui.Main.BottomHUDList.FreshieNotify
+[16:14:22] : [BFCompanion] [120044.351]   [TextLabel] name="Label" text="Sail towards the indicators for a boost." visible=nil valid=false pos=(960,-13) path=game.StarterGui.Main.BottomHUDList.HelmsmanMiniGame.Label
+[16:14:22] : [BFCompanion] [120044.352]   [TextLabel] name="TextLabel" text="0/5" visible=nil valid=false pos=(960,23) path=game.StarterGui.Main.BottomHUDList.HelmsmanMiniGame.ProgressBar.TextLabel
+[16:14:22] : [BFCompanion] [120044.354]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.BottomHUDList.HelmsmanV2.Helmsman.Helm.CanvasGroup.Timer
+[16:14:22] : [BFCompanion] [120044.355]   [TextLabel] name="InCombat" text="âš”ï¸In Combat - Bounty at risk!âš”ï" visible=nil valid=false pos=(960,2) path=game.StarterGui.Main.BottomHUDList.InCombat
+[16:14:22] : [BFCompanion] [120044.355]   [TextLabel] name="InCombatBottom" text="DON'T LEAVE THE GAME!" visible=nil valid=false pos=(960,-10) path=game.StarterGui.Main.BottomHUDList.InCombatBottom
+[16:14:22] : [BFCompanion] [120044.356]   [TextLabel] name="PvpDisabled" text="ðŸ›¡Died Recently - PvP disabledð" visible=nil valid=false pos=(756,3) path=game.StarterGui.Main.BottomHUDList.PvpDisabled
+[16:14:22] : [BFCompanion] [120044.356]   [TextLabel] name="Radar" text="FRUIT RADAR: 15,000m away." visible=nil valid=false pos=(960,2) path=game.StarterGui.Main.BottomHUDList.Radar
+[16:14:22] : [BFCompanion] [120044.357]   [TextLabel] name="Label" text="Release when in green for extra HP" visible=nil valid=false pos=(960,-13) path=game.StarterGui.Main.BottomHUDList.RepairMiniGame.Label
+[16:14:22] : [BFCompanion] [120044.358]   [TextLabel] name="Label" text="Repairing..." visible=nil valid=false pos=(960,-13) path=game.StarterGui.Main.BottomHUDList.RepairProgressBar.Label
+[16:14:22] : [BFCompanion] [120044.360]   [TextLabel] name="SafeZone" text="ðŸ›¡Safe Zone - PvP disabledð" visible=nil valid=false pos=(960,2) path=game.StarterGui.Main.BottomHUDList.SafeZone
+[16:14:22] : [BFCompanion] [120044.361]   [TextLabel] name="TextLabel" text="X" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.BottomHUDList.ShipHealthBar.CancelButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.363]   [TextLabel] name="TextLabel" text="Ship 100/100" visible=nil valid=false pos=(960,2) path=game.StarterGui.Main.BottomHUDList.ShipHealthBar.TextLabel
+[16:14:22] : [BFCompanion] [120044.376]   [TextLabel] name="Perk1" text="Team up on pirates!" visible=nil valid=false pos=(1162,757) path=game.StarterGui.Main.ChooseTeam.Container.Marines.Perks.Perk1
+[16:14:22] : [BFCompanion] [120044.376]   [TextLabel] name="Perk3" text="Claim bounties!" visible=nil valid=false pos=(1162,821) path=game.StarterGui.Main.ChooseTeam.Container.Marines.Perks.Perk3
+[16:14:22] : [BFCompanion] [120044.377]   [TextLabel] name="Perk2" text="Faster, cheaper ships!" visible=nil valid=false pos=(1162,789) path=game.StarterGui.Main.ChooseTeam.Container.Marines.Perks.Perk2
+[16:14:22] : [BFCompanion] [120044.377]   [TextLabel] name="TextLabel" text="MARINES" visible=nil valid=false pos=(1162,370) path=game.StarterGui.Main.ChooseTeam.Container.Marines.TextLabel
+[16:14:22] : [BFCompanion] [120044.387]   [TextLabel] name="Perk1" text="Defy the marines and battle pirates!" visible=nil valid=false pos=(778,757) path=game.StarterGui.Main.ChooseTeam.Container.Pirates.Perks.Perk1
+[16:14:22] : [BFCompanion] [120044.387]   [TextLabel] name="Perk3" text="Get a high player bounty!" visible=nil valid=false pos=(778,821) path=game.StarterGui.Main.ChooseTeam.Container.Pirates.Perks.Perk3
+[16:14:22] : [BFCompanion] [120044.388]   [TextLabel] name="Perk2" text="Create your own pirate crew!" visible=nil valid=false pos=(778,789) path=game.StarterGui.Main.ChooseTeam.Container.Pirates.Perks.Perk2
+[16:14:22] : [BFCompanion] [120044.388]   [TextLabel] name="TextLabel" text="PIRATES" visible=nil valid=false pos=(778,370) path=game.StarterGui.Main.ChooseTeam.Container.Pirates.TextLabel
+[16:14:22] : [BFCompanion] [120044.389]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(980,926) path=game.StarterGui.Main.ChooseTeam.FastModeButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.389]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(980,1013) path=game.StarterGui.Main.ChooseTeam.FastModeButton.Notify
+[16:14:22] : [BFCompanion] [120044.389]   [TextLabel] name="Title" text="PICK A SIDE!" visible=nil valid=false pos=(970,297) path=game.StarterGui.Main.ChooseTeam.Title
+[16:14:22] : [BFCompanion] [120044.390]   [TextLabel] name="Title" text="NOTIFICATION" visible=nil valid=false pos=(960,332) path=game.StarterGui.Main.ClassicDragon.Title
+[16:14:22] : [BFCompanion] [120044.392]   [TextLabel] name="TextLabel" text="Convert your remaining <font color=\"#fee447\">&lt; Dragon Fruit &gt;</font> item(" visible=nil valid=false pos=(959,413) path=game.StarterGui.Main.ClassicDragon.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.393]   [TextLabel] name="TextLabel" text="Get a random <font color=\"#fee447\">permanent</font> MYTHICAL fruit<font color=\"#" visible=nil valid=false pos=(863,675) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option2.TextLabel
+[16:14:22] : [BFCompanion] [120044.393]   [TextLabel] name="TitleShadow" text="Fruits" visible=nil valid=false pos=(863,607) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option2.TitleShadow
+[16:14:22] : [BFCompanion] [120044.393]   [TextLabel] name="Title" text="Fruits" visible=nil valid=false pos=(863,605) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option2.TitleShadow.Title
+[16:14:22] : [BFCompanion] [120044.395]   [TextLabel] name="Question" text="?" visible=nil valid=false pos=(863,545) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option2.Backdrop.Question
+[16:14:22] : [BFCompanion] [120044.395]   [TextLabel] name="Question" text="?" visible=nil valid=false pos=(861,543) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option2.Backdrop.Question.Question
+[16:14:22] : [BFCompanion] [120044.395]   [TextLabel] name="TextLabel" text="Receive 2x Money, 2x Boss Drops, 2x Mastery, Fast Boats, +1 Fruit Storage (3) <f" visible=nil valid=false pos=(1056,688) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option3.TextLabel
+[16:14:22] : [BFCompanion] [120044.396]   [TextLabel] name="TitleShadow" text="Game Passes" visible=nil valid=false pos=(1056,607) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option3.TitleShadow
+[16:14:22] : [BFCompanion] [120044.396]   [TextLabel] name="Title" text="Game Passes" visible=nil valid=false pos=(1056,605) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option3.TitleShadow.Title
+[16:14:22] : [BFCompanion] [120044.397]   [TextLabel] name="TitleShadow" text="Swordsman" visible=nil valid=false pos=(1248,607) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option4.TitleShadow
+[16:14:22] : [BFCompanion] [120044.398]   [TextLabel] name="Title" text="Swordsman" visible=nil valid=false pos=(1248,605) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option4.TitleShadow.Title
+[16:14:22] : [BFCompanion] [120044.401]   [TextLabel] name="TextLabel" text="Receive Dark Blade, 2x Mythical Scrolls, 2x Legendary Scrolls<font color=\"#ff383" visible=nil valid=false pos=(1248,684) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option4.TextLabel
+[16:14:22] : [BFCompanion] [120044.401]   [TextLabel] name="TextLabel" text="Purchase the new <font color=\"#fee447\">permanent</font> DRAGON fruit at a discou" visible=nil valid=false pos=(671,675) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option1.TextLabel
+[16:14:22] : [BFCompanion] [120044.402]   [TextLabel] name="TitleShadow" text="Upgrade" visible=nil valid=false pos=(671,607) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option1.TitleShadow
+[16:14:22] : [BFCompanion] [120044.403]   [TextLabel] name="Title" text="Upgrade" visible=nil valid=false pos=(671,605) path=game.StarterGui.Main.ClassicDragon.Container.List.Container.Option1.TitleShadow.Title
+[16:14:22] : [BFCompanion] [120044.405]   [TextLabel] name="TextLabel" text="Equip Classic" visible=nil valid=false pos=(827,802) path=game.StarterGui.Main.ClassicDragon.Info.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.405]   [TextLabel] name="TextLabel" text="Convert" visible=nil valid=false pos=(1092,802) path=game.StarterGui.Main.ClassicDragon.Info.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.408]   [TextLabel] name="TextLabel" text="You have chosen to convert your Permanent Dragon (Classic) to Gamepass items.\
+TH" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.Confirm.Container.Content.TextLabel
+[16:14:22] : [BFCompanion] [120044.409]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.Confirm.Container.Bottom.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.409]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.Confirm.Container.Bottom.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.410]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.Confirm.Container.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.410]   [TextLabel] name="Title" text="You have chosen to convert your Physical Dragon into a random <font color=\"#fee4" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.ConfirmExtended.Container.Content.Title
+[16:14:22] : [BFCompanion] [120044.411]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.ConfirmExtended.Container.Bottom.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.412]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.ConfirmExtended.Container.Bottom.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.412]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ClassicDragon.ConfirmExtended.Container.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.413]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(265,15793) path=game.StarterGui.Main.Code.TextLabel
+[16:14:22] : [BFCompanion] [120044.413]   [TextLabel] name="Title" text="COLORS" visible=nil valid=false pos=(970,374) path=game.StarterGui.Main.Colors.Title
+[16:14:22] : [BFCompanion] [120044.416]   [TextLabel] name="Title" text=" (LOCKED)" visible=nil valid=false pos=(964,434) path=game.StarterGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Title
+[16:14:22] : [BFCompanion] [120044.417]   [TextLabel] name="TextLabel" text="Enable Color" visible=nil valid=false pos=(1327,436) path=game.StarterGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Activate.TextLabel
+[16:14:22] : [BFCompanion] [120044.417]   [TextLabel] name="Desc" text=" Find the Master of Enhancement or buy it now with Robux." visible=nil valid=false pos=(964,481) path=game.StarterGui.Main.Colors.Container.Colors.ScrollingFrame.Template.Desc
+[16:14:22] : [BFCompanion] [120044.417]   [TextLabel] name="TextLabel" text="Choose a color for your Aura ability." visible=nil valid=false pos=(823,796) path=game.StarterGui.Main.Colors.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.418]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1371,796) path=game.StarterGui.Main.Colors.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.418]   [TextLabel] name="TextLabel" text="Disable" visible=nil valid=false pos=(1234,796) path=game.StarterGui.Main.Colors.Info.Disable.TextLabel
+[16:14:22] : [BFCompanion] [120044.419]   [TextLabel] name="TextLabel" text="ITEMS UNBOXED" visible=nil valid=false pos=(960,458) path=game.StarterGui.Main.Confirm.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.419]   [TextLabel] name="TextLabel" text="Obtained <Cursed Scroll> x1!" visible=nil valid=false pos=(960,569) path=game.StarterGui.Main.Confirm.Content.TextLabel
+[16:14:22] : [BFCompanion] [120044.420]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(959,679) path=game.StarterGui.Main.Confirm.Bottom.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.421]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.Frame.ItemLine1
+[16:14:22] : [BFCompanion] [120044.421]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.Frame.ItemLine2
+[16:14:22] : [BFCompanion] [120044.422]   [TextLabel] name="Template" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.Info.Template
+[16:14:22] : [BFCompanion] [120044.424]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.ItemDescription
+[16:14:22] : [BFCompanion] [120044.424]   [TextLabel] name="ItemName" text="Red Eastern Dragon" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.ItemName
+[16:14:22] : [BFCompanion] [120044.424]   [TextLabel] name="ItemRarity" text="Legendary Skin" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.ItemRarity
+[16:14:22] : [BFCompanion] [120044.425]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Consumables.Left.Selector.Equip.TextLabel
+[16:14:22] : [BFCompanion] [120044.427]   [TextLabel] name="TextLabel" text="INVENTORY" visible=nil valid=false pos=(889,437) path=game.StarterGui.Main.Consumables.Right.Content.Return.TextLabel
+[16:14:22] : [BFCompanion] [120044.428]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1333,366) path=game.StarterGui.Main.Consumables.Right.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.429]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(1080,396) path=game.StarterGui.Main.Consumables.Right.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.429]   [TextLabel] name="TextLabel" text="CONFIRM ENCHANT" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.433]   [TextLabel] name="ItemName" text="Cursed Scroll" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemName
+[16:14:22] : [BFCompanion] [120044.433]   [TextLabel] name="ItemRarity" text="30 in Inventory" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemRarity
+[16:14:22] : [BFCompanion] [120044.434]   [TextLabel] name="TextLabel" text="Select a scroll to apply.<br/><font color=\"#ff0000\"><b>This will replace your cu" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Content.Right.TextLabel
+[16:14:22] : [BFCompanion] [120044.435]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Content.Right.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.435]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Craft.Confirm.Content.Right.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.438]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(648,472) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.442]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(774,472) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.443]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(901,472) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.446]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(648,599) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.450]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(774,599) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.452]   [TextLabel] name="ItemCount" text="3/12" visible=nil valid=false pos=(901,599) path=game.StarterGui.Main.Craft.Main.Content.CraftingGrid.Item.ItemCount
+[16:14:22] : [BFCompanion] [120044.457]   [TextLabel] name="ItemLine1" text="â˜…â" visible=nil valid=false pos=(1068,491) path=game.StarterGui.Main.Craft.Main.Content.Result.Top.Item.ItemLine1
+[16:14:22] : [BFCompanion] [120044.457]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(1219,508) path=game.StarterGui.Main.Craft.Main.Content.Result.Top.Frame.ItemName
+[16:14:22] : [BFCompanion] [120044.457]   [TextLabel] name="ItemRarity" text="Common Sword, Grade 2" visible=nil valid=false pos=(1219,538) path=game.StarterGui.Main.Craft.Main.Content.Result.Top.Frame.ItemRarity
+[16:14:22] : [BFCompanion] [120044.458]   [TextLabel] name="TextLabel" text="New:" visible=nil valid=false pos=(1179,583) path=game.StarterGui.Main.Craft.Main.Content.Result.StatContainer.TextLabel
+[16:14:22] : [BFCompanion] [120044.459]   [TextLabel] name="TextLabel" text="CRAFT" visible=nil valid=false pos=(959,374) path=game.StarterGui.Main.Craft.Main.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.460]   [TextLabel] name="TextLabel" text="Craft" visible=nil valid=false pos=(863,702) path=game.StarterGui.Main.Craft.Main.Bottom.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.460]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(1056,702) path=game.StarterGui.Main.Craft.Main.Bottom.Close.TextLabel
+[16:14:22] : [BFCompanion] [120044.462]   [TextLabel] name="TextLabel" text="Create" visible=nil valid=false pos=(719,1708) path=game.StarterGui.Main.Crew.Create.CreateButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.464]   [TextLabel] name="CrewNameLabel" text="Name: " visible=nil valid=false pos=(717,1460) path=game.StarterGui.Main.Crew.Create.CrewNameLabel
+[16:14:22] : [BFCompanion] [120044.464]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1253,1388) path=game.StarterGui.Main.Crew.Create.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.465]   [TextLabel] name="ExtraInfo" text="Creating a crew allows you to compete with other crews in the leaderboard for ra" visible=nil valid=false pos=(1041,1730) path=game.StarterGui.Main.Crew.Create.ExtraInfo
+[16:14:22] : [BFCompanion] [120044.465]   [TextLabel] name="Title" text="Crew Invite" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Create.Invite.Title
+[16:14:22] : [BFCompanion] [120044.465]   [TextLabel] name="name" text="The Straw Hat Pirates" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Create.Invite.name
+[16:14:22] : [BFCompanion] [120044.466]   [TextLabel] name="TextLabel" text="Join" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Create.Invite.Accept.TextLabel
+[16:14:22] : [BFCompanion] [120044.466]   [TextLabel] name="TextLabel" text="Ignore" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Create.Invite.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.467]   [TextLabel] name="LogoLabel" text="Logo Link:" visible=nil valid=false pos=(717,1500) path=game.StarterGui.Main.Crew.Create.LogoLabel
+[16:14:22] : [BFCompanion] [120044.467]   [TextLabel] name="TextLabel" text="How to make a Logo: In the Roblox website, go to Create > Decals and upload the " visible=nil valid=false pos=(1042,1602) path=game.StarterGui.Main.Crew.Create.Preview.LogoHelp.TextLabel
+[16:14:22] : [BFCompanion] [120044.468]   [TextLabel] name="Requirement" text="Level 300+ required" visible=nil valid=false pos=(717,1753) path=game.StarterGui.Main.Crew.Create.Requirement
+[16:14:22] : [BFCompanion] [120044.468]   [TextLabel] name="Title" text="Create Crew" visible=nil valid=false pos=(960,1420) path=game.StarterGui.Main.Crew.Create.Title
+[16:14:22] : [BFCompanion] [120044.468]   [TextLabel] name="Warning" text="WARNING: Pressing this button will make you leave the crew!" visible=nil valid=false pos=(901,1761) path=game.StarterGui.Main.Crew.Main.Bar.Warning
+[16:14:22] : [BFCompanion] [120044.469]   [TextLabel] name="TextLabel" text="Abandon" visible=nil valid=false pos=(1224,1761) path=game.StarterGui.Main.Crew.Main.Bar.Abandon.TextLabel
+[16:14:22] : [BFCompanion] [120044.469]   [TextLabel] name="TextLabel" text="Invite" visible=nil valid=false pos=(917,1761) path=game.StarterGui.Main.Crew.Main.Bar.Invite.TextLabel
+[16:14:22] : [BFCompanion] [120044.470]   [TextLabel] name="TextLabel" text="Kick" visible=nil valid=false pos=(1083,1761) path=game.StarterGui.Main.Crew.Main.Bar.Kick.TextLabel
+[16:14:22] : [BFCompanion] [120044.472]   [TextLabel] name="Title" text="ARE YOU SURE?" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Main.ConfirmAbandon.Title
+[16:14:22] : [BFCompanion] [120044.473]   [TextLabel] name="TextLabel" text="Abandon" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Main.ConfirmAbandon.Yes.TextLabel
+[16:14:22] : [BFCompanion] [120044.473]   [TextLabel] name="TextLabel" text="No" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Main.ConfirmAbandon.No.TextLabel
+[16:14:22] : [BFCompanion] [120044.473]   [TextLabel] name="Title" text="YOU'RE ABOUT TO LEAVE THIS CREW. If you're the owner of the Crew, it will be del" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Crew.Main.ConfirmAbandon.Title
+[16:14:22] : [BFCompanion] [120044.474]   [TextLabel] name="CrewBounty" text="Rank: #1" visible=nil valid=false pos=(1154,1492) path=game.StarterGui.Main.Crew.Main.CrewBounty
+[16:14:22] : [BFCompanion] [120044.474]   [TextLabel] name="CrewName" text="The Straw Hat Pirates | Members: 1/25" visible=nil valid=false pos=(960,1460) path=game.StarterGui.Main.Crew.Main.CrewName
+[16:14:22] : [BFCompanion] [120044.474]   [TextLabel] name="CrewOwner" text="Crew Leader: ONLYTWENTYCHARACTERS" visible=nil valid=false pos=(830,1492) path=game.StarterGui.Main.Crew.Main.CrewOwner
+[16:14:22] : [BFCompanion] [120044.475]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1253,1388) path=game.StarterGui.Main.Crew.Main.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.477]   [TextLabel] name="Title" text="CREW" visible=nil valid=false pos=(960,1420) path=game.StarterGui.Main.Crew.Main.Title
+[16:14:22] : [BFCompanion] [120044.480]   [TextLabel] name="Title" text="DATA RESTORE AVAILABLE" visible=nil valid=false pos=(970,374) path=game.StarterGui.Main.DataRestore.Title
+[16:14:22] : [BFCompanion] [120044.480]   [TextLabel] name="TextLabel" text="You were probably falsely banned due to an error in the anti-exploit systems. We" visible=nil valid=false pos=(970,465) path=game.StarterGui.Main.DataRestore.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.481]   [TextLabel] name="TextLabel" text="Restore data to (2022-01-01 | Level 1200 | Lava) <font color=\"#FFFF00\">â˜…Recomm" visible=nil valid=false pos=(991,603) path=game.StarterGui.Main.DataRestore.Container.List.Restore.TextLabel
+[16:14:22] : [BFCompanion] [120044.481]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(589,603) path=game.StarterGui.Main.DataRestore.Container.List.Restore.Button.TextLabel
+[16:14:22] : [BFCompanion] [120044.482]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(589,676) path=game.StarterGui.Main.DataRestore.Container.List.Update.Button.TextLabel
+[16:14:22] : [BFCompanion] [120044.483]   [TextLabel] name="TextLabel" text="Update current data (boosts level, masteries, bounty, etc by old data)" visible=nil valid=false pos=(991,676) path=game.StarterGui.Main.DataRestore.Container.List.Update.TextLabel
+[16:14:22] : [BFCompanion] [120044.483]   [TextLabel] name="TextLabel" text="Select a restore option:" visible=nil valid=false pos=(970,558) path=game.StarterGui.Main.DataRestore.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.483]   [TextLabel] name="TextLabel" text="Click Next to verify the contents of your restore." visible=nil valid=false pos=(970,743) path=game.StarterGui.Main.DataRestore.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.485]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(823,796) path=game.StarterGui.Main.DataRestore.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.485]   [TextLabel] name="TextLabel" text="Next" visible=nil valid=false pos=(969,796) path=game.StarterGui.Main.DataRestore.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.486]   [TextLabel] name="Title" text="DATA RESTORE AVAILABLE" visible=nil valid=false pos=(970,374) path=game.StarterGui.Main.DataRestore2.Title
+[16:14:22] : [BFCompanion] [120044.488]   [TextLabel] name="TextLabel" text="Please confirm data before continuing:" visible=nil valid=false pos=(970,465) path=game.StarterGui.Main.DataRestore2.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.488]   [TextLabel] name="Subtitle" text="Restoring Old Data" visible=nil valid=false pos=(970,558) path=game.StarterGui.Main.DataRestore2.Container.List.Subtitle
+[16:14:22] : [BFCompanion] [120044.489]   [TextLabel] name="TextLabel" text="Click Confirm to accept your restore." visible=nil valid=false pos=(970,743) path=game.StarterGui.Main.DataRestore2.Container.List.TextLabel
+[16:14:22] : [BFCompanion] [120044.490]   [TextLabel] name="Level" text="Level: 1500 -> 2200" visible=nil valid=false pos=(970,594) path=game.StarterGui.Main.DataRestore2.Container.List.Level
+[16:14:22] : [BFCompanion] [120044.490]   [TextLabel] name="Fruit" text="Blox Fruit: Magma added to storage" visible=nil valid=false pos=(970,631) path=game.StarterGui.Main.DataRestore2.Container.List.Fruit
+[16:14:22] : [BFCompanion] [120044.490]   [TextLabel] name="Fragments" text="Bounty/Respect, Masteries, Currencies were increased." visible=nil valid=false pos=(970,667) path=game.StarterGui.Main.DataRestore2.Container.List.Fragments
+[16:14:22] : [BFCompanion] [120044.491]   [TextLabel] name="TextLabel" text="Back" visible=nil valid=false pos=(894,796) path=game.StarterGui.Main.DataRestore2.Info.Back.TextLabel
+[16:14:22] : [BFCompanion] [120044.492]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(1045,796) path=game.StarterGui.Main.DataRestore2.Info.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.493]   [TextLabel] name="TextLabel" text="Nevermind" visible=nil valid=false pos=(1618,704) path=game.StarterGui.Main.Dialogue.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.493]   [TextLabel] name="TextLabel" text="Option" visible=nil valid=false pos=(1618,511) path=game.StarterGui.Main.Dialogue.Option1.TextLabel
+[16:14:22] : [BFCompanion] [120044.494]   [TextLabel] name="TextLabel" text="Option" visible=nil valid=false pos=(1618,575) path=game.StarterGui.Main.Dialogue.Option2.TextLabel
+[16:14:22] : [BFCompanion] [120044.494]   [TextLabel] name="TextLabel" text="Option" visible=nil valid=false pos=(1618,640) path=game.StarterGui.Main.Dialogue.Option3.TextLabel
+[16:14:22] : [BFCompanion] [120044.494]   [TextLabel] name="Title" text="Label" visible=nil valid=false pos=(960,439) path=game.StarterGui.Main.Dialogue.Title
+[16:14:22] : [BFCompanion] [120044.497]   [TextLabel] name="TextLabel" text="0" visible=nil valid=false pos=(959,898) path=game.StarterGui.Main.DodgeNotifier.TextLabel
+[16:14:22] : [BFCompanion] [120044.498]   [TextLabel] name="Shadow" text="0" visible=nil valid=false pos=(957,896) path=game.StarterGui.Main.DodgeNotifier.TextLabel.Shadow
+[16:14:22] : [BFCompanion] [120044.499]   [TextLabel] name="Version" text="Version 1000" visible=nil valid=false pos=(192,76) path=game.StarterGui.Main.DynamicTopBar.Version
+[16:14:22] : [BFCompanion] [120044.499]   [TextLabel] name="TextLabel" text="CONFIRM ENCHANT" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.502]   [TextLabel] name="ItemName" text="Cursed Scroll" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemName
+[16:14:22] : [BFCompanion] [120044.502]   [TextLabel] name="ItemRarity" text="30 in Inventory" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Content.Left.ScrollingFrame.Example.Right.ItemRarity
+[16:14:22] : [BFCompanion] [120044.504]   [TextLabel] name="TextLabel" text="Select a scroll to apply.<br/><font color=\"#ff0000\"><b>This will replace your cu" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Content.Right.TextLabel
+[16:14:22] : [BFCompanion] [120044.505]   [TextLabel] name="TextLabel" text="Confirm" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Content.Right.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.505]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Enchant.Confirm.Content.Right.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.506]   [TextLabel] name="TextLabel" text="Close" visible=nil valid=false pos=(1144,805) path=game.StarterGui.Main.Enchant.Main.Content.Close.TextLabel
+[16:14:22] : [BFCompanion] [120044.507]   [TextLabel] name="TextLabel" text="Reroll Enchants" visible=nil valid=false pos=(775,805) path=game.StarterGui.Main.Enchant.Main.Content.Roll.TextLabel
+[16:14:22] : [BFCompanion] [120044.507]   [TextLabel] name="ItemName" text="Strong Grip (Unique)" visible=nil valid=false pos=(957,444) path=game.StarterGui.Main.Enchant.Main.Content.ScrollingFrame.Example.ItemName
+[16:14:22] : [BFCompanion] [120044.508]   [TextLabel] name="ItemRarity" text="Damage scales with up to 20% of your melee stat, and 80% of your Gun stat." visible=nil valid=false pos=(974,469) path=game.StarterGui.Main.Enchant.Main.Content.ScrollingFrame.Example.ItemRarity
+[16:14:22] : [BFCompanion] [120044.510]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(995,332) path=game.StarterGui.Main.Enchant.Main.Content.Top.Frame.ItemName
+[16:14:22] : [BFCompanion] [120044.512]   [TextLabel] name="ItemRarity" text="Common Sword, Grade 2" visible=nil valid=false pos=(995,374) path=game.StarterGui.Main.Enchant.Main.Content.Top.Frame.ItemRarity
+[16:14:22] : [BFCompanion] [120044.513]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1293,211) path=game.StarterGui.Main.Enchant.Main.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.514]   [TextLabel] name="TextLabel" text="ENCHANT" visible=nil valid=false pos=(959,256) path=game.StarterGui.Main.Enchant.Main.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.515]   [TextLabel] name="TextLabel" text="Energy 100/100" visible=nil valid=false pos=(192,1011) path=game.StarterGui.Main.Energy.TextLabel
+[16:14:22] : [BFCompanion] [120044.515]   [TextLabel] name="Fragments" text="failed to fetch text" visible=nil valid=false pos=(150,804) path=game.StarterGui.Main.Fragments
+[16:14:22] : [BFCompanion] [120044.516]   [TextLabel] name="Title" text="TREASURE INVENTORY" visible=nil valid=false pos=(970,388) path=game.StarterGui.Main.FruitInventory.Title
+[16:14:22] : [BFCompanion] [120044.516]   [TextLabel] name="TextLabel" text="STORED" visible=nil valid=false pos=(1163,440) path=game.StarterGui.Main.FruitInventory.Container.Stored.TextLabel
+[16:14:22] : [BFCompanion] [120044.518]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,621) path=game.StarterGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:22] : [BFCompanion] [120044.520]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(1062,476) path=game.StarterGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.521]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,548) path=game.StarterGui.Main.FruitInventory.Container.Stored.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.522]   [TextLabel] name="TextLabel" text="CURRENT" visible=nil valid=false pos=(776,440) path=game.StarterGui.Main.FruitInventory.Container.Current.TextLabel
+[16:14:22] : [BFCompanion] [120044.524]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,620) path=game.StarterGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:22] : [BFCompanion] [120044.525]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(675,476) path=game.StarterGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.525]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,548) path=game.StarterGui.Main.FruitInventory.Container.Current.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.526]   [TextLabel] name="TextLabel" text="Note: stored fruits cannot be dropped, only traded." visible=nil valid=false pos=(915,768) path=game.StarterGui.Main.FruitInventory.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.528]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1294,768) path=game.StarterGui.Main.FruitInventory.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.529]   [TextLabel] name="TextLabel" text="Portal Gateways" visible=nil valid=false pos=(960,379) path=game.StarterGui.Main.Gateway.Header.TextLabel
+[16:14:22] : [BFCompanion] [120044.529]   [TextLabel] name="TextLabel" text="Portal Gateways" visible=nil valid=false pos=(960,377) path=game.StarterGui.Main.Gateway.Header.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.531]   [TextLabel] name="TextName" text="Forgotten Island" visible=nil valid=false pos=(689,488) path=game.StarterGui.Main.Gateway.MainContent.ScrollingFrame.Template.TextName
+[16:14:22] : [BFCompanion] [120044.532]   [TextLabel] name="Price" text="$20,500" visible=nil valid=false pos=(689,514) path=game.StarterGui.Main.Gateway.MainContent.ScrollingFrame.Template.Price
+[16:14:22] : [BFCompanion] [120044.534]   [TextLabel] name="TextLabel" text="Haunted Ship" visible=nil valid=false pos=(590,465) path=game.StarterGui.Main.Gateway3.Container.List.ScrollingFrame.Template.TextLabel
+[16:14:22] : [BFCompanion] [120044.534]   [TextLabel] name="TextLabel" text=" Choose a place to teleport to." visible=nil valid=false pos=(823,796) path=game.StarterGui.Main.Gateway3.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.536]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1371,796) path=game.StarterGui.Main.Gateway3.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.536]   [TextLabel] name="Title" text="GATEWAY" visible=nil valid=false pos=(970,374) path=game.StarterGui.Main.Gateway3.Title
+[16:14:22] : [BFCompanion] [120044.538]   [TextLabel] name="TextLabel" text="Health 100/100" visible=nil valid=false pos=(192,945) path=game.StarterGui.Main.HP.TextLabel
+[16:14:22] : [BFCompanion] [120044.538]   [TextLabel] name="Notify" text="!" visible=nil valid=false pos=(90,450) path=game.StarterGui.Main.HUDButtonBar.AlliesButton.Notify
+[16:14:22] : [BFCompanion] [120044.539]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(120,450) path=game.StarterGui.Main.HUDButtonBar.HomeButton.Notify
+[16:14:22] : [BFCompanion] [120044.539]   [TextLabel] name="ExclamationMark" text="!" visible=nil valid=false pos=(152,454) path=game.StarterGui.Main.HUDButtonBar.ProfileButton.ExclamationMark
+[16:14:22] : [BFCompanion] [120044.540]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(235,463) path=game.StarterGui.Main.HUDButtonBar.ProfileButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.541]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(-108,397) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.FastModeButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.541]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(178,397) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.FastModeButton.Notify
+[16:14:22] : [BFCompanion] [120044.542]   [TextLabel] name="Notify" text="Redeem DLC codes for rewards." visible=nil valid=false pos=(328,360) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.CodeRedemption.Notify
+[16:14:22] : [BFCompanion] [120044.544]   [TextLabel] name="TextLabel" text="Redeem Codes" visible=nil valid=false pos=(42,360) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.CodeRedemption.TextLabel
+[16:14:22] : [BFCompanion] [120044.545]   [TextLabel] name="TextLabel" text="Hide Tags (OFF)" visible=nil valid=false pos=(42,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.DisplayButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.545]   [TextLabel] name="Notify" text="Hides your character tags from your own screen." visible=nil valid=false pos=(328,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.DisplayButton.Notify
+[16:14:22] : [BFCompanion] [120044.546]   [TextLabel] name="TextLabel" text="Counter (OFF)" visible=nil valid=false pos=(42,385) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.DmgCounterButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.546]   [TextLabel] name="Notify" text="Toggles the damage counter." visible=nil valid=false pos=(328,385) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.DmgCounterButton.Notify
+[16:14:22] : [BFCompanion] [120044.547]   [TextLabel] name="Notify" text="Show more settings." visible=nil valid=false pos=(328,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.NextPage.Notify
+[16:14:22] : [BFCompanion] [120044.547]   [TextLabel] name="TextLabel" text="More Options" visible=nil valid=false pos=(42,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.NextPage.TextLabel
+[16:14:22] : [BFCompanion] [120044.548]   [TextLabel] name="TextLabel" text="Enable PvP" visible=nil valid=false pos=(42,410) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.548]   [TextLabel] name="Notify" text="Enables PvP back after dying In Combat." visible=nil valid=false pos=(328,410) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.Notify
+[16:14:22] : [BFCompanion] [120044.548]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(131,403) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.PvpEnableButton.Notify2
+[16:14:22] : [BFCompanion] [120044.549]   [TextLabel] name="Notify" text="Open the update log and see what changed." visible=nil valid=false pos=(328,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.UpdateLogButton.Notify
+[16:14:22] : [BFCompanion] [120044.549]   [TextLabel] name="TextLabel" text="Open Log" visible=nil valid=false pos=(42,435) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page1.UpdateLogButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.550]   [TextLabel] name="TextLabel" text="Fast Mode" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.FastModeButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.550]   [TextLabel] name="Notify" text="Reduces LAG by disabling materials (recommended for Mobile)" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.FastModeButton.Notify
+[16:14:22] : [BFCompanion] [120044.552]   [TextLabel] name="Notify" text="Show more settings." visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.NextPage.Notify
+[16:14:22] : [BFCompanion] [120044.552]   [TextLabel] name="TextLabel" text="More Options" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.NextPage.TextLabel
+[16:14:22] : [BFCompanion] [120044.553]   [TextLabel] name="TextLabel" text="Ally FX (ON)" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.DisableAllyEffects.TextLabel
+[16:14:22] : [BFCompanion] [120044.554]   [TextLabel] name="Notify" text="Reduce LAG by disabling ally fx (recommended for Mobile)" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.DisableAllyEffects.Notify
+[16:14:22] : [BFCompanion] [120044.554]   [TextLabel] name="TextLabel" text="New Layout (OFF)" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.MobileLayout.TextLabel
+[16:14:22] : [BFCompanion] [120044.554]   [TextLabel] name="Notify" text="Toggle between the new and the old mobile control scheme." visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.Page2.MobileLayout.Notify
+[16:14:22] : [BFCompanion] [120044.555]   [TextLabel] name="TextLabel" text="Enable PvP" visible=nil valid=false pos=(-108,416) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.555]   [TextLabel] name="Notify" text="Enables PvP back after dying In Combat." visible=nil valid=false pos=(178,416) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.Notify
+[16:14:22] : [BFCompanion] [120044.555]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(-19,409) path=game.StarterGui.Main.HUDButtonBar.Settings.Buttons.PvpEnableButton.Notify2
+[16:14:22] : [BFCompanion] [120044.555]   [TextLabel] name="Notify" text="!" visible=nil valid=false pos=(30,450) path=game.StarterGui.Main.HUDButtonBar.Settings.Notify
+[16:14:22] : [BFCompanion] [120044.556]   [TextLabel] name="Notify2" text="!" visible=nil valid=false pos=(22,463) path=game.StarterGui.Main.HUDButtonBar.Settings.Notify2
+[16:14:22] : [BFCompanion] [120044.557]   [TextLabel] name="TextLabel" text="Play" visible=nil valid=false pos=(960,620) path=game.StarterGui.Main.HomescreenPlayButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.557]   [TextLabel] name="Title" text="INVENTORY" visible=nil valid=false pos=(970,388) path=game.StarterGui.Main.Inventory.Title
+[16:14:22] : [BFCompanion] [120044.558]   [TextLabel] name="TextLabel" text="CURRENT" visible=nil valid=false pos=(776,440) path=game.StarterGui.Main.Inventory.Container.Current.TextLabel
+[16:14:22] : [BFCompanion] [120044.561]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,620) path=game.StarterGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:22] : [BFCompanion] [120044.562]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(675,476) path=game.StarterGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.562]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(675,548) path=game.StarterGui.Main.Inventory.Container.Current.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.563]   [TextLabel] name="TextLabel" text="STORED" visible=nil valid=false pos=(1163,440) path=game.StarterGui.Main.Inventory.Container.Stored.TextLabel
+[16:14:22] : [BFCompanion] [120044.565]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,621) path=game.StarterGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.Type.TextLabel
+[16:14:22] : [BFCompanion] [120044.566]   [TextLabel] name="TextLabel" text="Rare" visible=nil valid=false pos=(1062,476) path=game.StarterGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.566]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(1062,548) path=game.StarterGui.Main.Inventory.Container.Stored.ScrollingFrame.Frame.Template.IconLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.569]   [TextLabel] name="TextLabel" text="Click on a weapon to store or load it." visible=nil valid=false pos=(908,768) path=game.StarterGui.Main.Inventory.Info.TextLabel
+[16:14:22] : [BFCompanion] [120044.570]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1294,768) path=game.StarterGui.Main.Inventory.Info.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.570]   [TextLabel] name="TextLabel" text="Items" visible=nil valid=false pos=(288,684) path=game.StarterGui.Main.InventoryButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.571]   [TextLabel] name="TextLabel" text="14" visible=nil valid=false pos=(365,663) path=game.StarterGui.Main.InventoryButton.Badge.Badge.TextLabel
+[16:14:22] : [BFCompanion] [120044.572]   [TextLabel] name="TextLabel" text="ALL ()" visible=nil valid=false pos=(808,1561) path=game.StarterGui.Main.InventoryContainer.Right.Content.Sort.TextLabel
+[16:14:22] : [BFCompanion] [120044.576]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(960,1520) path=game.StarterGui.Main.InventoryContainer.Right.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.577]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1213,1491) path=game.StarterGui.Main.InventoryContainer.Right.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.578]   [TextLabel] name="ItemName" text="Buddy Sword" visible=nil valid=false pos=(556,1524) path=game.StarterGui.Main.InventoryContainer.Left.ItemName
+[16:14:22] : [BFCompanion] [120044.578]   [TextLabel] name="ItemRarity" text="Legendary, Grade 3" visible=nil valid=false pos=(556,1548) path=game.StarterGui.Main.InventoryContainer.Left.ItemRarity
+[16:14:22] : [BFCompanion] [120044.578]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(540,1577) path=game.StarterGui.Main.InventoryContainer.Left.Frame.ItemLine1
+[16:14:22] : [BFCompanion] [120044.580]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(540,1594) path=game.StarterGui.Main.InventoryContainer.Left.Frame.ItemLine2
+[16:14:22] : [BFCompanion] [120044.581]   [TextLabel] name="ItemDescription" text="A mythical blade, forged from the darkest of metals and wielded by the strongest" visible=nil valid=false pos=(556,1738) path=game.StarterGui.Main.InventoryContainer.Left.ItemDescription
+[16:14:22] : [BFCompanion] [120044.582]   [TextLabel] name="TextLabel" text="Z" visible=nil valid=false pos=(463,1787) path=game.StarterGui.Main.InventoryContainer.Left.Ability1.KeyIcon.TextLabel
+[16:14:22] : [BFCompanion] [120044.582]   [TextLabel] name="TextLabel" text="Energy Slash" visible=nil valid=false pos=(586,1787) path=game.StarterGui.Main.InventoryContainer.Left.Ability1.TextLabel
+[16:14:22] : [BFCompanion] [120044.584]   [TextLabel] name="TextLabel" text="X" visible=nil valid=false pos=(463,1814) path=game.StarterGui.Main.InventoryContainer.Left.Ability2.KeyIcon.TextLabel
+[16:14:22] : [BFCompanion] [120044.584]   [TextLabel] name="TextLabel" text="(250 Mastery)" visible=nil valid=false pos=(586,1814) path=game.StarterGui.Main.InventoryContainer.Left.Ability2.TextLabel
+[16:14:22] : [BFCompanion] [120044.585]   [TextLabel] name="TextLabel" text="Unequip" visible=nil valid=false pos=(556,1854) path=game.StarterGui.Main.InventoryContainer.Left.Equip.TextLabel
+[16:14:22] : [BFCompanion] [120044.585]   [TextLabel] name="ItemDescription2" text="A mythical blade, forged from the darkest of metals and wielded by the strongest" visible=nil valid=false pos=(556,1764) path=game.StarterGui.Main.InventoryContainer.Left.ItemDescription2
+[16:14:22] : [BFCompanion] [120044.586]   [TextLabel] name="TextLabel" text="Convert" visible=nil valid=false pos=(556,1854) path=game.StarterGui.Main.InventoryContainer.Left.Convert.TextLabel
+[16:14:22] : [BFCompanion] [120044.586]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(556,1809) path=game.StarterGui.Main.InventoryContainer.Left.Use.TextLabel
+[16:14:22] : [BFCompanion] [120044.587]   [TextLabel] name="TextLabel" text="..." visible=nil valid=false pos=(556,1854) path=game.StarterGui.Main.InventoryContainer.Left.UseMaterial.TextLabel
+[16:14:22] : [BFCompanion] [120044.589]   [TextLabel] name="Level" text="Lv. 1" visible=nil valid=false pos=(188,858) path=game.StarterGui.Main.Level
+[16:14:22] : [BFCompanion] [120044.589]   [TextLabel] name="Exp" text="0/100" visible=nil valid=false pos=(188,891) path=game.StarterGui.Main.Level.Exp
+[16:14:22] : [BFCompanion] [120044.590]   [TextLabel] name="TextLabel" text="30%" visible=nil valid=false pos=(437,811) path=game.StarterGui.Main.Level.FriendBoost.TextLabel
+[16:14:22] : [BFCompanion] [120044.590]   [TextLabel] name="TextLabel2" text="2 friends are in your server! +30% EXP" visible=nil valid=false pos=(669,802) path=game.StarterGui.Main.Level.FriendBoost.TextLabel2
+[16:14:22] : [BFCompanion] [120044.592]   [TextLabel] name="TextLabel" text="30%" visible=nil valid=false pos=(157,870) path=game.StarterGui.Main.Level.ExploreBoost.TextLabel
+[16:14:22] : [BFCompanion] [120044.593]   [TextLabel] name="TextLabel2" text="Sea Exploration Group: 6 Players" visible=nil valid=false pos=(389,861) path=game.StarterGui.Main.Level.ExploreBoost.TextLabel2
+[16:14:22] : [BFCompanion] [120044.594]   [TextLabel] name="TextLabel" text="+5% Luck" visible=nil valid=false pos=(209,870) path=game.StarterGui.Main.Level.FishBoost.TextLabel
+[16:14:22] : [BFCompanion] [120044.595]   [TextLabel] name="TextLabel2" text="Fishing Together" visible=nil valid=false pos=(262,852) path=game.StarterGui.Main.Level.FishBoost.TextLabel2
+[16:14:22] : [BFCompanion] [120044.595]   [TextLabel] name="caret" text="^" visible=nil valid=false pos=(148,867) path=game.StarterGui.Main.Level.FishBoost.caret
+[16:14:22] : [BFCompanion] [120044.595]   [TextLabel] name="Loading" text="Loading Data..." visible=nil valid=false pos=(960,556) path=game.StarterGui.Main.Loading
+[16:14:22] : [BFCompanion] [120044.596]   [TextLabel] name="TextLabel" text="Menu" visible=nil valid=false pos=(96,745) path=game.StarterGui.Main.MenuButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.596]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(174,722) path=game.StarterGui.Main.MenuButton.Notify
+[16:14:22] : [BFCompanion] [120044.597]   [TextLabel] name="TextLabel" text="!!" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.MenuButton.Badge.Badge.TextLabel
+[16:14:22] : [BFCompanion] [120044.597]   [TextLabel] name="MobileMasteryLevel" text="Mastery 600 (MAX)" visible=nil valid=false pos=(1632,1016) path=game.StarterGui.Main.MobileMasteryLevel
+[16:14:22] : [BFCompanion] [120044.598]   [TextLabel] name="Exp" text="1,892,346/1,892,346" visible=nil valid=false pos=(1632,1054) path=game.StarterGui.Main.MobileMasteryLevel.Exp
+[16:14:22] : [BFCompanion] [120044.601]   [TextLabel] name="TextLabel" text="Shop" visible=nil valid=false pos=(288,763) path=game.StarterGui.Main.MobileShopButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.601]   [TextLabel] name="TextLabel" text="SALE!" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.MobileShopButton.Themes.Christmas.Sale.TextLabel
+[16:14:22] : [BFCompanion] [120044.602]   [TextLabel] name="TextLabel" text="Stats" visible=nil valid=false pos=(86,763) path=game.StarterGui.Main.MobileStatsButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.602]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(164,740) path=game.StarterGui.Main.MobileStatsButton.Notify
+[16:14:22] : [BFCompanion] [120044.603]   [TextLabel] name="TextLabel" text="14" visible=nil valid=false pos=(163,742) path=game.StarterGui.Main.MobileStatsButton.Badge.Badge.TextLabel
+[16:14:22] : [BFCompanion] [120044.603]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(953,824) path=game.StarterGui.Main.Note.ScrollingFrame.TextLabel
+[16:14:22] : [BFCompanion] [120044.603]   [TextLabel] name="PvpDisabled" text="ðŸ›¡Died Recently - PvP disabledð" visible=nil valid=false pos=(960,960) path=game.StarterGui.Main.PvpDisabled
+[16:14:22] : [BFCompanion] [120044.604]   [TextLabel] name="Title" text="QUEST" visible=nil valid=false pos=(192,500) path=game.StarterGui.Main.Quest.Title
+[16:14:22] : [BFCompanion] [120044.604]   [TextLabel] name="Title" text="DEFEAT 5 BANDITS (0/5)" visible=nil valid=false pos=(192,536) path=game.StarterGui.Main.Quest.Container.QuestTitle.Title
+[16:14:22] : [BFCompanion] [120044.605]   [TextLabel] name="Title" text="REWARD:\
+500 Melee Experience\
+$100 Money" visible=nil valid=false pos=(192,598) path=game.StarterGui.Main.Quest.Container.QuestReward.Title
+[16:14:22] : [BFCompanion] [120044.610]   [TextLabel] name="Hint" text="Show or hide ally ability VFX" visible=nil valid=false pos=(832,778) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.Hint
+[16:14:22] : [BFCompanion] [120044.610]   [TextLabel] name="TitleName" text="Ally VFX" visible=nil valid=false pos=(832,752) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.TitleName
+[16:14:22] : [BFCompanion] [120044.611]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,765) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.611]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,763) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.612]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,765) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.612]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,763) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AllyVFX.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.613]   [TextLabel] name="AudioHeader" text="ðŸ”Š Audio" visible=nil valid=false pos=(959,423) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.AudioHeader
+[16:14:22] : [BFCompanion] [120044.614]   [TextLabel] name="TitleName" text="Background Music" visible=nil valid=false pos=(832,469) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.TitleName
+[16:14:22] : [BFCompanion] [120044.614]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,471) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.616]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,470) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.617]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,471) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.617]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,470) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.BackgroundMusic.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.618]   [TextLabel] name="Hint" text="Turn on or off ability camera shake" visible=nil valid=false pos=(832,844) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.Hint
+[16:14:22] : [BFCompanion] [120044.619]   [TextLabel] name="TitleName" text="Camera Shake" visible=nil valid=false pos=(832,819) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.TitleName
+[16:14:22] : [BFCompanion] [120044.619]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,832) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.619]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,830) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.620]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,832) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.620]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,830) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.CameraShake.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.621]   [TextLabel] name="TitleName" text="Ability Control Scheme" visible=nil valid=false pos=(832,629) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.TitleName
+[16:14:22] : [BFCompanion] [120044.622]   [TextLabel] name="TextLabel" text="Modern" visible=nil valid=false pos=(1212,631) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.622]   [TextLabel] name="TextLabel" text="Modern" visible=nil valid=false pos=(1212,630) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.625]   [TextLabel] name="TextLabel" text="Classic" visible=nil valid=false pos=(1091,631) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.625]   [TextLabel] name="TextLabel" text="Classic" visible=nil valid=false pos=(1091,630) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.ControlScheme.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.626]   [TextLabel] name="Hint" text="Show or hide the total damage counter on HUD" visible=nil valid=false pos=(832,912) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.Hint
+[16:14:22] : [BFCompanion] [120044.627]   [TextLabel] name="TitleName" text="Damage Counter" visible=nil valid=false pos=(832,886) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.TitleName
+[16:14:22] : [BFCompanion] [120044.627]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,898) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.628]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,897) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.628]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,898) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.629]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,897) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.DamageCounter.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.630]   [TextLabel] name="TitleName" text="Enable PvP" visible=nil valid=false pos=(832,562) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.TitleName
+[16:14:22] : [BFCompanion] [120044.632]   [TextLabel] name="TextLabel" text="Enable" visible=nil valid=false pos=(1203,564) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.ToggleButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.633]   [TextLabel] name="TextLabel" text="Enable" visible=nil valid=false pos=(1203,563) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.EnablePvP.ToggleButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.634]   [TextLabel] name="Hint" text="Disables materials (recommended for mobile)" visible=nil valid=false pos=(832,1072) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.Hint
+[16:14:22] : [BFCompanion] [120044.634]   [TextLabel] name="TitleName" text="Fast Mode" visible=nil valid=false pos=(832,1045) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.TitleName
+[16:14:22] : [BFCompanion] [120044.635]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,1058) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.635]   [TextLabel] name="TextLabel" text="On" visible=nil valid=false pos=(1091,1057) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.636]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,1058) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.636]   [TextLabel] name="TextLabel" text="Off" visible=nil valid=false pos=(1212,1057) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.FastMode.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.637]   [TextLabel] name="GameplayHeader" text="ðŸŽ® Gameplay" visible=nil valid=false pos=(959,516) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.GameplayHeader
+[16:14:22] : [BFCompanion] [120044.638]   [TextLabel] name="QualityOfLifeHeader" text="ðŸ¤ Quality of Life" visible=nil valid=false pos=(959,1010) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.QualityOfLifeHeader
+[16:14:22] : [BFCompanion] [120044.641]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(1203,965) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.RedeemButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.642]   [TextLabel] name="TextLabel" text="Redeem" visible=nil valid=false pos=(1203,964) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.RedeemButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.642]   [TextLabel] name="TitleName" text="Redeem DLC Code" visible=nil valid=false pos=(832,963) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.Redeem.TitleName
+[16:14:22] : [BFCompanion] [120044.644]   [TextLabel] name="TitleName" text="Ability Skill Mode" visible=nil valid=false pos=(832,696) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.TitleName
+[16:14:22] : [BFCompanion] [120044.644]   [TextLabel] name="TextLabel" text="Double Tap" visible=nil valid=false pos=(1212,698) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.SecondButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.645]   [TextLabel] name="TextLabel" text="Double Tap" visible=nil valid=false pos=(1212,696) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.SecondButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.645]   [TextLabel] name="TextLabel" text="Drag" visible=nil valid=false pos=(1091,698) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.FirstButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.646]   [TextLabel] name="TextLabel" text="Drag" visible=nil valid=false pos=(1091,696) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SkillMode.FirstButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.648]   [TextLabel] name="TitleName" text="Sound Effects" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.TitleName
+[16:14:22] : [BFCompanion] [120044.649]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.EquipButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.649]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.SoundEffects.EquipButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.650]   [TextLabel] name="TitleName" text="Update Log" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.TitleName
+[16:14:22] : [BFCompanion] [120044.651]   [TextLabel] name="TextLabel" text="Open" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.UpdateLogButton.TextLabel
+[16:14:22] : [BFCompanion] [120044.651]   [TextLabel] name="TextLabel" text="Open" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.SettingsMenu.Content.ScrollingFrame.UpdateLog.UpdateLogButton.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.653]   [TextLabel] name="TextLabel" text="Settings" visible=nil valid=false pos=(960,377) path=game.StarterGui.Main.SettingsMenu.Title.TextLabel
+[16:14:22] : [BFCompanion] [120044.653]   [TextLabel] name="TextLabel" text="Settings" visible=nil valid=false pos=(960,375) path=game.StarterGui.Main.SettingsMenu.Title.TextLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.656]   [TextLabel] name="TextLabel" text="GIFT" visible=nil valid=false pos=(1021,1682) path=game.StarterGui.Main.Shop.Blackout.Confirm.Gift.TextLabel
+[16:14:22] : [BFCompanion] [120044.657]   [TextLabel] name="TextLabel" text="CONFIRM" visible=nil valid=false pos=(959,1483) path=game.StarterGui.Main.Shop.Blackout.Confirm.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.657]   [TextLabel] name="TextLabel" text="Purchase this product for yourself or for a friend?" visible=nil valid=false pos=(959,1576) path=game.StarterGui.Main.Shop.Blackout.Confirm.TextLabel
+[16:14:22] : [BFCompanion] [120044.657]   [TextLabel] name="TextLabel" text="BUY" visible=nil valid=false pos=(805,1682) path=game.StarterGui.Main.Shop.Blackout.Confirm.Buy.TextLabel
+[16:14:22] : [BFCompanion] [120044.658]   [TextLabel] name="TextLabel" text="CANCEL" visible=nil valid=false pos=(1175,1682) path=game.StarterGui.Main.Shop.Blackout.Confirm.Cancel.TextLabel
+[16:14:22] : [BFCompanion] [120044.659]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1307,1320) path=game.StarterGui.Main.Shop.Exit.TextLabel
+[16:14:22] : [BFCompanion] [120044.659]   [TextLabel] name="TextLabel" text="SHOP" visible=nil valid=false pos=(960,1360) path=game.StarterGui.Main.Shop.Header.TextLabel
+[16:14:22] : [BFCompanion] [120044.660]   [TextLabel] name="TextLabel" text="You have 1 unclaimed gift!" visible=nil valid=false pos=(921,1425) path=game.StarterGui.Main.Shop.MenuShop.GiftBanner.TextLabel
+[16:14:22] : [BFCompanion] [120044.661]   [TextLabel] name="TextLabel" text="THE FASTEST!" visible=nil valid=false pos=(950,3151) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.662]   [TextLabel] name="TextLabel" text="FAST BOATS" visible=nil valid=false pos=(950,2980) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.665]   [TextLabel] name="TextLabel" text="î€‚ 350" visible=nil valid=false pos=(950,3185) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.FastBoat.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.666]   [TextLabel] name="TextLabel" text="î€‚ 350" visible=nil valid=false pos=(736,3185) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleDrops.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.666]   [TextLabel] name="TextLabel" text="2x DROP CHANCE" visible=nil valid=false pos=(736,2980) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleDrops.ImageLabel.TextLabel
+[16:14:22] : [BFCompanion] [120044.667]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(1165,3185) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleBeli.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.669]   [TextLabel] name="TextLabel" text="2x MONEY" visible=nil valid=false pos=(1165,2980) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses1.DoubleBeli.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.670]   [TextLabel] name="TextLabel" text="+35% MORE" visible=nil valid=false pos=(953,2333) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.670]   [TextLabel] name="TextLabel" text="î€‚ 499" visible=nil valid=false pos=(953,2357) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.672]   [TextLabel] name="TextLabel" text="+$135K" visible=nil valid=false pos=(953,2248) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack3.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.673]   [TextLabel] name="TextLabel" text="+$500K" visible=nil valid=false pos=(1209,2248) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.673]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,2333) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.674]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2357) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack5.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.675]   [TextLabel] name="TextLabel" text="+$50K" visible=nil valid=false pos=(826,2248) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.675]   [TextLabel] name="TextLabel" text="+25% MORE" visible=nil valid=false pos=(826,2333) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.676]   [TextLabel] name="TextLabel" text="î€‚ 199" visible=nil valid=false pos=(826,2357) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.677]   [TextLabel] name="TextLabel" text="î€‚ 999" visible=nil valid=false pos=(1081,2357) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.677]   [TextLabel] name="TextLabel" text="+$300K" visible=nil valid=false pos=(1081,2248) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.678]   [TextLabel] name="TextLabel" text="+50% MORE" visible=nil valid=false pos=(1081,2333) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack4.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.682]   [TextLabel] name="TextLabel" text="î€‚ 50" visible=nil valid=false pos=(698,2357) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.682]   [TextLabel] name="TextLabel" text="+$10K" visible=nil valid=false pos=(698,2248) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Beli.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.684]   [TextLabel] name="TextLabel" text="+Æ’4,500" visible=nil valid=false pos=(953,2071) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.684]   [TextLabel] name="TextLabel" text="î€‚ 499" visible=nil valid=false pos=(953,2180) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.685]   [TextLabel] name="TextLabel" text="+35% MORE" visible=nil valid=false pos=(953,2156) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack3.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.686]   [TextLabel] name="TextLabel" text="+25% MORE" visible=nil valid=false pos=(826,2156) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.686]   [TextLabel] name="TextLabel" text="+Æ’2,100" visible=nil valid=false pos=(826,2071) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.689]   [TextLabel] name="TextLabel" text="î€‚ 250" visible=nil valid=false pos=(826,2180) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack2.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.690]   [TextLabel] name="TextLabel" text="î€‚ 75" visible=nil valid=false pos=(698,2180) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack1.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.691]   [TextLabel] name="TextLabel" text="+Æ’500" visible=nil valid=false pos=(698,2071) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.692]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,2156) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.692]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2180) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.693]   [TextLabel] name="TextLabel" text="+Æ’16,000" visible=nil valid=false pos=(1209,2071) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack5.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.694]   [TextLabel] name="TextLabel" text="+50% MORE" visible=nil valid=false pos=(1081,2156) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.696]   [TextLabel] name="TextLabel" text="+Æ’10,000" visible=nil valid=false pos=(1081,2071) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.697]   [TextLabel] name="TextLabel" text="î€‚ 999" visible=nil valid=false pos=(1081,2180) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fragments.Pack4.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.697]   [TextLabel] name="TextLabel" text="âœ¨  LIMITED OFFERS!" visible=nil valid=false pos=(777,1413) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.FrameExtra.TextLabel
+[16:14:23] : [BFCompanion] [120044.698]   [TextLabel] name="TextLabel" text="ROBLOX PREMIUM - MONTHLY" visible=nil valid=false pos=(840,3488) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.699]   [TextLabel] name="TextLabel" text="<b>In-game benefits:</b><br/>- 20% off Blox Fruits Dealer Cousin.<br/>- 10% addi" visible=nil valid=false pos=(1023,3577) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Premium.TextLabel
+[16:14:23] : [BFCompanion] [120044.700]   [TextLabel] name="TextLabel" text="Buy" visible=nil valid=false pos=(705,3636) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Premium.Pack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.701]   [TextLabel] name="TextLabel" text="PREMIUM" visible=nil valid=false pos=(705,3522) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Premium.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.701]   [TextLabel] name="TextLabel" text="GAME PASSES - PERMANENT" visible=nil valid=false pos=(840,2940) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.702]   [TextLabel] name="TextLabel" text="PRODUCTS" visible=nil valid=false pos=(777,2393) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.704]   [TextLabel] name="TextLabel" text="î€‚ 75" visible=nil valid=false pos=(950,2637) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.RefundStats.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.705]   [TextLabel] name="TextLabel" text="REFUND STATS" visible=nil valid=false pos=(950,2432) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.RefundStats.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.706]   [TextLabel] name="TextLabel" text="î€‚ 50" visible=nil valid=false pos=(736,2637) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.RespawnAll.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.707]   [TextLabel] name="TextLabel" text="RESPAWN BOSSES" visible=nil valid=false pos=(736,2432) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.RespawnAll.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.708]   [TextLabel] name="TextLabel" text="î€‚ 90" visible=nil valid=false pos=(1165,2637) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.708]   [TextLabel] name="TextLabel" text="CHANGE RACE" visible=nil valid=false pos=(1165,2432) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.709]   [TextLabel] name="TextLabel" text="1/3 CHANCE PER RACE (RANDOM)" visible=nil valid=false pos=(1165,2603) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.709]   [TextLabel] name="TextLabel" text="HUMAN, SHARK, ANGEL, RABBIT" visible=nil valid=false pos=(1165,2467) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products.ChangeRace.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.710]   [TextLabel] name="TextLabel" text="(2x) EXP BOOSTS  - SAVES ON EXIT" visible=nil valid=false pos=(887,1860) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.711]   [TextLabel] name="TextLabel" text="+1 FRUIT STORAGE" visible=nil valid=false pos=(736,2689) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.UpgradeBag.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.713]   [TextLabel] name="TextLabel" text="î€‚ 400" visible=nil valid=false pos=(736,2893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.UpgradeBag.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.714]   [TextLabel] name="TextLabel" text="5x LEGENDARY SCROLLS" visible=nil valid=false pos=(950,2689) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.715]   [TextLabel] name="TextLabel" text="î€‚ 800" visible=nil valid=false pos=(950,2893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.716]   [TextLabel] name="TextLabel" text="3% BLESSING CHANCE" visible=nil valid=false pos=(950,2859) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.716]   [TextLabel] name="TextLabel" text="3x MYTHICAL SCROLLS" visible=nil valid=false pos=(1165,2689) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.717]   [TextLabel] name="TextLabel" text="î€‚ 1500" visible=nil valid=false pos=(1165,2893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.717]   [TextLabel] name="TextLabel" text="10% BLESSING CHANCE" visible=nil valid=false pos=(1165,2859) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Products2.ScrollPack2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.718]   [TextLabel] name="TextLabel" text="1 hour" visible=nil valid=false pos=(826,1893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.721]   [TextLabel] name="TextLabel" text="î€‚ 99" visible=nil valid=false pos=(826,2002) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.721]   [TextLabel] name="TextLabel" text="î€‚ 850" visible=nil valid=false pos=(1081,2002) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.722]   [TextLabel] name="TextLabel" text="POPULAR" visible=nil valid=false pos=(1081,1978) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.723]   [TextLabel] name="TextLabel" text="12 hours" visible=nil valid=false pos=(1081,1893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp4.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.724]   [TextLabel] name="TextLabel" text="î€‚ 25" visible=nil valid=false pos=(698,2002) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.725]   [TextLabel] name="TextLabel" text="15 mins." visible=nil valid=false pos=(698,1893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.725]   [TextLabel] name="TextLabel" text="BEST VALUE!" visible=nil valid=false pos=(1209,1978) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.726]   [TextLabel] name="TextLabel" text="24 hours" visible=nil valid=false pos=(1209,1893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.729]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,2002) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp5.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.730]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(953,2002) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp3.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.731]   [TextLabel] name="TextLabel" text="6 hours" visible=nil valid=false pos=(953,1893) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Exp.Exp3.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.733]   [TextLabel] name="TextLabel" text="(Æ’) FRAGMENTS" visible=nil valid=false pos=(777,2037) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.FragmentsFrame.TextLabel
+[16:14:23] : [BFCompanion] [120044.734]   [TextLabel] name="TextLabel" text="î€‚ 2700" visible=nil valid=false pos=(1165,3441) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Notifier.ImageLabelBottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.736]   [TextLabel] name="TextLabel" text="FRUIT NOTIFIER" visible=nil valid=false pos=(1165,3236) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Notifier.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.737]   [TextLabel] name="TextLabel" text="2x MASTERY" visible=nil valid=false pos=(736,3236) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.DoubleMastery.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.738]   [TextLabel] name="TextLabel" text="î€‚ 450" visible=nil valid=false pos=(736,3441) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.DoubleMastery.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.739]   [TextLabel] name="TextLabel" text="î€‚ 1200" visible=nil valid=false pos=(950,3441) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.740]   [TextLabel] name="TextLabel" text="DARK BLADE" visible=nil valid=false pos=(950,3236) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.740]   [TextLabel] name="TextLabel" text="MYTHICAL!" visible=nil valid=false pos=(950,3407) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Gamepasses2.Yoru.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.741]   [TextLabel] name="TextLabel" text="($) MONEY" visible=nil valid=false pos=(777,2215) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.742]   [TextLabel] name="TextLabel" text="BEAST BUNDLE" visible=nil valid=false pos=(1113,1417) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.742]   [TextLabel] name="TextLabel" text="0 days left" visible=nil valid=false pos=(1113,1532) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.745]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 3999</stroke> <font colo" visible=nil valid=false pos=(1113,1572) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack2.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.746]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 5999</stroke> <font colo" visible=nil valid=false pos=(794,1572) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.747]   [TextLabel] name="TextLabel" text="HOLIDAY SPECIAL" visible=nil valid=false pos=(794,1417) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.748]   [TextLabel] name="TextLabel" text="0 days left" visible=nil valid=false pos=(794,1532) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Bundles.Pack1.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.750]   [TextLabel] name="Fruit1" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(794,1418) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fruit1
+[16:14:23] : [BFCompanion] [120044.750]   [TextLabel] name="Fruit2" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(794,1456) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fruit2
+[16:14:23] : [BFCompanion] [120044.750]   [TextLabel] name="Money" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(102,25" visible=nil valid=false pos=(794,1494) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Money
+[16:14:23] : [BFCompanion] [120044.750]   [TextLabel] name="Fragments" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(255,0," visible=nil valid=false pos=(794,1531) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Fragments
+[16:14:23] : [BFCompanion] [120044.751]   [TextLabel] name="Dupes" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ªFruits will be stored.</s" visible=nil valid=false pos=(794,1569) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack1.Main.Dupes
+[16:14:23] : [BFCompanion] [120044.753]   [TextLabel] name="Fruit1" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1418) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit1
+[16:14:23] : [BFCompanion] [120044.753]   [TextLabel] name="Fruit2" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1456) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit2
+[16:14:23] : [BFCompanion] [120044.754]   [TextLabel] name="Fruit3" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª<font color=\"rgb(255,200," visible=nil valid=false pos=(1113,1494) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fruit3
+[16:14:23] : [BFCompanion] [120044.754]   [TextLabel] name="Money" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(102,25" visible=nil valid=false pos=(1113,1531) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Money
+[16:14:23] : [BFCompanion] [120044.755]   [TextLabel] name="Fragments" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">â–ª+ <font color=\"rgb(255,0," visible=nil valid=false pos=(1113,1569) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleDescriptions.Pack2.Main.Fragments
+[16:14:23] : [BFCompanion] [120044.755]   [TextLabel] name="TextLabel" text="âœ¨  PERMANENT FRUITS & SKINS!" visible=nil valid=false pos=(840,1413) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.FrameFruits.TextLabel
+[16:14:23] : [BFCompanion] [120044.757]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1072,1814) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Skins.More.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.758]   [TextLabel] name="TextLabel" text="Dragon" visible=nil valid=false pos=(1082,1656) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Skins.More.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.759]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(1082,1693) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Skins.More.Timer
+[16:14:23] : [BFCompanion] [120044.763]   [TextLabel] name="TextLabel" text="Dragon" visible=nil valid=false pos=(762,1656) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Featured.Featured.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.764]   [TextLabel] name="TextLabel" text="î€‚ 2600" visible=nil valid=false pos=(762,1814) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Featured.Featured.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.765]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Lightning-Lightning.More.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.765]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Lightning-Lightning.More.Timer
+[16:14:23] : [BFCompanion] [120044.766]   [TextLabel] name="TextLabel" text="Lightning" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Lightning-Lightning.More.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.769]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Pain-Pain.More.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.770]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Pain-Pain.More.Timer
+[16:14:23] : [BFCompanion] [120044.771]   [TextLabel] name="TextLabel" text="Lightning" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Pain-Pain.More.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.772]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Tiger-Tiger.More.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.773]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Tiger-Tiger.More.Timer
+[16:14:23] : [BFCompanion] [120044.774]   [TextLabel] name="TextLabel" text="Lightning" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Tiger-Tiger.More.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.777]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Werewolf (Tiger)-Werewolf(Tiger).More.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.778]   [TextLabel] name="Timer" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Werewolf (Tiger)-Werewolf(Tiger).More.Timer
+[16:14:23] : [BFCompanion] [120044.779]   [TextLabel] name="TextLabel" text="Lightning" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.Fruits.Werewolf (Tiger)-Werewolf(Tiger).More.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.780]   [TextLabel] name="TextLabel" text="<b>Benefits:</b><br/>- Alerts you when a fruit spawns and displays how close you" visible=nil valid=false pos=(1067,1489) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.TextLabel
+[16:14:23] : [BFCompanion] [120044.780]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚ 1999</stroke> <font colo" visible=nil valid=false pos=(745,1599) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Notifier.ImageLabelBottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.782]   [TextLabel] name="TextLabel" text="FRUIT NOTIFIER" visible=nil valid=false pos=(745,1420) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Notifier.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.782]   [TextLabel] name="Countdown" text="2 days left" visible=nil valid=false pos=(1067,1598) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.SpecialSale.Countdown
+[16:14:23] : [BFCompanion] [120044.783]   [TextLabel] name="TextLabel" text="ðŸ¥š EASTER SALE!" visible=nil valid=false pos=(777,1413) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.FrameExtra2.TextLabel
+[16:14:23] : [BFCompanion] [120044.786]   [TextLabel] name="TextLabel" text="î€‚ 499" visible=nil valid=false pos=(953,1521) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack3.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.786]   [TextLabel] name="TextLabel" text="+$135K" visible=nil valid=false pos=(953,1412) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack3.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.787]   [TextLabel] name="TextLabel" text="+$500K" visible=nil valid=false pos=(1209,1412) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack5.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.788]   [TextLabel] name="TextLabel" text="î€‚ 1499" visible=nil valid=false pos=(1209,1521) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack5.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.789]   [TextLabel] name="TextLabel" text="Leopard" visible=nil valid=false pos=(826,1412) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack2.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.790]   [TextLabel] name="TextLabel" text="î€‚ 199" visible=nil valid=false pos=(826,1521) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack2.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.791]   [TextLabel] name="TextLabel" text="î€‚ 999" visible=nil valid=false pos=(1081,1521) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack4.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.793]   [TextLabel] name="TextLabel" text="+$300K" visible=nil valid=false pos=(1081,1412) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack4.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.795]   [TextLabel] name="TextLabel" text="î€‚ 50" visible=nil valid=false pos=(698,1521) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack1.Price.TextLabel
+[16:14:23] : [BFCompanion] [120044.797]   [TextLabel] name="TextLabel" text="+$10K" visible=nil valid=false pos=(698,1412) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.MiscFruits.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.798]   [TextLabel] name="TextLabel" text="Open Fruit Shop" visible=nil valid=false pos=(953,1609) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.ViewAllFruits.More.More.ImageLabelBottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.801]   [TextLabel] name="TextLabel" text="<stroke thickness=\"1\">Get <font color=\"rgb(255,200,90)\">Permanent </font>&lt;Tig" visible=nil valid=false pos=(954,1596) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.TextLabel
+[16:14:23] : [BFCompanion] [120044.801]   [TextLabel] name="TextLabel" text="13d 23h 59m" visible=nil valid=false pos=(694,1452) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.Countdown.TextLabel
+[16:14:23] : [BFCompanion] [120044.802]   [TextLabel] name="TextLabel" text="13d 23h 59m" visible=nil valid=false pos=(694,1450) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.Countdown.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.803]   [TextLabel] name="TextLabel" text="Preview" visible=nil valid=false pos=(1209,1457) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.PreviewButton.TextLabel
+[16:14:23] : [BFCompanion] [120044.803]   [TextLabel] name="TextLabel" text="Preview" visible=nil valid=false pos=(1209,1455) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Middle.PreviewButton.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.804]   [TextLabel] name="TextLabel" text="<stroke color=\"#000000\" joins=\"miter\" thickness=\"2\">î€‚3999</stroke> <font color" visible=nil valid=false pos=(953,1644) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Bottom.TextLabel
+[16:14:23] : [BFCompanion] [120044.804]   [TextLabel] name="TextLabel" text="ðŸ¯ Hunter Bundle ð" visible=nil valid=false pos=(954,1415) path=game.StarterGui.Main.Shop.MenuShop.ScrollingFrame.BundleBannerTemplate.Pack1.Top.TextLabel
+[16:14:23] : [BFCompanion] [120044.806]   [TextLabel] name="TextLabel" text="Shop" visible=nil valid=false pos=(288,745) path=game.StarterGui.Main.ShopButton.TextLabel
+[16:14:23] : [BFCompanion] [120044.806]   [TextLabel] name="TextLabel" text="!!" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ShopButton.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.809]   [TextLabel] name="TextLabel" text="SALE!" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.ShopButton.Themes.Christmas.Sale.TextLabel
+[16:14:23] : [BFCompanion] [120044.810]   [TextLabel] name="Title" text="Super Earthquake" visible=nil valid=false pos=(1684,1513) path=game.StarterGui.Main.Skills.Container.Template.Title
+[16:14:23] : [BFCompanion] [120044.810]   [TextLabel] name="Level" text="Lv. 10" visible=nil valid=false pos=(1825,1487) path=game.StarterGui.Main.Skills.Container.Template.Level
+[16:14:23] : [BFCompanion] [120044.810]   [TextLabel] name="Key" text="[Q]" visible=nil valid=false pos=(1825,1530) path=game.StarterGui.Main.Skills.Container.Template.Key
+[16:14:23] : [BFCompanion] [120044.811]   [TextLabel] name="TextLabel" text="113" visible=nil valid=false pos=(1837,1530) path=game.StarterGui.Main.Skills.Container.Template.Key.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.811]   [TextLabel] name="Level" text="Mastery ? (Max. ?)" visible=nil valid=false pos=(1744,1335) path=game.StarterGui.Main.Skills.Level
+[16:14:23] : [BFCompanion] [120044.813]   [TextLabel] name="Exp" text="0/100" visible=nil valid=false pos=(1744,1365) path=game.StarterGui.Main.Skills.Level.Exp
+[16:14:23] : [BFCompanion] [120044.814]   [TextLabel] name="Rage" text="Fury Meter" visible=nil valid=false pos=(1744,1272) path=game.StarterGui.Main.Skills.Rage
+[16:14:23] : [BFCompanion] [120044.815]   [TextLabel] name="TextLabel" text="Fury Meter" visible=nil valid=false pos=(1744,1272) path=game.StarterGui.Main.Skills.Rage.TextLabel
+[16:14:23] : [BFCompanion] [120044.818]   [TextLabel] name="StarContainer" text="failed to fetch text" visible=nil valid=false pos=(1746,1365) path=game.StarterGui.Main.Skills.StarContainer
+[16:14:23] : [BFCompanion] [120044.819]   [TextLabel] name="TextLabel" text="Use" visible=nil valid=false pos=(1858,1365) path=game.StarterGui.Main.Skills.StarContainer.Center.Button.Center.TextLabel
+[16:14:23] : [BFCompanion] [120044.819]   [TextLabel] name="TextLabel" text="111/140 Stored" visible=nil valid=false pos=(1715,1365) path=game.StarterGui.Main.Skills.StarContainer.Center.Bar.TextLabel
+[16:14:23] : [BFCompanion] [120044.821]   [TextLabel] name="Title" text="SKILLS" visible=nil valid=false pos=(1746,1418) path=game.StarterGui.Main.Skills.Title
+[16:14:23] : [BFCompanion] [120044.822]   [TextLabel] name="ItemLine1" text="Mastery 233" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.Frame.ItemLine1
+[16:14:23] : [BFCompanion] [120044.822]   [TextLabel] name="ItemLine2" text="â˜…â˜…â˜…â˜†â" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.Frame.ItemLine2
+[16:14:23] : [BFCompanion] [120044.822]   [TextLabel] name="Template" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.Info.Template
+[16:14:23] : [BFCompanion] [120044.823]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.ItemDescription
+[16:14:23] : [BFCompanion] [120044.823]   [TextLabel] name="ItemDescription2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.ItemDescription2
+[16:14:23] : [BFCompanion] [120044.825]   [TextLabel] name="ItemName" text="Red Eastern Dragon" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.ItemName
+[16:14:23] : [BFCompanion] [120044.825]   [TextLabel] name="ItemRarity" text="Legendary Skin" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.ItemRarity
+[16:14:23] : [BFCompanion] [120044.826]   [TextLabel] name="TextLabel" text="Equip" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Skins.Left.Selector.Equip.TextLabel
+[16:14:23] : [BFCompanion] [120044.828]   [TextLabel] name="TextLabel" text="INVENTORY" visible=nil valid=false pos=(889,437) path=game.StarterGui.Main.Skins.Right.Content.Return.TextLabel
+[16:14:23] : [BFCompanion] [120044.829]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1333,366) path=game.StarterGui.Main.Skins.Right.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.830]   [TextLabel] name="TextLabel" text="ITEMS" visible=nil valid=false pos=(1080,396) path=game.StarterGui.Main.Skins.Right.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.830]   [TextLabel] name="Available" text="Available: 36" visible=nil valid=false pos=(972,2161) path=game.StarterGui.Main.Stars.Bottom.Available
+[16:14:23] : [BFCompanion] [120044.831]   [TextLabel] name="TextLabel" text="World Warp (Mas. 200)" visible=nil valid=false pos=(873,2113) path=game.StarterGui.Main.Stars.Container.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.833]   [TextLabel] name="TextLabel" text="18" visible=nil valid=false pos=(1245,2112) path=game.StarterGui.Main.Stars.Container.Template.Add.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.834]   [TextLabel] name="TextLabel" text="1" visible=nil valid=false pos=(755,2115) path=game.StarterGui.Main.Stars.ExtraRow.1.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.834]   [TextLabel] name="TextLabel" text="5" visible=nil valid=false pos=(866,2115) path=game.StarterGui.Main.Stars.ExtraRow.5.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.835]   [TextLabel] name="TextLabel" text="50" visible=nil valid=false pos=(1089,2115) path=game.StarterGui.Main.Stars.ExtraRow.50.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.836]   [TextLabel] name="TextLabel" text="100" visible=nil valid=false pos=(1200,2115) path=game.StarterGui.Main.Stars.ExtraRow.100.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.836]   [TextLabel] name="TextLabel" text="25" visible=nil valid=false pos=(978,2115) path=game.StarterGui.Main.Stars.ExtraRow.25.ImageLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.837]   [TextLabel] name="Title" text="STARS" visible=nil valid=false pos=(960,2053) path=game.StarterGui.Main.Stars.Title
+[16:14:23] : [BFCompanion] [120044.837]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1251,2008) path=game.StarterGui.Main.Stars.Title.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.838]   [TextLabel] name="TextLabel" text="Melee" visible=nil valid=false pos=(741,1455) path=game.StarterGui.Main.Stats.Container.Melee.TextLabel
+[16:14:23] : [BFCompanion] [120044.839]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1455) path=game.StarterGui.Main.Stats.Container.Melee.Number
+[16:14:23] : [BFCompanion] [120044.839]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1454) path=game.StarterGui.Main.Stats.Container.Melee.Add.TextLabel
+[16:14:23] : [BFCompanion] [120044.841]   [TextLabel] name="TextLabel" text="Defense" visible=nil valid=false pos=(741,1531) path=game.StarterGui.Main.Stats.Container.Defense.TextLabel
+[16:14:23] : [BFCompanion] [120044.841]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1531) path=game.StarterGui.Main.Stats.Container.Defense.Number
+[16:14:23] : [BFCompanion] [120044.842]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1530) path=game.StarterGui.Main.Stats.Container.Defense.Add.TextLabel
+[16:14:23] : [BFCompanion] [120044.842]   [TextLabel] name="TextLabel" text="Sword" visible=nil valid=false pos=(741,1607) path=game.StarterGui.Main.Stats.Container.Sword.TextLabel
+[16:14:23] : [BFCompanion] [120044.843]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1607) path=game.StarterGui.Main.Stats.Container.Sword.Number
+[16:14:23] : [BFCompanion] [120044.843]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1606) path=game.StarterGui.Main.Stats.Container.Sword.Add.TextLabel
+[16:14:23] : [BFCompanion] [120044.843]   [TextLabel] name="TextLabel" text="Gun" visible=nil valid=false pos=(741,1683) path=game.StarterGui.Main.Stats.Container.Gun.TextLabel
+[16:14:23] : [BFCompanion] [120044.844]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1683) path=game.StarterGui.Main.Stats.Container.Gun.Number
+[16:14:23] : [BFCompanion] [120044.844]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1682) path=game.StarterGui.Main.Stats.Container.Gun.Add.TextLabel
+[16:14:23] : [BFCompanion] [120044.845]   [TextLabel] name="TextLabel" text="Blox Fruit" visible=nil valid=false pos=(741,1759) path=game.StarterGui.Main.Stats.Container.Demon Fruit.TextLabel
+[16:14:23] : [BFCompanion] [120044.845]   [TextLabel] name="Number" text="Lv. 100" visible=nil valid=false pos=(1074,1759) path=game.StarterGui.Main.Stats.Container.Demon Fruit.Number
+[16:14:23] : [BFCompanion] [120044.846]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1297,1757) path=game.StarterGui.Main.Stats.Container.Demon Fruit.Add.TextLabel
+[16:14:23] : [BFCompanion] [120044.846]   [TextLabel] name="TextLabel" text="Ã" visible=nil valid=false pos=(1307,1320) path=game.StarterGui.Main.Stats.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.847]   [TextLabel] name="Available" text="Available Points: 0" visible=nil valid=false pos=(975,1826) path=game.StarterGui.Main.Stats.Points.Available
+[16:14:23] : [BFCompanion] [120044.848]   [TextLabel] name="TextLabel" text="Refund (99 Stored)" visible=nil valid=false pos=(1235,1826) path=game.StarterGui.Main.Stats.Points.Reset.TextLabel
+[16:14:23] : [BFCompanion] [120044.849]   [TextLabel] name="Race" text="Race: (Loading...)" visible=nil valid=false pos=(923,1317) path=game.StarterGui.Main.Stats.Race
+[16:14:23] : [BFCompanion] [120044.849]   [TextLabel] name="Title" text="STATS" visible=nil valid=false pos=(960,1373) path=game.StarterGui.Main.Stats.Title
+[16:14:23] : [BFCompanion] [120044.849]   [TextLabel] name="Race" text="Race: (Loading...)" visible=nil valid=false pos=(737,1317) path=game.StarterGui.Main.Stats.Top.Race
+[16:14:23] : [BFCompanion] [120044.850]   [TextLabel] name="Subclass" text="failed to fetch text" visible=nil valid=false pos=(1065,1317) path=game.StarterGui.Main.Stats.Top.Subclass
+[16:14:23] : [BFCompanion] [120044.851]   [TextLabel] name="TextLabel" text="Stats" visible=nil valid=false pos=(96,684) path=game.StarterGui.Main.StatsButton.TextLabel
+[16:14:23] : [BFCompanion] [120044.851]   [TextLabel] name="Notify" text="!!!" visible=nil valid=false pos=(174,661) path=game.StarterGui.Main.StatsButton.Notify
+[16:14:23] : [BFCompanion] [120044.852]   [TextLabel] name="TextLabel" text="14" visible=nil valid=false pos=(173,663) path=game.StarterGui.Main.StatsButton.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.852]   [TextLabel] name="Timer" text="Time Left: 10:00" visible=nil valid=false pos=(960,43) path=game.StarterGui.Main.Timer
+[16:14:23] : [BFCompanion] [120044.854]   [TextLabel] name="Title" text=" #041 (LOCKED)" visible=nil valid=false pos=(741,375) path=game.StarterGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Title
+[16:14:23] : [BFCompanion] [120044.855]   [TextLabel] name="Desc" text=" ???" visible=nil valid=false pos=(741,419) path=game.StarterGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Desc
+[16:14:23] : [BFCompanion] [120044.857]   [TextLabel] name="TextLabel" text="Enable Title" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.Titles.Left.Container.Titles.ScrollingFrame.Template.Activate.TextLabel
+[16:14:23] : [BFCompanion] [120044.858]   [TextLabel] name="Title" text="Original Color" visible=nil valid=false pos=(1333,375) path=game.StarterGui.Main.Titles.Right.ScrollingFrame.Template.Title
+[16:14:23] : [BFCompanion] [120044.858]   [TextLabel] name="Desc" text="Unlocked automatically." visible=nil valid=false pos=(1385,417) path=game.StarterGui.Main.Titles.Right.ScrollingFrame.Template.Desc
+[16:14:23] : [BFCompanion] [120044.858]   [TextLabel] name="TextLabel" text="[Equipped]" visible=nil valid=false pos=(1536,377) path=game.StarterGui.Main.Titles.Right.ScrollingFrame.Template.Activate.TextLabel
+[16:14:23] : [BFCompanion] [120044.859]   [TextLabel] name="TextLabel" text=" Choose a title to show next to your chat tag. (45/162)" visible=nil valid=false pos=(760,807) path=game.StarterGui.Main.Titles.Info.TextLabel
+[16:14:23] : [BFCompanion] [120044.859]   [TextLabel] name="TextLabel" text="Exit" visible=nil valid=false pos=(1507,807) path=game.StarterGui.Main.Titles.Info.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.860]   [TextLabel] name="TextLabel" text="Disable" visible=nil valid=false pos=(1320,807) path=game.StarterGui.Main.Titles.Info.Disable.TextLabel
+[16:14:23] : [BFCompanion] [120044.860]   [TextLabel] name="Title" text="TITLES" visible=nil valid=false pos=(960,320) path=game.StarterGui.Main.Titles.Title
+[16:14:23] : [BFCompanion] [120044.860]   [TextLabel] name="RaidTimer" text="Time Left: 10:00" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.RaidTimer
+[16:14:23] : [BFCompanion] [120044.861]   [TextLabel] name="ActiveRocks" text="Active Rocks: 0" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.ActiveRocks
+[16:14:23] : [BFCompanion] [120044.861]   [TextLabel] name="ActiveMobs" text="Active Mobs: 0" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.ActiveMobs
+[16:14:23] : [BFCompanion] [120044.861]   [TextLabel] name="ShutdownCountdown" text="Time Left: 10:00" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.ShutdownCountdown
+[16:14:23] : [BFCompanion] [120044.862]   [TextLabel] name="PrehistoricRaidTimer" text="Volcano Pressure: 0%" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.PrehistoricRaidTimer
+[16:14:23] : [BFCompanion] [120044.862]   [TextLabel] name="PrehistoricRelicHealth" text="Relic Health: 100%" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.PrehistoricRelicHealth
+[16:14:23] : [BFCompanion] [120044.862]   [TextLabel] name="LightningEventTimer" text="Lightning Event: xx:xx" visible=nil valid=false pos=(960,73) path=game.StarterGui.Main.TopHUDList.LightningEventTimer
+[16:14:23] : [BFCompanion] [120044.862]   [TextLabel] name="TextLabel" text="Celestial Surge Event starting in <b>00:00</b>" visible=nil valid=false pos=(764,70) path=game.StarterGui.Main.TopHUDList.CelestialCountdown.TextLabel
+[16:14:23] : [BFCompanion] [120044.863]   [TextLabel] name="TextLabel" text="Celestial Surge Event starting in <b>00:00</b>" visible=nil valid=false pos=(764,67) path=game.StarterGui.Main.TopHUDList.CelestialCountdown.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.867]   [TextLabel] name="TextLabel" text="Earn x2 Celestial Tokens" visible=nil valid=false pos=(877,81) path=game.StarterGui.Main.TopHUDList.CelestialMeter.CelestialMeter.TextLabel
+[16:14:23] : [BFCompanion] [120044.868]   [TextLabel] name="Title" text="TREASURE TRADE" visible=nil valid=false pos=(970,307) path=game.StarterGui.Main.Trade.Title
+[16:14:23] : [BFCompanion] [120044.868]   [TextLabel] name="TextLabel" text="rip_indra" visible=nil valid=false pos=(776,358) path=game.StarterGui.Main.Trade.Container.1.TextLabel
+[16:14:23] : [BFCompanion] [120044.870]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(679,432) path=game.StarterGui.Main.Trade.Container.1.Frame.Template.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.871]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(679,560) path=game.StarterGui.Main.Trade.Container.1.Frame.Template.Type.TextLabel
+[16:14:23] : [BFCompanion] [120044.871]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(679,493) path=game.StarterGui.Main.Trade.Container.1.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.874]   [TextLabel] name="TextLabel" text="they" visible=nil valid=false pos=(1163,358) path=game.StarterGui.Main.Trade.Container.2.TextLabel
+[16:14:23] : [BFCompanion] [120044.875]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(1065,464) path=game.StarterGui.Main.Trade.Container.2.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.877]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(1065,396) path=game.StarterGui.Main.Trade.Container.2.Frame.Template.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.877]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(1065,538) path=game.StarterGui.Main.Trade.Container.2.Frame.Template.Type.TextLabel
+[16:14:23] : [BFCompanion] [120044.879]   [TextLabel] name="TextLabel" text="<" visible=nil valid=false pos=(677,505) path=game.StarterGui.Main.Trade.Container.FrameAdd.Frame.EmptyTemplate.IconLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.881]   [TextLabel] name="TextLabel" text="+" visible=nil valid=false pos=(677,505) path=game.StarterGui.Main.Trade.Container.FrameAdd.Frame.Template.IconLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.882]   [TextLabel] name="TextLabel" text="Flame" visible=nil valid=false pos=(677,433) path=game.StarterGui.Main.Trade.Container.FrameAdd.Frame.Template.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.883]   [TextLabel] name="TextLabel" text="$400,000" visible=nil valid=false pos=(677,584) path=game.StarterGui.Main.Trade.Container.FrameAdd.Frame.Template.Type.TextLabel
+[16:14:23] : [BFCompanion] [120044.883]   [TextLabel] name="TextLabel" text="Accept" visible=nil valid=false pos=(970,764) path=game.StarterGui.Main.Trade.Info.Accept.TextLabel
+[16:14:23] : [BFCompanion] [120044.884]   [TextLabel] name="TextLabel" text="Cancel" visible=nil valid=false pos=(970,806) path=game.StarterGui.Main.Trade.Info.Cancel.TextLabel
+[16:14:23] : [BFCompanion] [120044.884]   [TextLabel] name="Ready1" text="Not ready" visible=nil valid=false pos=(666,764) path=game.StarterGui.Main.Trade.Info.Ready1
+[16:14:23] : [BFCompanion] [120044.884]   [TextLabel] name="Ready2" text="Not ready" visible=nil valid=false pos=(1273,764) path=game.StarterGui.Main.Trade.Info.Ready2
+[16:14:23] : [BFCompanion] [120044.885]   [TextLabel] name="Value1" text="Value: $9,999,999" visible=nil valid=false pos=(744,807) path=game.StarterGui.Main.Trade.Info.Value1
+[16:14:23] : [BFCompanion] [120044.885]   [TextLabel] name="Value2" text="Value: $9,999,999" visible=nil valid=false pos=(1195,807) path=game.StarterGui.Main.Trade.Info.Value2
+[16:14:23] : [BFCompanion] [120044.886]   [TextLabel] name="Countdown" text="1" visible=nil valid=false pos=(970,559) path=game.StarterGui.Main.Trade.Countdown
+[16:14:23] : [BFCompanion] [120044.886]   [TextLabel] name="Lock1" text="failed to fetch text" visible=nil valid=false pos=(776,559) path=game.StarterGui.Main.Trade.Lock1
+[16:14:23] : [BFCompanion] [120044.886]   [TextLabel] name="Lock2" text="failed to fetch text" visible=nil valid=false pos=(1163,559) path=game.StarterGui.Main.Trade.Lock2
+[16:14:23] : [BFCompanion] [120044.887]   [TextLabel] name="BottomTitle" text="Value difference: 0%" visible=nil valid=false pos=(970,852) path=game.StarterGui.Main.Trade.BottomTitle
+[16:14:23] : [BFCompanion] [120044.887]   [TextLabel] name="Version" text="Version 1000" visible=nil valid=false pos=(196,1072) path=game.StarterGui.Main.Version
+[16:14:23] : [BFCompanion] [120044.890]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.WhatsNew.UpdateLogClient_Temporary.Brush.TextLabel
+[16:14:23] : [BFCompanion] [120044.890]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Main.WhatsNew.UpdateLogClient_Temporary.Brush.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.891]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(728,2406) path=game.StarterGui.Main.WhatsNew.Frame.Tile1.ScrollingFrame.TextLabel
+[16:14:23] : [BFCompanion] [120044.892]   [TextLabel] name="ItemName" text="This Update" visible=nil valid=false pos=(727,2362) path=game.StarterGui.Main.WhatsNew.Frame.Tile1.SubHeader.ItemName
+[16:14:23] : [BFCompanion] [120044.892]   [TextLabel] name="TextLabel" text="This Update" visible=nil valid=false pos=(727,2360) path=game.StarterGui.Main.WhatsNew.Frame.Tile1.SubHeader.ItemName.TextLabel
+[16:14:23] : [BFCompanion] [120044.894]   [TextLabel] name="BottomText" text="ðŸ”” on Roblox for Update Release Notifications" visible=nil valid=false pos=(1191,2454) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.BottomText
+[16:14:23] : [BFCompanion] [120044.894]   [TextLabel] name="TextLabel" text="Get Update Notifications" visible=nil valid=false pos=(1151,2429) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.NotifyButton.TextLabel
+[16:14:23] : [BFCompanion] [120044.895]   [TextLabel] name="TextLabel" text="Get Update Notifications" visible=nil valid=false pos=(1151,2427) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.NotifyButton.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.897]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(1191,2406) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.ScrollingFrame.CanvasGroup.TextLabel
+[16:14:23] : [BFCompanion] [120044.897]   [TextLabel] name="ItemName" text="Christmas Update" visible=nil valid=false pos=(1189,2362) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.SubHeader.ItemName
+[16:14:23] : [BFCompanion] [120044.898]   [TextLabel] name="TextLabel" text="Christmas Update" visible=nil valid=false pos=(1189,2360) path=game.StarterGui.Main.WhatsNew.Frame.Tile2.SubHeader.ItemName.TextLabel
+[16:14:23] : [BFCompanion] [120044.899]   [TextLabel] name="TextLabel" text="What's New?" visible=nil valid=false pos=(960,2045) path=game.StarterGui.Main.WhatsNew.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.899]   [TextLabel] name="TextLabel" text="What's New?" visible=nil valid=false pos=(960,2042) path=game.StarterGui.Main.WhatsNew.Title.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.903]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Prompt.Window.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.905]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Prompt.Templates.Default.Description
+[16:14:23] : [BFCompanion] [120044.906]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.908]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.908]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.909]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.909]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.910]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.910]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.910]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.911]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.913]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.914]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.914]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.915]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.915]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.916]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.916]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.917]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.917]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.918]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.TextLabel
+[16:14:23] : [BFCompanion] [120044.918]   [TextLabel] name="ServerName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName
+[16:14:23] : [BFCompanion] [120044.919]   [TextLabel] name="Fake" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.FakeScroll.Inside.Template.ServerName.Fake
+[16:14:23] : [BFCompanion] [120044.921]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.Filters.Full.TextLabel
+[16:14:23] : [BFCompanion] [120044.921]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.Filters.SearchBounty.TextLabel
+[16:14:23] : [BFCompanion] [120044.922]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.Filters.SearchName.TextLabel
+[16:14:23] : [BFCompanion] [120044.922]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.Filters.SearchRegion.TextLabel
+[16:14:23] : [BFCompanion] [120044.923]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea1.TextLabel
+[16:14:23] : [BFCompanion] [120044.924]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea1.Notify
+[16:14:23] : [BFCompanion] [120044.925]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea1.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.926]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea2.TextLabel
+[16:14:23] : [BFCompanion] [120044.926]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea2.Notify
+[16:14:23] : [BFCompanion] [120044.927]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea2.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.929]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea3.TextLabel
+[16:14:23] : [BFCompanion] [120044.929]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea3.Notify
+[16:14:23] : [BFCompanion] [120044.930]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Sea3.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.931]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Dungeon.TextLabel
+[16:14:23] : [BFCompanion] [120044.931]   [TextLabel] name="Notify" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Dungeon.Notify
+[16:14:23] : [BFCompanion] [120044.932]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TeleportButtons.Dungeon.Badge.Badge.TextLabel
+[16:14:23] : [BFCompanion] [120044.932]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.TextLabel
+[16:14:23] : [BFCompanion] [120044.932]   [TextLabel] name="Total" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerBrowser.Frame.Total
+[16:14:23] : [BFCompanion] [120044.934]   [TextLabel] name="Description" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerModeInfo.Window.Content.Description
+[16:14:23] : [BFCompanion] [120044.935]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerModeInfo.Window.Title.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.935]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.ServerModeInfo.Window.Title.Header
+[16:14:23] : [BFCompanion] [120044.941]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SpiritTree.BarContainer.TextLabel
+[16:14:23] : [BFCompanion] [120044.942]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SpiritTree.BarContainer.BottomProgress.TextLabel
+[16:14:23] : [BFCompanion] [120044.945]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Content.PassiveInfo.Buy.TextLabel
+[16:14:23] : [BFCompanion] [120044.946]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Content.PassiveInfo.Right.Description.TextLabel
+[16:14:23] : [BFCompanion] [120044.946]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Content.PassiveInfo.Right.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.946]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Content.PassiveInfo.Right.Upgrade.TextLabel
+[16:14:23] : [BFCompanion] [120044.948]   [TextLabel] name="SubclassExp" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Footer.ExpBar.SubclassExp
+[16:14:23] : [BFCompanion] [120044.949]   [TextLabel] name="AmountLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Footer.ValorFrame.AmountLabel
+[16:14:23] : [BFCompanion] [120044.950]   [TextLabel] name="CurrentLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Footer.CurrentLevel
+[16:14:23] : [BFCompanion] [120044.950]   [TextLabel] name="NextLevel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Footer.NextLevel
+[16:14:23] : [BFCompanion] [120044.951]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Title.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.951]   [TextLabel] name="Header" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.SubclassMenu.Window.Title.Header
+[16:14:23] : [BFCompanion] [120044.967]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Description.TextLabel
+[16:14:23] : [BFCompanion] [120044.967]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Description.Title
+[16:14:23] : [BFCompanion] [120044.969]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Description.Title.Title
+[16:14:23] : [BFCompanion] [120044.971]   [TextLabel] name="ItemName" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.ItemName
+[16:14:23] : [BFCompanion] [120044.972]   [TextLabel] name="ItemRarity" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.ItemRarity
+[16:14:23] : [BFCompanion] [120044.972]   [TextLabel] name="ItemLine1" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Frame.ItemLine1
+[16:14:23] : [BFCompanion] [120044.974]   [TextLabel] name="ItemLine2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Frame.ItemLine2
+[16:14:23] : [BFCompanion] [120044.975]   [TextLabel] name="ItemDescription" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.ItemDescription
+[16:14:23] : [BFCompanion] [120044.975]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Ability1.KeyIcon.TextLabel
+[16:14:23] : [BFCompanion] [120044.978]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Ability1.TextLabel
+[16:14:23] : [BFCompanion] [120044.978]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Ability2.KeyIcon.TextLabel
+[16:14:23] : [BFCompanion] [120044.979]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Ability2.TextLabel
+[16:14:23] : [BFCompanion] [120044.979]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.Equip.TextLabel
+[16:14:23] : [BFCompanion] [120044.980]   [TextLabel] name="ItemDescription2" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Left.ItemDescription2
+[16:14:23] : [BFCompanion] [120044.980]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.982]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup.Info.Frame.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.983]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup.Info.TextLabel
+[16:14:23] : [BFCompanion] [120044.983]   [TextLabel] name="Title" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup2.Title
+[16:14:23] : [BFCompanion] [120044.985]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup2.Info.Frame.Equip.TextLabel
+[16:14:23] : [BFCompanion] [120044.985]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup2.Info.Frame.Exit.TextLabel
+[16:14:23] : [BFCompanion] [120044.986]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Popup2.Container.List.TextLabel
+[16:14:23] : [BFCompanion] [120044.987]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Skip.TextLabel
+[16:14:23] : [BFCompanion] [120044.987]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Title.TextLabel
+[16:14:23] : [BFCompanion] [120044.988]   [TextLabel] name="TextLabel" text="failed to fetch text" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.TempleGui.Title.TextLabel.TextLabel
+[16:14:23] : [BFCompanion] [120044.990]   [TextLabel] name="TextLabel" text="1" visible=nil valid=false pos=(nil,nil) path=game.StarterGui.Topbar.Frame.Buttons.AlliesButton.NotificationBadgeCounter.TextLabel
+[16:14:23] : [BFCompanion] [120044.996]   [TextLabel] name="IconLabel" text="VIP" visible=nil valid=false pos=(487,1057) path=game.StarterGui.Topbar.VIPServerOwnerCommands.IconButton.Menu.IconSpot.Contents.IconLabelContainer.IconLabel
+[16:14:23] : [BFCompanion] [120044.999]   [TextLabel] name="IconLabel" text="Server Entry: Unlocked ð" visible=nil valid=false pos=(408,1137) path=game.StarterGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.LockVIPServer.IconButton.Menu.IconSpot.Contents.IconLabel
+[16:14:23] : [BFCompanion] [120045.004]   [TextLabel] name="IconLabel" text="PvP Mode: Default âš”ï" visible=nil valid=false pos=(425,1193) path=game.StarterGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.ToggleServerMode.IconButton.Menu.IconSpot.Contents.IconLa
+[16:14:23] : [BFCompanion] [120045.006]   [TextLabel] name="IconLabel" text="Kick Players" visible=nil valid=false pos=(443,1249) path=game.StarterGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.KickPlayers.IconButton.Menu.IconSpot.Contents.IconLabelCo
+[16:14:23] : [BFCompanion] [120045.011]   [TextLabel] name="IconLabel" text="Shutdown Server" visible=nil valid=false pos=(442,1305) path=game.StarterGui.Topbar.VIPServerOwnerCommands.IconButton.Dropdown.DropdownScroller.ShutdownVIPServer.IconButton.Menu.IconSpot.Contents.IconL
+[16:14:23] : [BFCompanion] [120045.019]   [TextLabel] name="TextLabel" text="245,000/490,000" visible=nil valid=false pos=(960,122) path=game.StarterGui.TransformationHUD.BossBar.Border.TextLabel
+[16:14:23] : [BFCompanion] [120045.021]   [TextLabel] name="TextLabel" text="245,000/490,000" visible=nil valid=false pos=(960,160) path=game.StarterGui.TransformationHUD.BossBar.Subbar.TextLabel
+[16:14:23] : [BFCompanion] [120045.022]   [TextLabel] name="TextLabel" text="Leviathan, Frigid Lord of the Sea" visible=nil valid=false pos=(960,85) path=game.StarterGui.TransformationHUD.BossBar.TextLabel
+[16:14:23] : [BFCompanion] [120045.022]   [TextLabel] name="Shadow" text="Leviathan, Frigid Lord of the Sea" visible=nil valid=false pos=(960,83) path=game.StarterGui.TransformationHUD.BossBar.TextLabel.Shadow
+[16:14:23] : [BFCompanion] [120045.023] === TOTAL TEXT OBJECTS DUMPED: 2063 ===
+[16:14:23] : [BFCompanion] [120045.023] acceptQuestUi FAILED (fail count: 1/3)
+[16:14:23] : [BFCompanion] [120045.035] Already at giver (within 8 studs) â€” skipping tween, going straight to accept
+[16:14:29] : [BFCompanion] [120051.101] Arrived at giver â€” clicking giver NPC
+[16:14:30] : [BFCompanion] [120051.829] acceptQuestUi START | enemy=Gladiator option=2 giver=Colosseum Quest Giver
+[16:14:30] : [BFCompanion] [120051.829] Waiting for dialog to open: 0.06s
+[16:14:30] : [BFCompanion] [120051.831] Dialog is open â€” proceeding to option scan (v2 dialog-locked scanner)
+[16:14:30] : [BFCompanion] [120051.831] Step A: clicking option button by index=2 (enemy=Gladiator)
+[16:14:30] : [BFCompanion] [120051.831] clickOptionButtonByIndex: dialog container = game.Players.cc_yw.PlayerGui.Main.Dialogue
+[16:14:30] : [BFCompanion] [120051.839] clickOptionButtonByIndex: attempt 1 â€” found 0 buttons with positions, retrying
+[16:14:30] : [BFCompanion] [120052.039] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1488, 651) [spacing=64.0]
+[16:14:30] : [BFCompanion] [120052.039] clickOptionButtonByIndex: matched target on attempt 2 (3 buttons visible)
+[16:14:30] : [BFCompanion] [120052.039] clickOptionButtonByIndex: found 3 option buttons in dialog:
+[16:14:30] : [BFCompanion] [120052.039]   [1] name="Option1" text="Toga Warrior" pos=(1488,523) optIdx=1
+[16:14:30] : [BFCompanion] [120052.039]   [2] name="Option2" text="Gladiator" pos=(1513,587) optIdx=2
+[16:14:30] : [BFCompanion] [120052.039]   [3] name="Option3" text="Option" pos=(1488,651) optIdx=3
+[16:14:30] : [BFCompanion] [120052.039] clickOptionButtonByIndex: PICKED name="Option2" text="Gladiator" at (1513, 587)
+[16:14:30] : [BFCompanion] [120052.661] clickOptionButtonByIndex: clicked (ok=true)
+[16:14:30] : [BFCompanion] [120052.661] Step A SUCCESS: option button clicked
+[16:14:30] : [BFCompanion] [120052.661] Step C: waiting 0.50s for dialog to switch to Confirm/Return state
+[16:14:31] : [BFCompanion] [120053.162] Step D: scanning for Confirm button by text in dialog option buttons
+[16:14:31] : [BFCompanion] [120053.164] Step D poll 1: Main.Confirm VISIBLE but Main.Dialogue still open (content="Obtained <Cursed Scroll> x1!") â€” waiting for Dialogue to close
+[16:14:31] : [BFCompanion] [120053.176] getOptionButtonsInDialog: estimating position for Option3 (optIdx=3, text="Option") â†’ (1483, 651) [spacing=64.0]
+[16:14:31] : [BFCompanion] [120053.176] Step D poll 1: found 3 option buttons in dialog
+[16:14:31] : [BFCompanion] [120053.176]   [1] name="Option1" text="Confirm" pos=(1483,523)
+[16:14:31] : [BFCompanion] [120053.176] Step D: FOUND Confirm button [1] "Confirm" at (1483, 523) â€” clicking
+[16:14:32] : [BFCompanion] [120053.793] Step D: clicked Confirm (ok=true)
+[16:14:32] : [BFCompanion] [120053.793] Step E: waiting for quest tracker to show enemy=Gladiator
+[16:14:32] : [BFCompanion] [120053.833] Step E: trackerVisible=true trackerMatches=true
+[16:14:32] : [BFCompanion] [120053.833] acceptQuestUi COMPLETE â€” quest tracker visible AND matches enemy
+[16:14:32] : [BFCompanion] [120053.839] Quest progress: 0/8 Gladiator (Defeat 8 Gladiators (0/8))
+[16:14:32] : [BFCompanion] [120053.842] Tweening to enemy spawn (30 studs above)
+[16:14:32] : [BFCompanion] [120054.663] Arrived above enemy spawn â€” scanning for mobs
+[16:14:37] : [BFCompanion] [120058.916] Quest progress: 0/8 Gladiator (Defeat 8 Gladiators (0/8))
+[16:14:42] : [BFCompanion] [120063.969] Quest progress: 0/8 Gladiator (Defeat 8 Gladiators (0/8))
+[16:14:43] : [BFCompanion] [120064.703] Light rescan: +1 kill(s) 0 -> 1, found 1 Gladiator in target folder
+[16:14:47] : [BFCompanion] [120069.001] Quest progress: 1/8 Gladiator (Defeat 8 Gladiators (1/8))
+[16:14:52] : [BFCompanion] [120074.040] Quest progress: 1/8 Gladiator (Defeat 8 Gladiators (1/8))
+[16:14:52] : [BFCompanion] [120074.365] Light rescan: +1 kill(s) 1 -> 2, found 0 Gladiator in target folder
+[16:14:57] : [BFCompanion] [120079.057] Quest progress: 2/8 Gladiator (Defeat 8 Gladiators (2/8))
+[16:15:02] : [BFCompanion] [120084.079] Quest progress: 2/8 Gladiator (Defeat 8 Gladiators (2/8))
+[16:15:06] : [BFCompanion] [120088.466] Light rescan: +1 kill(s) 2 -> 3, found 0 Gladiator in target folder
+[16:15:07] : [BFCompanion] [120089.115] Quest progress: 3/8 Gladiator (Defeat 8 Gladiators (3/8))
+[16:15:12] : [BFCompanion] [120094.120] Quest progress: 3/8 Gladiator (Defeat 8 Gladiators (3/8))
+[16:15:16] : [BFCompanion] [120098.513] Light rescan: +1 kill(s) 3 -> 4, found 0 Gladiator in target folder
+[16:15:17] : [BFCompanion] [120099.161] Quest progress: 4/8 Gladiator (Defeat 8 Gladiators (4/8))
+[16:15:22] : [BFCompanion] [120104.186] Quest progress: 4/8 Gladiator (Defeat 8 Gladiators (4/8))
+[16:15:27] : [BFCompanion] [120109.207] Quest progress: 4/8 Gladiator (Defeat 8 Gladiators (4/8))
+[16:15:31] : [BFCompanion] [120113.588] STUCK at 4/8 for 15s â€” re-approaching spawn + wide scan
+[16:15:31] : [BFCompanion] [120113.592] Wide scan: 1 NPCs in range
+[16:15:32] : [BFCompanion] [120113.672] Tweening to enemy spawn (30 studs above)
+[16:15:32] : [BFCompanion] [120114.254] Quest progress: 4/8 Gladiator (Defeat 8 Gladiators (4/8))
+[16:15:32] : [BFCompanion] [120114.254] Arrived above enemy spawn â€” scanning for mobs
+[16:15:34] : [BFCompanion] [120116.645] Light rescan: +1 kill(s) 4 -> 5, found 1 Gladiator in target folder
+[16:15:37] : [BFCompanion] [120119.305] Quest progress: 5/8 Gladiator (Defeat 8 Gladiators (5/8))
+[16:15:41] : [BFCompanion] [120123.652] Light rescan: +1 kill(s) 5 -> 6, found 0 Gladiator in target folder
+[16:15:42] : [BFCompanion] [120124.379] Quest progress: 6/8 Gladiator (Defeat 8 Gladiators (6/8))
+[16:15:47] : [BFCompanion] [120129.409] Quest progress: 6/8 Gladiator (Defeat 8 Gladiators (6/8))
+[16:15:52] : [BFCompanion] [120134.448] Quest progress: 6/8 Gladiator (Defeat 8 Gladiators (6/8))
+[16:15:54] : [BFCompanion] [120136.157] Light rescan: +1 kill(s) 6 -> 7, found 1 Gladiator in target folder
+[16:15:57] : [BFCompanion] [120139.482] Quest progress: 7/8 Gladiator (Defeat 8 Gladiators (7/8))
+[16:16:02] : [BFCompanion] [120144.510] Quest progress: 7/8 Gladiator (Defeat 8 Gladiators (7/8))
+[16:16:07] : [BFCompanion] [120149.584] Quest progress: 7/8 Gladiator (Defeat 8 Gladiators (7/8))
+[16:16:09] : [BFCompanion] [120151.207] STUCK at 7/8 for 15s â€” re-approaching spawn + wide scan
+[16:16:09] : [BFCompanion] [120151.208] Wide scan: 1 NPCs in range
+[16:16:09] : [BFCompanion] [120151.287] Tweening to enemy spawn (30 studs above)
+[16:16:09] : [BFCompanion] [120151.538] Arrived above enemy spawn â€” scanning for mobs
+[16:16:12] : [BFCompanion] [120154.644] Quest progress: 7/8 Gladiator (Defeat 8 Gladiators (7/8))
